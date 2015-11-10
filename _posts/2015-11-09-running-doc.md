@@ -24,9 +24,10 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
 5. Date() button on post
 
 ## [prose.io](https://github.com/prose/prose)
-<http://prose.io/#about>
-<https://github.com/prose/prose/wiki/Getting-Started>
-<https://github.com/prose/prose/wiki/Prose-Configuration>
-<http://prose.github.io/starter/>
-	<https://github.com/wommy/starter>
-    <http://prose.io/#wommy/starter>
+
+- <http://prose.io/#about>
+- <https://github.com/prose/prose/wiki/Getting-Started>
+- <https://github.com/prose/prose/wiki/Prose-Configuration>
+- <http://prose.github.io/starter/>
+	- <https://github.com/wommy/starter>
+    - <http://prose.io/#wommy/starter>
