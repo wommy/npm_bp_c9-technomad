@@ -15,19 +15,21 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
 		document.getElementsByTagName("body")[0].className = "";
 		```
 	1. color scheme - 'theme-base-08-f'
-    	<input type='radio' value='' >
-        <input type='radio' value='theme-base-08' >
-        <input type='radio' value='theme-base-09' >
-        <input type='radio' value='theme-base-0a' >
-        <input type='radio' value='theme-base-0b' >
-        <input type='radio' value='theme-base-0c' >
-        <input type='radio' value='theme-base-0d' >
-        <input type='radio' value='theme-base-0e' >
-        <input type='radio' value='theme-base-0f' >
+    	<input type='radio' name='theme' value='' >
+        <input type='radio' name='theme' value='theme-base-08' >
+        <input type='radio' name='theme' value='theme-base-09' >
+        <input type='radio' name='theme' value='theme-base-0a' >
+        <input type='radio' name='theme' value='theme-base-0b' >
+        <input type='radio' name='theme' value='theme-base-0c' >
+        <input type='radio' name='theme' value='theme-base-0d' >
+        <input type='radio' name='theme' value='theme-base-0e' >
+        <input type='radio' name='theme' value='theme-base-0f' >
 	2. layout-reverse
-    	<input type='radio' value='' >
+    	<input type='radio' name='layout' value='' >
+        <input type='radio' name='layout' value='layout-revers' >
 	3. sidebar-overlay
-    	<input type='radio' value='' >
+    	<input type='radio' name='overlay' value='' >
+        <input type='radio' name='overlay' value='sidebar-overlay ' >
 	4. input checked
     - <button onclick="myFunction()">Click me</button>
 2. make fixed hamburger + masthead
