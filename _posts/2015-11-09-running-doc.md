@@ -32,7 +32,7 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
     	<input type='radio' name='overlay' value='' >
         <input type='radio' name='overlay' value=' sidebar-overlay'>
 	4. input checked
-    - <button onclick="myFunction(document.getElementByTagName('body')[0].className='sidebar-overlay'">Click me</button>
+    - <button onclick="document.getElementByTagName('body')[0].className='sidebar-overlay'">Click me</button>
 2. make fixed hamburger + masthead
 	- ? vh from <http://jek2jade-wommy.c9.io:8080/assets/css/main.css>
 3. format .dateL (stringify +? splice) + .category
