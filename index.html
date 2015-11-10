@@ -15,12 +15,11 @@ published: true
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
+<div>
+  <span>{{post.category}}</span>
+  <span>{{post.dateL}}</span>
+</div>
     {{ post.content }}
-  </div>
-  <div>
-  	<span>{{post.category}}</span>
-  	<span>{{post.dateL}}</span>
   </div>
   {% endfor %}
 </div>
