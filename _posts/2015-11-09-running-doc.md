@@ -26,7 +26,7 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
         <input type='radio' name='theme' value='theme-base-0f' >
 	2. layout-reverse
     	<input type='radio' name='layout' value='' >
-        <input type='radio' name='layout' value='layout-revers' >
+        <input type='radio' name='layout' value='layout-reverse' >
 	3. sidebar-overlay
     	<input type='radio' name='overlay' value='' >
         <input type='radio' name='overlay' value='sidebar-overlay ' >
