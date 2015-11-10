@@ -1,0 +1,13 @@
+---
+published: false
+---
+
+how i spent today:
+- forked [poole/lanyon](https://github.com/poole/lanyon) => [wommy/jekyll-lanyon](https://github.com/wommy/jekyll-lanyon)
+- css routing error, fixed in config.yml
+- played around with [lanyon's options](https://github.com/poole/lanyon#options)
+	- themes
+		- javascript: 		
+```html
+document.getElementsByTagName("body")[0].className = "";
+```
