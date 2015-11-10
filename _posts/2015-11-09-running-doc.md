@@ -10,6 +10,7 @@ published: true
 3 played around with [lanyon's options](https://github.com/poole/lanyon#options)
 
 housekeeping
+
 1 javascript to change the body class in browser console
 
 ```
