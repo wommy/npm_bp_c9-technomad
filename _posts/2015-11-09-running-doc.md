@@ -18,6 +18,6 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
 	4. input checked
 4. make fixed hamburger + masthead
 	- ? vh from <http://jek2jade-wommy.c9.io:8080/assets/css/main.css>
-5. format .dateL + .category
+5. format .dateL (stringify +? splice) + .category
 6. ?-bullet
 7. Date() button on post
