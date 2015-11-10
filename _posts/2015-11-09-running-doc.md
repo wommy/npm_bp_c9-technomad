@@ -3,6 +3,7 @@ published: true
 ---
 
 
+
 "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
 
 1. forked [poole/lanyon](https://github.com/poole/lanyon) => [wommy/jekyll-lanyon](https://github.com/wommy/jekyll-lanyon)
@@ -18,6 +19,7 @@ document.getElementsByTagName("body")[0].className = "";
 ```
         
 ? TODO ?
+
 1. make own theme color scheme
 2. layout-reverse
 3. sidebar-overlay
