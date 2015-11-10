@@ -12,7 +12,7 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
     	```
 		document.getElementsByTagName("body")[0].className = "";
 		```
-	1. color scheme
+	1. color scheme - 'theme-base-08-f'
 	2. layout-reverse
 	3. sidebar-overlay
 	4. input checked
