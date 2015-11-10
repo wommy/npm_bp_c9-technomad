@@ -6,6 +6,7 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
 ---
 
 
+
 ## [poole/lanyon](https://github.com/poole/lanyon) =forked> [wommy/jekyll-lanyon](https://github.com/wommy/jekyll-lanyon)
 
 1. [options](https://github.com/poole/lanyon#options)
@@ -14,9 +15,21 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
 		document.getElementsByTagName("body")[0].className = "";
 		```
 	1. color scheme - 'theme-base-08-f'
+    	<input type='radio' value='' >
+        <input type='radio' value='theme-base-08' >
+        <input type='radio' value='theme-base-09' >
+        <input type='radio' value='theme-base-0a' >
+        <input type='radio' value='theme-base-0b' >
+        <input type='radio' value='theme-base-0c' >
+        <input type='radio' value='theme-base-0d' >
+        <input type='radio' value='theme-base-0e' >
+        <input type='radio' value='theme-base-0f' >
 	2. layout-reverse
+    	<input type='radio' value='' >
 	3. sidebar-overlay
+    	<input type='radio' value='' >
 	4. input checked
+    - <button onclick="myFunction()">Click me</button>
 2. make fixed hamburger + masthead
 	- ? vh from <http://jek2jade-wommy.c9.io:8080/assets/css/main.css>
 3. format .dateL (stringify +? splice) + .category
