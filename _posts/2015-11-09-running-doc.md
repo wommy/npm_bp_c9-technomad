@@ -29,7 +29,7 @@ dateL: "Mon Nov 09 2015 19:58:55 GMT-0500 (EST)"
         <input type='radio' name='layout' value='layout-reverse' >
 	3. sidebar-overlay
     	<input type='radio' name='overlay' value='' >
-        <input type='radio' name='overlay' value='sidebar-overlay ' >
+        <input type='radio' name='overlay' value='sidebar-overlay' >
 	4. input checked
     - <button onclick="myFunction()">Click me</button>
 2. make fixed hamburger + masthead
