@@ -1,8 +1,10 @@
 ---
+layout: post
 published: true
 dateL: "Wed Nov 11 2015 16:40:43 GMT-0500 (EST)"
 category: personality
 ---
+
 
 
 heres a easy calculator i just found
