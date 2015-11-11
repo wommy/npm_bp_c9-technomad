@@ -18,6 +18,9 @@ author:
   url:               https://twitter.com/mdo
   email:             markdotto@gmail.com
 
+github:
+  repo:  https://github.com/wommy/jekyll-lanyon
+
 # Custom vars
 version:             1.0.0
 
