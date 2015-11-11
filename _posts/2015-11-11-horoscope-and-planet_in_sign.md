@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 get your [horoscope](http://astro.cafeastrology.com/cgi-bin/astro/natal)  
 dont worry about birthtime, without it youre only missing out on rising/ascendant
