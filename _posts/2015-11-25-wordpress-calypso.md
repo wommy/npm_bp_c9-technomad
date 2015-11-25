@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 ---
 
 composition start: "Wed Nov 25 2015 10:02:00 GMT-0500 (EST)"
