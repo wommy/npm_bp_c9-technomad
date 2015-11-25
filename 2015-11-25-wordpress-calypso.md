@@ -9,11 +9,6 @@ afterwards i formatted this tweet
 
 and this one
 
-<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">not looking forward to learning <a href="https://twitter.com/hashtag/wordpress?src=hash">#wordpress</a>&#39;s new <a href="https://twitter.com/hashtag/calypso?src=hash">#calypso</a>&#10;relevance =/= avoiding death &#10;<a href="https://twitter.com/hashtag/web?src=hash">#web</a> <a href="https://twitter.com/hashtag/design?src=hash">#design</a> <a href="https://twitter.com/hashtag/development?src=hash">#development</a></p>&mdash; Tommy Williams (@Froggie92) <a href="https://twitter.com/Froggie92/status/669284822087434240">November 24, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-if you could not tell, i still didnt know what it was about really, so i did a bunch more digging.
-
 i went to [/r/wordpress](reddit.com/r/wordpress) (which i do not subscribe to) and opened up a bunch of tabs:
 
 [reddit](https://www.reddit.com/r/Wordpress/comments/3u34pc/thoughts_on_calypso/) & [original article](http://blog.versionpress.net/2015/11/thoughts-on-calypso/)
@@ -23,6 +18,21 @@ first, the reddit comments are bland. they congradulate [automattic](https://aut
 the actual article doesnt really say much. he talks about a wp-cli, which my workings in node has revealed the immense benefit of, but i already got that from the techcrunch article. Trac => Github + SVN => Git, cool. he brings up [react](https://facebook.github.io/react/), which the techcrunch article does not mention, which only raises more questions. towards the bottom he really highlights this, mentioning all those misinformed tweets. 
 
 when i saw javascript in the techcrunch article, i was happy. they even mentioned wordpress moving away from my two major annoyances, php and mysql! 
+
+[this reddit comment](https://www.reddit.com/r/PHP/comments/3u44aq/regarding_wordpress/) really rained on my parade, yet solidifed what i knew about calypso. 
+
+[this venture beat article](http://venturebeat.com/2015/11/24/wordpress-creator-matt-mullenweg-breaks-down-the-blogging-platforms-biggest-overhaul-in-years/) interviews Matt Mullenweg, CEO of Automattic: they spent 20 months on redoing everything in javascript, but then clarifies that it was only the front end ui and that the back end is still all php; about wordpresses relevancy, more like hegemony; interviewer brings up rivals like [medium](https://medium.com/), which i personally enjoy; linux / windows support. overall blah article. 
+
+afterwhich i fired off this tweet
+
+<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">not looking forward to learning <a href="https://twitter.com/hashtag/wordpress?src=hash">#wordpress</a>&#39;s new <a href="https://twitter.com/hashtag/calypso?src=hash">#calypso</a>&#10;relevance =/= avoiding death &#10;<a href="https://twitter.com/hashtag/web?src=hash">#web</a> <a href="https://twitter.com/hashtag/design?src=hash">#design</a> <a href="https://twitter.com/hashtag/development?src=hash">#development</a></p>&mdash; Tommy Williams (@Froggie92) <a href="https://twitter.com/Froggie92/status/669284822087434240">November 24, 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+if you could not tell, i still didnt know what it was about really, so i did a bunch more digging.
+
+[more reddit comments](https://www.reddit.com/r/learnprogramming/comments/3u3qoo/about_changes_on_wordpress/): admin ui change, got it.
+
+
 
 
 
