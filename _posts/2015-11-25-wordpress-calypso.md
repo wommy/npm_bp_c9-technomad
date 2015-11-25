@@ -1,3 +1,11 @@
+---
+layout: post
+published: false
+---
+
+start time: "Wed Nov 25 2015 10:02:00 GMT-0500 (EST)"
+end time: "Wed Nov 25 2015 16:42:05 GMT-0500 (EST)"
+
 so [wordpress](wordpress.com) came out with something new a day or two ago, [Calypso!](https://developer.wordpress.com/calypso/)
 
 i was alerted to it because of my [twitter](twitter.com) [highlights](https://blog.twitter.com/2015/highlighting-the-best-of-twitter-for-you) had at least 10+ tweets that some how mentioned it. i started with [techcrunch's](http://techcrunch.com/2015/11/23/wordpress-com-goes-open-source-and-gets-a-desktop-app/)
@@ -67,9 +75,3 @@ FURTHE[R]EADING (shit i didnt even get to) :
 - <https://www.reddit.com/r/Wordpress>
 - <https://www.reddit.com/r/Wordpress/comments/3u44rt/calypso_php_and_js_discussion/>
 - <https://www.reddit.com/r/Wordpress/comments/3tyuu6/welcome_to_the_new_wordpresscom_and_wordpresscom/>
-
-
-
-
-
-
