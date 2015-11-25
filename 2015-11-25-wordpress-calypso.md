@@ -48,6 +48,7 @@ but i cant wait to dig thru his links at the bottom, but that in itself has to b
 
 i found this [video](https://videopress.com/v/bi7dnCzS) in a reddit comment somewhere. its got some useful information, a tl;dr of above sources.
 
+my biggest problem with WP is: they give people this admin panel which gives anyone all the tools to create and maintain a blog. yet i find that most people just want to focus on the content anddont want to maintain it themselves. but wordpress thought of this and allows delegation of admin privileges, yet didn't think to give admins a secondary layer of tools.  
 
 
 
