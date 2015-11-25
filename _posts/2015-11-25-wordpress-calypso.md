@@ -79,3 +79,4 @@ FURTHE[R]EADING (shit i didnt even get to) :
 - <https://www.reddit.com/r/Wordpress/comments/3tyuu6/welcome_to_the_new_wordpresscom_and_wordpresscom/>
 - <https://en.blog.wordpress.com/2015/11/23/the-new-wordpress-dot-com/>
 - <https://twitter.com/search?q=wordpress%20calypso&src=typd>
+- <https://www.reddit.com/r/PHP/comments/3u44aq/regarding_wordpress/>
