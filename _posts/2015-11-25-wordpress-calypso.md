@@ -76,3 +76,4 @@ FURTHE[R]EADING (shit i didnt even get to) :
 - <https://www.reddit.com/r/Wordpress>
 - <https://www.reddit.com/r/Wordpress/comments/3u44rt/calypso_php_and_js_discussion/>
 - <https://www.reddit.com/r/Wordpress/comments/3tyuu6/welcome_to_the_new_wordpresscom_and_wordpresscom/>
+- <https://en.blog.wordpress.com/2015/11/23/the-new-wordpress-dot-com/>
