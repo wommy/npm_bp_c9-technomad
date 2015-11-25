@@ -18,11 +18,11 @@ i went to [/r/wordpress](reddit.com/r/wordpress) (which i do not subscribe to) a
 
 [reddit](https://www.reddit.com/r/Wordpress/comments/3u34pc/thoughts_on_calypso/) & [original article](http://blog.versionpress.net/2015/11/thoughts-on-calypso/)
 
-first, the reddit comments are bland. they congradulate [automattic](https://automattic.com/), wordpress's parent company.they emphasize the split between front end user interfaces and backend powered wordpress, which further gives weight has been the trend for a bit
+first, the reddit comments are bland. they congradulate [automattic](https://automattic.com/), wordpress's parent company. they emphasize the split between front end user interfaces and backend powered wordpress, which further gives weight to a trend that i've been seeing for a couple years now. wordpress's admin interface is a blessing and a curse: it set the stage for admin UIs but its lack of workflow customizability has spawned dozens of spinoffs that 'do it better', a strange spot to be in. hopefully this calypso really gives some power to areas that need it.
 
-this doesnt really say much. he talks about a wp-cli, which my workings in node has revealed the immense benefit of, but i already got that from the techcrunch article. Trac => Github + SVN => Git, cool. he brings up [react](https://facebook.github.io/react/), which the techcrunch article does not mention, which only raises more questions. towards the bottom he really highlights this, mentioning all those misinformed tweets. 
+the actual article doesnt really say much. he talks about a wp-cli, which my workings in node has revealed the immense benefit of, but i already got that from the techcrunch article. Trac => Github + SVN => Git, cool. he brings up [react](https://facebook.github.io/react/), which the techcrunch article does not mention, which only raises more questions. towards the bottom he really highlights this, mentioning all those misinformed tweets. 
 
-when i saw javascript in the techcrunch article, i was happy. they even mentioned wordpress moving away from my two major annoyances, php and mysql!
+when i saw javascript in the techcrunch article, i was happy. they even mentioned wordpress moving away from my two major annoyances, php and mysql! 
 
 
 
