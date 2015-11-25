@@ -40,7 +40,9 @@ other parts of this update seem to be blown to the wayside in this update. yeah 
 
 things i would like to see next:
 command line tools: yeah, wordpress has all these cool tools, but the UI hides them. i want to add seven menu items, hell i want to import a menu from elsewhere; whys that so hard, where are the docs on that.
-better doc integration: everyone knows you can google how to fix problems, but the wordpress docs usually 
+better doc integration: the WP should be the starting point, with [stackoverflow](stackoverflow.com) as the backup, but docs are so messy they raise more questions than they answer; fix plz!
+
+
 
 
 
