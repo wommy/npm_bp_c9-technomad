@@ -7,7 +7,9 @@ afterwards i formatted this tweet
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/wordPress?src=hash">#wordPress</a> rewrite&#10;<a href="https://twitter.com/hashtag/calypso?src=hash">#calypso</a> <a href="https://twitter.com/hashtag/rest?src=hash">#rest</a> <a href="https://twitter.com/hashtag/api?src=hash">#api</a> <a href="https://twitter.com/hashtag/javascript?src=hash">#javascript</a> <a href="https://twitter.com/hashtag/SPA?src=hash">#SPA</a> <a href="https://twitter.com/hashtag/openSource?src=hash">#openSource</a> <a href="https://twitter.com/hashtag/github?src=hash">#github</a> <a href="https://twitter.com/hashtag/app?src=hash">#app</a> <a href="https://twitter.com/hashtag/mac?src=hash">#mac</a>&#10;<a href="https://twitter.com/hashtag/web?src=hash">#web</a> <a href="https://twitter.com/hashtag/design?src=hash">#design</a> <a href="https://twitter.com/hashtag/development?src=hash">#development</a>&#10;<a href="https://t.co/jHxGih3T4N">https://t.co/jHxGih3T4N</a></p>&mdash; Tommy Williams (@Froggie92) <a href="https://twitter.com/Froggie92/status/669282177041850368">November 24, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-[this reddit comment](https://www.reddit.com/r/PHP/comments/3u44aq/regarding_wordpress/) really rained on my parade, yet gives some structure to calypso. 
+i needed more information, so i went to reddit.
+
+[this reddit comment](https://www.reddit.com/r/PHP/comments/3u44aq/regarding_wordpress/) gave some structure to calypso, but only confused me more. off to google
 
 [this venture beat article](http://venturebeat.com/2015/11/24/wordpress-creator-matt-mullenweg-breaks-down-the-blogging-platforms-biggest-overhaul-in-years/) interviews Matt Mullenweg, CEO of [Automattic](automattic.com), wordpress's parent company: they spent 20 months on redoing everything in javascript, but then clarifies that it was only the front end ui and that the back end is still all php; about wordpresses relevancy, more like hegemony; interviewer brings up rivals like [medium](https://medium.com/), which i personally enjoy; linux / windows support. overall blah article. 
 
@@ -30,7 +32,10 @@ the actual article doesnt really say much. he talks about a wp-cli, which my wor
 
 when i saw javascript in the techcrunch article, i was happy. they even mentioned wordpress moving away from my two major annoyances, php and mysql! but this isnt the case.
 
-finally upon [matt's own blog post about calypso and the update](http://ma.tt/2015/11/dance-to-calypso/). 
+finally upon'd [matt's own blog post about calypso and the update](http://ma.tt/2015/11/dance-to-calypso/). starts with some finance; moves to sprawling codebase; drops that 25% of the web runs on wordpress; needing a huge improvement: 20x not 2x = CALYPSO: Node and React; 100% API-powered; social, responsive, authoring, multi-site managing, jetpack plugins, 100% open source. Sites linux release cycle; buncha explore links; reiterates that the 25% that use wordpress should be proud of open source; wraps with an infograph highlighting changes.
+
+should have started with this one! finally a juicy artcle! okay so some critical anaylsis: 
+
 
 
 
