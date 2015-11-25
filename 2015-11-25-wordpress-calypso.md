@@ -48,7 +48,7 @@ but i cant wait to dig thru his links at the bottom, but that in itself has to b
 
 i found this [video](https://videopress.com/v/bi7dnCzS) in a reddit comment somewhere. its got some useful information, a tl;dr of above sources.
 
-my biggest problem with WP is: they give people this admin panel which gives anyone all the tools to create and maintain a blog. yet i find that most people just want to focus on the content anddont want to maintain it themselves. but wordpress thought of this and allows delegation of admin privileges, yet didn't think to give admins a secondary layer of tools.  
+my biggest problem with WP is: they give people this admin panel which gives anyone all the tools to create and maintain a blog. yet i find that most people just want to focus on the content and dont want to maintain it themselves. but wordpress thought of this and allows delegation of admin privileges, yet didn't think to give admins a secondary layer of tools. ill admit: i havent dug into automattic's peripheral tools like jetpack, but i dont think i should have to. as a developer, i dont want to have to learn as entire ecosystem, especially one as focused on blog publishing. yeah yeah, they may power 25% of the web, but is that such a boasting point if they do it poorly?
 
 
 
