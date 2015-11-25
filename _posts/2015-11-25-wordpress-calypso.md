@@ -3,8 +3,9 @@ layout: post
 published: false
 ---
 
-start time: "Wed Nov 25 2015 10:02:00 GMT-0500 (EST)"
-end time: "Wed Nov 25 2015 16:42:05 GMT-0500 (EST)"
+composition start: "Wed Nov 25 2015 10:02:00 GMT-0500 (EST)"
+composition end: "Wed Nov 25 2015 16:42:05 GMT-0500 (EST)"
+had lunch inbetween
 
 so [wordpress](wordpress.com) came out with something new a day or two ago, [Calypso!](https://developer.wordpress.com/calypso/)
 
