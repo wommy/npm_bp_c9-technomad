@@ -1,0 +1,3 @@
+so [wordpress](wordpress.com) came out with something new a day or two ago, [Calypso!](https://developer.wordpress.com/calypso/)
+
+i was alerted to it because of my [twitter](twitter.com) [highlights](https://blog.twitter.com/2015/highlighting-the-best-of-twitter-for-you) had at least 10+ tweets that some how mentioned it. i started with [techcrunch's](http://techcrunch.com/2015/11/23/wordpress-com-goes-open-source-and-gets-a-desktop-app/)
