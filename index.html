@@ -15,12 +15,12 @@ published: true
   {% for post in paginator.posts %}
   <div class="post">
     <span class="post-date">{{post.dateL}}</span>
-    <span class='indent'>category: {{post.category}}</span>
     <h1 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
+    <span class='indent'>category: {{post.category}}</span>
 
     {% comment %}<span class="post-date">{{ post.date | date_to_string }}</span>{% endcomment %}
   <!--<span class="post-date">{{post.dateL}}</span>
