@@ -20,6 +20,10 @@ today i was exploring <cafeAstrology.com> and wanted to jot some notes as i went
 
 <http://www.cafeastrology.com/articles/venusinelements.html>
 
+my venus is in aries, a fire element
+
 <http://www.cafeastrology.com/sexualastrologyeros.html>
 
 <http://www.cafeastrology.com/erosephemerisasteroid.html>
+
+my eros is in aries
