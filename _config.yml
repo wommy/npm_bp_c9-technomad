@@ -34,10 +34,6 @@ prose:
     - README.md
     - atom.xml
   metadata:
-  	- name: "layout"
-      field:
-        element: "hidden"
-        value: "page"
     _posts:
       - name: "layout"
         field:
