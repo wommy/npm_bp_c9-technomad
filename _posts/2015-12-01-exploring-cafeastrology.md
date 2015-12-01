@@ -38,6 +38,8 @@ my sun is in taurus, which is my 9th house
 
 <http://www.cafeastrology.com/articles/soulmateastrology.html>
 
+[heres the pele report for last week](https://www.youtube.com/watch?v=A49FGMjHCyk)
+
 
 
 
