@@ -14,9 +14,9 @@ paginate:            10
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Tommy Williams
+  url:               https://twitter.com/froggie92
+  email:             tom@technomad.media
 
 github:
   repo:  https://github.com/wommy/jekyll-lanyon
