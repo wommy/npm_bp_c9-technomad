@@ -29,3 +29,14 @@ my venus is in aries, a fire element
 my eros is in aries
 
 <http://www.cafeastrology.com/articles/howtoobtainchart.html>
+
+<http://www.cafeastrology.com/articles/suninhouses.html>
+
+my sun is in taurus, which is my 9th house
+
+
+
+
+
+
+
