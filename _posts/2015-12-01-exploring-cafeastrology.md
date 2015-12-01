@@ -34,6 +34,10 @@ my eros is in aries
 
 my sun is in taurus, which is my 9th house
 
+<http://www.cafeastrology.com/thisweekinastrology2.html>
+
+
+
 
 
 
