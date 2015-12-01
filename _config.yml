@@ -8,7 +8,7 @@ relative_permalinks: true
 title:               Wommy
 tagline:             'a Blog built with Jekyll, Lanyon, and Prose'
 description:         'A fork of <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>, a <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme, to sandbox the power of <a href="http://prose.io" target="_blank">Prose.io</a>. Made my <a href="http://github.com/wommy" target="_blank">Wommy</a>'
-url:                 http://lanyon.getpoole.com
+url:                 http://wommy.github.io/jekyll-lanyon
 baseurl:             http://wommy.github.io/jekyll-lanyon
 paginate:            5
 
