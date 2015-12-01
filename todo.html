@@ -12,9 +12,9 @@ published: true
 
 
 <div class="todos">
-  <ul class="todo-list">
+  <ol class="todo-list">
     {% for todo in site.data.todos %}
-    <li class="todo-item">{{todo.title}}. -{{todo.content}}</li>
+    <li class="todo-item"> - {{todo.content}}</li>
     {% endfor %}
-  </div>
+  </ol>
 </div>
