@@ -7,6 +7,7 @@ published: true
 
 
 
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -19,7 +20,7 @@ published: true
     <span class="post-date">{{ post.date | date_to_string }}</span>
   <div>{{post.dateL}}</div>
   <div>{{post.category}}</div>
-    {{ post.content }}
+    <!--{{ post.content }}-->
   </div>
   {% endfor %}
 </div>
