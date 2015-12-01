@@ -16,3 +16,4 @@ today i was exploring <cafeAstrology.com> and wanted to jot some notes as i went
 
 [heres palmistry](http://www.cafeastrology.com/lovepalmistry.html)
 
+[heres a book their recommend:](http://www.amazon.com/exec/obidos/ASIN/1590030281/edutainingkid-20)
