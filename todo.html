@@ -12,9 +12,9 @@ published: true
 
 
 <div class="todos">
-  {% for todo in site.data.todos %}
   <ul class="todo-list">
+    {% for todo in site.data.todos %}
     <li class="todo-item">{{todo.title}}. -{{todo.content}}</li>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
