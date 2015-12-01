@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Blog
+title: blog.html
 published: true
 ---
+
 
 
 
