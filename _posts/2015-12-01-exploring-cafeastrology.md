@@ -27,3 +27,5 @@ my venus is in aries, a fire element
 <http://www.cafeastrology.com/erosephemerisasteroid.html>
 
 my eros is in aries
+
+<http://www.cafeastrology.com/articles/howtoobtainchart.html>
