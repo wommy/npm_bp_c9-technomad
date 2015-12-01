@@ -13,3 +13,6 @@ today i was exploring <cafeAstrology.com> and wanted to jot some notes as i went
 [heres the natal chart](http://astro.cafeastrology.com/natal.php)
 
 [heres lover compatibility](http://astro.cafeastrology.com/cgi-bin/astro/comp2f)
+
+[heres palmistry](http://www.cafeastrology.com/lovepalmistry.html)
+
