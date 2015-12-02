@@ -9,7 +9,7 @@ published: true
     <ol class="todo-list">
       <li>{{format}}</li>
       <li>{{format}}</li>
-      {% for todo.content in format %}
+      {% for todo in format.content %}
         <li class="todo-item">{{ todo }}</li>
       {% endfor %}
     </ol>
