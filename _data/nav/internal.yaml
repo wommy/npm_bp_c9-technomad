@@ -1,13 +1,14 @@
 content:
   - home
-  - blog:
-    - categories
-    - web
-    - runningdoc
-    - personality
+  - blog
   - about
   - todo
   - resume
   - project links
   - link to github [site.github.repo]
   - currently v[site.github.version]
+blog:
+    - categories
+    - web
+    - runningdoc
+    - personality
