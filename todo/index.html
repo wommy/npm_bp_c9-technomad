@@ -5,8 +5,16 @@ published: true
 ---
 
 <div class="todos">
+  {% for format in site.data.todo %}
   <ol class="todo-list">
-    {% for todo in site.data.todo.csv %}
+    <li class="todo-item"> butts</li>
+    <li>test2</li>
+  </ol>
+</div>
+
+<div class="todos">
+    <ol class="todo-list">
+    {% for todo in format.csv %}
     <li class="todo-item"> - {{todo.content}}</li>
     {% endfor %}
   </ol>
