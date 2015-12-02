@@ -9,6 +9,7 @@ published: true
     <ol class="todo-list">
       <li>{{format[0]}}</li>
       <li>{{format[1]}}</li>
+      <li>{{format[1].content}}</li>
       {% for todo in format[1] %}
         <li class="todo-item">{{ todo.content }}</li>
       {% endfor %}
