@@ -8,3 +8,7 @@ content:
   - about
   - todo
   - resume
+title:
+  - project links
+  - link to github {{site.github.repo}}
+  - currently v{{site.github.version}}
