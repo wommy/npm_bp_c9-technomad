@@ -1,6 +1,6 @@
-name,
-Home,
-Blog,
+name,href
+Home,{{baseurl}}
+Blog,{{baseurl}}/
 About,
 Resume,
 Todo,
