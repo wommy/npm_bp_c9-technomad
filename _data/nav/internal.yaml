@@ -8,7 +8,7 @@ content:
   - link to github [site.github.repo]
   - currently v[site.github.version]
 blog:
-    - categories
-    - web
-    - runningdoc
-    - personality
+  - categories
+  - web
+  - runningdoc
+  - personality
