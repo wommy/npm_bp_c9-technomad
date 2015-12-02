@@ -27,9 +27,7 @@
       {% endif %}
     {% endfor %}
     
-    <span class="sidebar-nav-item">Project Links</span>
-    <a class="sidebar-nav-item indent" href='{{ site.github.repo }}' target='_blank'>GitHub Repo</a>
-    <span class="sidebar-nav-item indent">Currently v{{ site.github.version }}</span>
+    <a class="sidebar-nav-item" href='{{ site.github.repo }}' target='_blank'>Project Repo on Github</a>
     
     {% comment %}
       {% if page.url == each.url %} active{% endif %}
