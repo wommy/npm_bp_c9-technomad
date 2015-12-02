@@ -7,8 +7,8 @@ published: true
 <div class="todos">
   {% for format in site.data.todo %}
     <ol class="todo-list">
-      {% for cell in format %}
-        <li>{{ cell.content }}</li>{% endfor %}</ol>{% endfor %}</div>
+      {% for todo in format %}
+        <li class="todo-item">{{ todo.content }}</li>{% endfor %}</ol>{% endfor %}</div>
 
 <div class="todos">
   <ol class="todo-list">
