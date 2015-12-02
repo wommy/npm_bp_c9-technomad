@@ -1,0 +1,10 @@
+content:
+  - home
+  - blog:
+    - categories:
+      - web
+      - runningdoc
+      - personality
+  - about
+  - todo
+  - resume
