@@ -10,13 +10,22 @@ published: true
       <li>{{format}}</li>
       <li>{{format}}</li>
       {% for todo.content in format %}
-        <li class="todo-item">{{ todo }}</li>{% endfor %}</ol>{% endfor %}</div>
+        <li class="todo-item">{{ todo }}</li>
+      {% endfor %}
+    </ol>
+  {% endfor %}
+</div>
 
 <div class="todos">
   <ol class="todo-list">
     {% for todo in site.data.todo.csv %}
-      <li class="todo-item"> - {{todo.content}}</li>{% endfor %}</ol>
+      <li class="todo-item"> - {{todo.content}}</li>
+    {% endfor %}
+  </ol>
   <ol class="todo-list">
     {% for todo in site.data.todo.yaml.content %}
-      <li class="todo-item"> - {{todo}}</li>{% endfor %}
-    <li>test2</li></ol></div>
+      <li class="todo-item"> - {{todo}}</li>
+    {% endfor %}
+    <li>test2</li>
+  </ol>
+</div>
