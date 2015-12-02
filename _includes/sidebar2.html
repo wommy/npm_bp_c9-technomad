@@ -17,8 +17,15 @@
     {% endcomment %}
 
     {% for each in site.data.nav.internal.content %}
+    {% if each == 'blog' %}
+    <a class="sidebar-nav-item" href="">{{ each[0] }}</a>
+      <span class="sidebar-nav-item">{{ each[1] }}</span>
+      <a class="sidebar-nav-item" href="">{{ each[2] }}</a>
+      <a class="sidebar-nav-item" href="">{{ each[3] }}</a>
+      <a class="sidebar-nav-item" href="">{{ each[4] }}</a>
+    {% endif %}
     <a class="sidebar-nav-item" href="">{{ each }}</a>
-    {%comment%}{% if page.url == each.url %} active{% endif %}{%endcomment%}
+      {%comment%}{% if page.url == each.url %} active{% endif %}{%endcomment%}
     {% endfor %}
     
     {% comment %}
