@@ -8,7 +8,7 @@ published: true
   {% for format in site.data.todo %}
     <ol class="todo-list">
       <li>{{format[0]}}</li>
-      <li>{{format}}</li>
+      <li>{{format[1]}}</li>
       {% for todo in format.content %}
         <li class="todo-item">{{ todo }}</li>
       {% endfor %}
