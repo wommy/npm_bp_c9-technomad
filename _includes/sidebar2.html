@@ -18,7 +18,6 @@
 
     {% for each in site.data.nav.internal.content %}
     {% if each == 'blog' %}
-    <a class="sidebar-nav-item" href="">{{ each }}</a>
       {% for each1 in site.data.nav.internal.blog %}
       <a class="sidebar-nav-item indent" href="">{{ each1 }}</a>
       {% endfor %}
