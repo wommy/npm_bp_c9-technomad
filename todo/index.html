@@ -7,6 +7,8 @@ published: true
 <div class="todos">
   {% for format in site.data.todo %}
     <ol class="todo-list">
+      <li>{{format}}</li>
+      <li>{{format}}</li>
       {% for todo.content in format %}
         <li class="todo-item">{{ todo }}</li>{% endfor %}</ol>{% endfor %}</div>
 
