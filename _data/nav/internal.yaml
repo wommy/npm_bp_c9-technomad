@@ -9,5 +9,5 @@ content:
   - todo
   - resume
   - project links
-  - link to github {{site.github.repo}}
-  - currently v{{site.github.version}}
+  - link to github [site.github.repo]
+  - currently v[site.github.version]
