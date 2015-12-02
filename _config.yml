@@ -13,7 +13,6 @@ baseurl:             http://wommy.github.io/jekyll-lanyon
 # paginate
 # paginate:            5
 # paginate_path:       /:num/
-permalink:     /blog/date
 
 # About/contact
 author:
