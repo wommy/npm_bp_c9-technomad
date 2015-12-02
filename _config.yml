@@ -22,9 +22,7 @@ author:
 
 github:
   repo:  https://github.com/wommy/jekyll-lanyon
-
-# Custom vars
-version:             1.0.0
+  version:             1.0.0
 
 # prose
 prose:
