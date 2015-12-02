@@ -19,7 +19,7 @@
     {% for node in site.pages %}
       {% if node.title != null %}
         {% if node.layout == "page" %}
-    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} indent" href="{{site.baseurl}}/{{ node.id }}/">{{ node.title }}</a>
+    <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} indent" href="{{site.baseurl}}/{{ node.url }}/">{{ node.title }}</a>
         {% endif %}
       {% endif %}
     {% endfor %}
