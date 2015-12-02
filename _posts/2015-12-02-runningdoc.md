@@ -29,8 +29,11 @@ _ HEAD canonical link + tracking + seo + sitemap
 _ create author page
 _ disqus
 _ translate to JSON
-_ resume from jek2jade (json) + social + ... >> <http://jek2jade-wommy.c9.io:8080/resume.html>
-_ gulp jekyll, this
+_ resume from jek2jade (json) + socialNav + ... >> <http://jek2jade-wommy.c9.io:8080/resume.html>
+_ gulp: jekyll + this (prose sucks)
+_ github: jek/lan => technomad >> <https://github.com/wommy/technomad>
+_ jek2jade: tear down +? bemit ;? jade in this
+
 
 
 
