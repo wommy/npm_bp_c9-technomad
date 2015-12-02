@@ -16,12 +16,11 @@
 
     {% for each in site.data.nav.internal.content %}
       <a class="sidebar-nav-item" href="{{site.url}}{% if {{ each }} != {{site.data.nav.internal.content[0]}} %}/{{each}}{% endif %}/">{{ each }}</a>
-      {% if each == 'blog' %}
-        <span>suck a dick</span>
-      {% endif %}
     {% endfor %}
     
-    {%comment%}{% if page.url == each.url %} active{% endif %}{%endcomment%}
+    {% comment %}
+      {% if page.url == each.url %} active{% endif %}
+    {% endcomment %}
     
     {% comment %}
     <span class="sidebar-nav-item">External links</span>
