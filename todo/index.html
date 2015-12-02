@@ -7,14 +7,14 @@ published: true
 <div class="todos">
   {% for format in site.data.todo %}
     <ol class="todo-list">
-      <li>{{format[0]}}</li>
-      <li>{{format[1]}}</li>
+      <li>1{{format[0]}}</li>
+      <li>2{{format[1]}}</li>
       {% for todo in format[1].content %}
-        <li class="todo-item">{{ todo }}</li>
+        <li class="todo-item">3{{ todo }}</li>
       {% endfor %}
-      <li>{{format[1].content}}</li>
+      <li>4{{format[1].content}}</li>
       {% for todo in format[1] %}
-        <li class="todo-item">{{ todo.content }}</li>
+        <li class="todo-item">5{{ todo.content }}</li>
       {% endfor %}
     </ol>
   {% endfor %}
