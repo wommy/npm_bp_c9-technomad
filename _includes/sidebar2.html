@@ -15,7 +15,7 @@
     {% endcomment %}
 
     {% for each in site.data.nav.internal.content %}
-      <a class="sidebar-nav-item" href="{{site.url}}{% if each != {{site.data.nav.internal.content[0]}} %}/{{each}}{% endif %}/">{{ each }}</a>
+      <a class="sidebar-nav-item" href="{{site.url}}{% if {{ each }} != {{site.data.nav.internal.content[0]}} %}/{{each}}{% endif %}/">{{ each }}</a>
       {% if each == 'blog' %}
         {% for each1 in site.data.nav.internal.blog %}
         <a class="sidebar-nav-item indent" href="{{site.url}}/{{each}}/{{each1}}/">{{ each1 }}</a>
