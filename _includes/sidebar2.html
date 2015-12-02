@@ -15,13 +15,13 @@
     {% endcomment %}
 
     {% for each in site.data.nav.internal.content %}
-      <a class="sidebar-nav-item" href="{{site.url}}{% if each != site.data.nav.internal.content[0] %}/{{each | capitalize}}{% endif %}/">{{ each }}</a>
+      <a class="sidebar-nav-item" href="{{site.url}}{% if each != site.data.nav.internal.content[0] %}/{{each}}{% endif %}/">{{ each| capitalize}}</a>
       {% if each == 'blog' %}
         {% for each1 in site.data.nav.internal.blog %}
           {% if each1 == site.data.nav.internal.blog[0] %}
             <span class="sidebar-nav-item indent">{{each1 | capitalize}}</span>
           {% else %}
-            <a class="sidebar-nav-item indent" href='{{ site.url }}/{{each}}/{{each1 | capitalize}}'>{{each1}}</a>
+            <a class="sidebar-nav-item indent" href='{{ site.url }}/{{each}}/{{each1}}'>{{each1 | capitalize}}</a>
           {% endif %}
         {% endfor %}
       {% endif %}
