@@ -17,12 +17,12 @@
     {% endcomment %}
 
     {% for each in site.data.nav.internal.content %}
+    <a class="sidebar-nav-item" href="">{{ each }}</a>
     {% if each == 'blog' %}
       {% for each1 in site.data.nav.internal.blog %}
       <a class="sidebar-nav-item indent" href="">{{ each1 }}</a>
       {% endfor %}
     {% endif %}
-    <a class="sidebar-nav-item" href="">{{ each }}</a>
     {% endfor %}
     
     {%comment%}{% if page.url == each.url %} active{% endif %}{%endcomment%}
