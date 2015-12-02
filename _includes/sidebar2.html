@@ -20,7 +20,7 @@
         {% for each1 in site.data.nav.internal.blog %}
           {% if {{ each1 }} == {{site.data.nav.internal.blog[0]}} %}
           <span class="sidebar-nav-item indent">{{ each1 }}</a>
-          {% elsif %}
+          {% else %}
           <a class="sidebar-nav-item indent" href="{{site.url}}/{{each}}/{{each1}}/">{{ each1 }}</a>
           {% endif %}
         {% endfor %}
