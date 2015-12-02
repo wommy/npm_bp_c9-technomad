@@ -5,7 +5,7 @@ published: true
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   <div class="post">
     <span class="post-date indent">{{post.dateL}}</span>
     <h1 class="post-title">
@@ -23,6 +23,7 @@ published: true
   {% endfor %}
 </div>
 
+{% comment %}
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
@@ -39,3 +40,4 @@ published: true
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
+{% endcomment %}
