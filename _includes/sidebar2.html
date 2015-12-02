@@ -18,21 +18,15 @@
 
     {% for each in site.data.nav.internal.content %}
     <a class="sidebar-nav-item" href="">{{ each }}</a>
-    <!--{% if page.url == each.url %} active{% endif %}-->
+    {%comment%}{% if page.url == each.url %} active{% endif %}{%endcomment%}
     {% endfor %}
     
     {% comment %}
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    {% endcomment %}
-    
-    <span class="sidebar-nav-item">Categories</span>
-    {% for each in site.categories %}
-    <a class="sidebar-nav-item indent" href="{{site.baseurl}}/{{ each[0] }}/">{{ each[0] }}</a>
-    {% endfor %}
-    
     <span class="sidebar-nav-item">External links</span>
     <a class="sidebar-nav-item indent" href='{{ site.github.repo }}' target='_blank'>GitHub</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    <span class="sidebar-nav-item">Currently v{{ site.github.version }}</span>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+    {% endcomment %}
   </nav>
 
   <div class="sidebar-item">
