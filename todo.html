@@ -4,16 +4,14 @@ title: 'To Do'
 published: true
 ---
 
-
-
-
-
-
-
-
 <div class="todos">
   <ol class="todo-list">
-    {% for todo in site.data.todos %}
+    {% for todo in site.data.todo.csv %}
+    <li class="todo-item"> - {{todo.content}}</li>
+    {% endfor %}
+  </ol>
+  <ol class="todo-list">
+    {% for todo in site.data.todo.yaml %}
     <li class="todo-item"> - {{todo.content}}</li>
     {% endfor %}
   </ol>
