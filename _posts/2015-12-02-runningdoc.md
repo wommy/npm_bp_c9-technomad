@@ -14,7 +14,7 @@ detroit craigslist jobs web:
 
 jekyll
 
-- *X* learned how to: loop thru data objects: csv, yaml, and json  
+- _X_ learned how to: loop thru data objects: csv, yaml, and json  
     - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
     - <http://wommy.github.io/jekyll-lanyon/todo/>
 - _ make functional todo
