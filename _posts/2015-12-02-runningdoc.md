@@ -7,6 +7,7 @@ category: runningdoc
 
 
 
+
 im using this [runningdoc][1] to try to clean up some desktop space in terms of chromebook ram/processing power.
 
 _g detroit craigslist jobs web:
@@ -16,9 +17,9 @@ _g detroit craigslist jobs web:
 - [lake orion mobile development](https://detroit.craigslist.org/okl/web/5309776445.html)
 - [AA front end development](https://toledo.craigslist.org/web/5338283761.html)
 
--  all that csv,yaml, and json i did yesterday
--<https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
--<http://wommy.github.io/jekyll-lanyon/todo/>
+- all that csv,yaml, and json i did yesterday
+  - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+  - <http://wommy.github.io/jekyll-lanyon/todo/>
 -  learned how to loop thru data objects with jekyll
 -_ make functional todo
 -_ data types => resume
