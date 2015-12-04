@@ -34,6 +34,8 @@ _ [jek2jade](http://jek2jade-wommy.c9.io:8080/resume.html)
 - bemit
 - jade >> technomad
 
+_ other
+
 - _ gulpify jekyll + prose workflow ? c9.io
 - _ jek-lan => [technomad](https://github.com/wommy/technomad)
 - _ wommytilliams.com ? media vs blog
