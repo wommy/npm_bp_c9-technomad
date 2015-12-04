@@ -22,21 +22,25 @@ _g detroit craigslist jobs web:
 - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
 - <http://wommy.github.io/jekyll-lanyon/todo/>
 
-- jekyll
-    - _ make functional todo
-    - _ data types => resume
-    - _ get csv to work the right way ? columns
-    - _ HEAD canonical link + tracking + seo + sitemap
-        - <http://jekyllcodex.org/basics/>
-            - <https://github.com/jnvsor/jekyll-dynamic-menu>
-        - <http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/>
-    - _ create author page
-    - _ disqus
-    - _ translate to JSON
-- _ [jek2jade](http://jek2jade-wommy.c9.io:8080/resume.html) 
-    - tear down: resume, socialNav, etc
-    - bemit
-    - jade >> technomad
+jekyll
+
+- _ make functional todo
+- _ data types => resume
+- _ get csv to work the right way ? columns
+- _ HEAD canonical link + tracking + seo + sitemap
+    - <http://jekyllcodex.org/basics/>
+        - <https://github.com/jnvsor/jekyll-dynamic-menu>
+    - <http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/>
+- _ create author page
+- _ disqus
+- _ translate to JSON
+
+_ [jek2jade](http://jek2jade-wommy.c9.io:8080/resume.html) 
+
+- tear down: resume, socialNav, etc
+- bemit
+- jade >> technomad
+
 - _ gulpify jekyll + prose workflow ? c9.io
 - _ jek-lan => [technomad](https://github.com/wommy/technomad)
 - _ wommytilliams.com ? media vs blog
