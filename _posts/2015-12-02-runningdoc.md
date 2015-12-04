@@ -18,8 +18,8 @@ _g detroit craigslist jobs web:
 - [AA front end development](https://toledo.craigslist.org/web/5338283761.html)
 
 - all that csv,yaml, and json i did yesterday
-  - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
-  - <http://wommy.github.io/jekyll-lanyon/todo/>
+    - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+    - <http://wommy.github.io/jekyll-lanyon/todo/>
 -  learned how to loop thru data objects with jekyll
 -_ make functional todo
 -_ data types => resume
