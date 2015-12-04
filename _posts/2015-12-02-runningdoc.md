@@ -17,15 +17,14 @@ _g detroit craigslist jobs web:
 - [lake orion mobile development](https://detroit.craigslist.org/okl/web/5309776445.html)
 - [AA front end development](https://toledo.craigslist.org/web/5338283761.html)
 
-all that csv, yaml, and json i did yesterday, taught me how to loop thru data objects with jekyll
+(jekyll) loop thru data objects: csv, yaml, and json  
 - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
 - <http://wommy.github.io/jekyll-lanyon/todo/>
 
-- _ make functional todo
-- _ data types => resume
-- _ get csv to work the right way ? columns
-
-- things i have to think about with jekyll
+- jekyll
+    - _ make functional todo
+    - _ data types => resume
+    - _ get csv to work the right way ? columns
     - _ HEAD canonical link + tracking + seo + sitemap
         - <http://jekyllcodex.org/basics/>
             - <https://github.com/jnvsor/jekyll-dynamic-menu>
@@ -37,8 +36,8 @@ all that csv, yaml, and json i did yesterday, taught me how to loop thru data ob
     - tear down: resume, socialNav, etc
     - bemit
     - jade >> technomad
-- _ gulp: jekyll + prose
-- _ github: jek-lan => [github/technomad](https://github.com/wommy/technomad)
+- _ gulpify jekyll + prose workflow ? c9.io
+- _ jek-lan => [technomad](https://github.com/wommy/technomad)
 - _ wommytilliams.com ? media vs blog
 
 
