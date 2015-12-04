@@ -6,6 +6,6 @@
   margin-left:.75rem;
 }
 
-ul, ol{
+.post p, .post ul, .post ol{
   margin-bottom:0 !important;
 }
