@@ -8,8 +8,8 @@ relative_permalinks: true
 title:               Wommy
 tagline:             'a place for my digital stuff'
 description:         'a Blog built for/by <a href="http://github.com/wommy" target="_blank">Wommy</a>, with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>, & <a href="http://prose.io" target="_blank">Prose</a>'
-url:                 http://wommy.github.io/jekyll-lanyon
-baseurl:             http://wommy.github.io/jekyll-lanyon
+url:                 http://wommy.github.io/
+baseurl:             jekyll-lanyon/
 # paginate
 # paginate:            5
 # paginate_path:       /:num/
