@@ -6,6 +6,7 @@ category: runningdoc
 ---
 
 
+
 im using this [runningdoc][1] to try to clean up some desktop space in terms of chromebook ram/processing power.
 
 _g detroit craigslist jobs web:
@@ -15,26 +16,26 @@ _g detroit craigslist jobs web:
 - [lake orion mobile development](https://detroit.craigslist.org/okl/web/5309776445.html)
 - [AA front end development](https://toledo.craigslist.org/web/5338283761.html)
 
-  all that csv,yaml, and json i did yesterday
-<https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
-<http://wommy.github.io/jekyll-lanyon/todo/>
-  learned how to loop thru data objects with jekyll
-_ make functional todo
-_ data types => resume
-_ get csv to work the right way ? columns
-  things i have to think about with jekyll
-_ HEAD canonical link + tracking + seo + sitemap
-  <http://jekyllcodex.org/basics/>
-    <https://github.com/jnvsor/jekyll-dynamic-menu>
-  <http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/>
-_ create author page
-_ disqus
-_ translate to JSON
-_ resume from jek2jade (json) + socialNav + ... >> <http://jek2jade-wommy.c9.io:8080/resume.html>
-_ gulp: jekyll + this (prose sucks)
-_ github: jek/lan => technomad >> <https://github.com/wommy/technomad>
-_ jek2jade: tear down +? bemit ;? jade in this
-_ wommytilliams.com ? media vs blog
+-  all that csv,yaml, and json i did yesterday
+-<https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+-<http://wommy.github.io/jekyll-lanyon/todo/>
+-  learned how to loop thru data objects with jekyll
+-_ make functional todo
+-_ data types => resume
+-_ get csv to work the right way ? columns
+-  things i have to think about with jekyll
+-_ HEAD canonical link + tracking + seo + sitemap
+-  <http://jekyllcodex.org/basics/>
+-    <https://github.com/jnvsor/jekyll-dynamic-menu>
+-  <http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/>
+-_ create author page
+-_ disqus
+-_ translate to JSON
+-_ resume from jek2jade (json) + socialNav + ... >> <http://jek2jade-wommy.c9.io:8080/resume.html>
+-_ gulp: jekyll + this (prose sucks)
+-_ github: jek/lan => technomad >> <https://github.com/wommy/technomad>
+-_ jek2jade: tear down +? bemit ;? jade in this
+-_ wommytilliams.com ? media vs blog
 
 
 
