@@ -20,7 +20,7 @@ _g detroit craigslist jobs web:
 - all that csv,yaml, and json i did yesterday
     - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
     - <http://wommy.github.io/jekyll-lanyon/todo/>
--  learned how to loop thru data objects with jekyll
+- learned how to loop thru data objects with jekyll
 -_ make functional todo
 -_ data types => resume
 -_ get csv to work the right way ? columns
