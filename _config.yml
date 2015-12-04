@@ -39,3 +39,11 @@ prose:
         field:
           element: "hidden"
           value: "post"
+    pages:
+      _posts:
+      - name: "layout"
+        field:
+          value: "page"
+      - name: "permalink"
+        field:
+          value: "/{{page.title}}/"
