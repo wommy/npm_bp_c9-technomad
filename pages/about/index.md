@@ -2,7 +2,7 @@
 layout: page
 title: pages/About
 published: true
-permalink: "/{{page.title}}/"
+permalink: /about/
 ---
 
 
