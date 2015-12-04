@@ -40,7 +40,6 @@ prose:
           element: "hidden"
           value: "post"
     pages:
-      _posts:
       - name: "layout"
         field:
           value: "page"
