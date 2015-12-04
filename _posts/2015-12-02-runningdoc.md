@@ -18,6 +18,7 @@ _g detroit craigslist jobs web:
 - [AA front end development](https://toledo.craigslist.org/web/5338283761.html)
 
 (jekyll) loop thru data objects: csv, yaml, and json  
+
 - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
 - <http://wommy.github.io/jekyll-lanyon/todo/>
 
