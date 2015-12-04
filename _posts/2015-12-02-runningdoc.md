@@ -12,13 +12,11 @@ detroit craigslist jobs web:
 - [lake orion mobile development](https://detroit.craigslist.org/okl/web/5309776445.html)
 - [AA front end development](https://toledo.craigslist.org/web/5338283761.html)
 
-(jekyll) loop thru data objects: csv, yaml, and json  
-
-- <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
-- <http://wommy.github.io/jekyll-lanyon/todo/>
-
 jekyll
 
+- learned how to loop thru data objects: csv, yaml, and json  
+    - <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+    - <http://wommy.github.io/jekyll-lanyon/todo/>
 - _ make functional todo
 - _ data types => resume
 - _ get csv to work the right way ? columns
