@@ -10,7 +10,7 @@ category: runningdoc
 
 im using this [runningdoc][1] to try to clean up some desktop space in terms of chromebook ram/processing power.
 
-_g detroit craigslist jobs web:
+detroit craigslist jobs web:
 
 - [RO full stack ](https://detroit.craigslist.org/okl/web/5331939890.html)
 - [m5 part time general > design emphasis](https://detroit.craigslist.org/okl/web/5312306951.html)
