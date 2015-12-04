@@ -5,11 +5,6 @@ dateL: "Wed Dec 02 2015 17:03:00 GMT-0500 (EST)"
 category: runningdoc
 ---
 
-
-
-
-im using this [runningdoc][1] to try to clean up some desktop space in terms of chromebook ram/processing power.
-
 detroit craigslist jobs web:
 
 - [RO full stack ](https://detroit.craigslist.org/okl/web/5331939890.html)
@@ -44,8 +39,3 @@ _ [jek2jade](http://jek2jade-wommy.c9.io:8080/resume.html)
 - _ gulpify jekyll + prose workflow ? c9.io
 - _ jek-lan => [technomad](https://github.com/wommy/technomad)
 - _ wommytilliams.com ? media vs blog
-
-
-
-
-[1]
