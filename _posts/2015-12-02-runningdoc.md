@@ -32,7 +32,7 @@ _g detroit craigslist jobs web:
 - _ create author page
 - _ disqus
 - _ translate to JSON
-- _ resume from (jek2jade)[http://jek2jade-wommy.c9.io:8080/resume.html] (json) + socialNav + ...
+- _ resume from [jek2jade](http://jek2jade-wommy.c9.io:8080/resume.html) (json) + socialNav + ...
 - _ gulp: jekyll + this (prose sucks)
 - _ github: jek/lan => [technomad](https://github.com/wommy/technomad)
 - _ jek2jade: tear down +? bemit ;? jade in this
