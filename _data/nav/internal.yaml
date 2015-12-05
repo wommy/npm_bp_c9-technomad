@@ -4,6 +4,7 @@ content:
   - about
   - todo
   - resume
+  - test
 all:
   - categories
   - web
