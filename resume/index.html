@@ -15,13 +15,14 @@ published: true
       <li>{{ forloop.length }}| {{ minor[0] }}
         {% for each in minor[1] %}
           {% if forloop.last %}:{{ minor[1] }}{%  endif %}</li>
-	    	<ol>
-        {% for subMinor in minor[1] %}
-          {% if forloop.length > 1 %}
-          <li>{{ forloop.length }}| {{subMinor[0]}}:{{subMinor[1]}}</li>
-          {% endif %}
-        {% endfor %}
-        </ol>
+	    	  <ol>
+            {% for subMinor in minor[1] %}
+              {% if forloop.length > 1 %}
+              <li>{{ forloop.length }}| {{subMinor[0]}}:{{subMinor[1]}}</li>
+              {% endif %}
+            {% endfor %}
+          </ol>
+       {% endfor %}
     {% endfor %}
     </ul>
   {% endfor %}
