@@ -14,11 +14,11 @@ published: true
   {% for post in site.posts %}
   <div class="post">
     <h1 class="post-title">
-      <span class="post-date indent">{{post.dateL}}</span>
       <a href="{{ site.url }}{{ site.baseurl }}{{ post.url | remove_first:'/' }}">
         {{ post.title }}
       </a>
     </h1>
+    <span class="post-date indent">{{post.dateL}}</span>
     <a href='{{ site.url  }}{{ site.baseurl  }}{{  post.category  }}/' class='indent'>{{post.category}}</a>
 
     {% comment %}
