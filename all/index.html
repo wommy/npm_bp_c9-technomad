@@ -6,12 +6,13 @@ published: true
 
 
 
+
 <div class="posts">
   {% for post in site.posts %}
   <div class="post">
     <span class="post-date indent">{{post.dateL}}</span>
     <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
     </h1>
