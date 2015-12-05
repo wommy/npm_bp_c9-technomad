@@ -4,7 +4,7 @@
 permalink:           /blog/:categories/:year/:title/
 relative_permalinks: true
 
-# Setup
+# Site Setup
 url:                 http://wommy.github.io/
 baseurl:             jekyll-lanyon/
 # paginate
