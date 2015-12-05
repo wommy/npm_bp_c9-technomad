@@ -1,3 +1,3 @@
 content:["home", "all", "about", "todo", "resume", "test"];
 all: ["categories","web","runningdoc","personality"];
-obj1: {obj2:content,obj3:all;};
+<!--obj1: {obj2:content,obj3:all;};-->
