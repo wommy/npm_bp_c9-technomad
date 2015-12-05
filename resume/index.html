@@ -4,12 +4,12 @@ title: Resume
 published: true
 ---
 
-dicks8
+dicks9
 
-{{ site.data.1.contact.title }}
+{{ site.data.contact[0] }}
 
 <ul>
-  {% for dix in site.data.1.contact %}
+  {% for dix in site.data.contact %}
   <li>{{ dix[0] }} : {{ dix[1] }}</li>
   {% endfor %}
 </ul>
