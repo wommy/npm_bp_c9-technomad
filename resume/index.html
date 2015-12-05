@@ -5,14 +5,14 @@ published: true
 ---
 
 
-2
+3
 <hr>
 <ul>
   {% for heading in site.data.resume %}
   <h2>{{ heading[0] }}</h2>
     <ul>
     {% for minor in heading[1] %}
-      <li>{{ forloop.length }}| {{ minor[0] }}:{{ minor[1] }}</li>
+      <li>{{ forloop.length }}| {{ minor[0] }}{% if minor[1].length = 1 %}:{{ minor[1] }}{% endif %}</li>
       
         <ol>
         {% for subMinor in minor[1] %}
