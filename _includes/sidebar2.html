@@ -15,8 +15,7 @@
     {% endcomment %}
 
     {% for each in site.data.nav.internal.content %}
-    {% assign each += "/" %}
-    <a class="sidebar-nav-item" href="{{ site.url }}{{ site.baseurl }}{% if each != site.data.nav.internal.content[0] %}{{each}}{% endif %}/">{{ each| capitalize}}</a>
+    <a class="sidebar-nav-item" href="{{ site.url }}{{ site.baseurl }}{% if each != site.data.nav.internal.content[0] %}{{each}}/{% endif %}/">{{ each| capitalize}}</a>
       {% if each == 'blog' %}
         {% for each1 in site.data.nav.internal.blog %}
           {% if each1 == site.data.nav.internal.blog[0] %}
