@@ -5,14 +5,15 @@ permalink:           /blog/:categories/:year/:title/
 relative_permalinks: true
 
 # Setup
-title:               Wommy
-tagline:             'a place for my digital stuff'
 url:                 http://wommy.github.io/
 baseurl:             jekyll-lanyon/
-description:         'a Blog built for/by <a href="http://github.com/wommy" target="_blank">Wommy</a>, with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>, & <a href="http://prose.io" target="_blank">Prose</a>'
 # paginate
 # paginate:            5
 # paginate_path:       /:num/
+
+# Site Specifics
+title:               Wommy
+tagline:             'a place for my digital stuff'
 
 # About/contact
 author:
