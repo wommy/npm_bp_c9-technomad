@@ -28,6 +28,13 @@ github:
   repo:              https://github.com/wommy/jekyll-lanyon/
   version:           1.0.0
 
+#development
+dev:
+  product:           techNomad
+  	website:		 https://wommy.github.io/jekyll-lanyon/
+  dev:               Wommy
+  	website:  		 https://wommy.github.io/jekyll-lanyon/
+
 # prose
 prose:
   siteurl:           'http://wommy.github.io/jekyll-lanyon/'
