@@ -12,8 +12,8 @@ dicks5
   {% for dix in site.data.resume %}
   <li>{{ dix[0] }}</li>
     <ul>
-      {% for dix in site.data.resume %}
-      <li>{{ dix[1][0] }}</li>
+      {% for cox in dix[0] %}
+      <li>{{ cox }}</li>
     
       {% endfor %}
     </ul>
