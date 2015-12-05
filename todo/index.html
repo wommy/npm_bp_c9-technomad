@@ -10,7 +10,7 @@ published: true
 <div class="todos">
   <ul>
   {% for list in site.data.nav.internalJSON %}
-    <li>{{list}}</li>
+    <li>{{list[0]}}</li>
   {% endfor %}
   </ul>
 </div>
