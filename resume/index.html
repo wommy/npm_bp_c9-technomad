@@ -5,14 +5,14 @@ published: true
 ---
 
 
-5
+6
 <hr>
 <ul>
   {% for major in site.data.resume %}
   <h2>{{ major[0] }}</h2>
     <ul>
     {% for minor in major[1] %}
-      <li>{{ forloop.index }}| {{ minor[0] }} :{{ minor[1] }}</li>
+      <li>{{ forloop.index }}| {{ minor[0] }}:{{ minor[1] }}</li>
       {% if minor[1].size > 1 %}
       <li>:{{ minor[1] }}</li>
       
