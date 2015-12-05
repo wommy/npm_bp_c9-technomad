@@ -11,11 +11,7 @@ published: true
   <ul>
     {% for title in site.data.nav.internalJSON %}
     <li>{{title[0]}}</li>
-      <ul>
-        {% for item in title[0] %}
-        <li>{{item[0]}}</li>
-        {% endfor %}
-      <ul>
+    <li>{{title[1]}}</li>
     {% endfor %}
   </ul>
 </div>
