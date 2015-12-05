@@ -17,8 +17,8 @@
     {% for each in site.data.nav.internal.content %}
     <a class="sidebar-nav-item" href="{{ site.url }}{{ site.baseurl }}{% if each != site.data.nav.internal.content[0] %}{{ each }}/{% endif %}">{{ each| capitalize}}</a>
       {% if each == 'all' %}
-        {% for each1 in site.data.nav.internal.blog %}
-          {% if each1 == site.data.nav.internal.blog[0] %}
+        {% for each1 in site.data.nav.internal.all %}
+          {% if each1 == site.data.nav.internal.all[0] %}
             <span class="sidebar-nav-item indent">{{each1 | capitalize}}</span>
           {% else %}
     <a class="sidebar-nav-item indent" href='{{ site.url }}{{ site.baseurl }}{{ each }}/{{ each1 }}/'>{{each1 | capitalize}}</a>
