@@ -1,8 +1,17 @@
 ---
 layout: page
-title: 'To Do'
+title: To Do
 published: true
 ---
+
+
+
+<div class="todos">
+  <ul>
+  {% for list in site.data.nav.internalJSON %}
+    <li>{{list}}</li>
+  </ul>
+</div>
 
 <div class="todos">
   {% for format in site.data.todo %}
