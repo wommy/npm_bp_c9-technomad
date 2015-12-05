@@ -5,7 +5,7 @@ published: true
 ---
 
 
-9
+0
 <hr>
 <ul>
   {% for major in site.data.resume %}
@@ -16,7 +16,7 @@ published: true
       
         <ol>
         {% for subMinor in minor[1] %}
-          <li>{{ forloop.length }}| {{subMinor}}</li>
+          <li>{{ forloop.length }}| {{subMinor[0]}}:{{subMinor[1]}}</li>
         {% endfor %}
         </ol>
     {% endfor %}
