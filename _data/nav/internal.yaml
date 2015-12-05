@@ -1,10 +1,10 @@
 content:
   - home
-  - blog
+  - all
   - about
   - todo
   - resume
-blog:
+all:
   - categories
   - web
   - runningdoc
