@@ -21,7 +21,7 @@
           {% if each1 == site.data.nav.internal.all[0] %}
             <span class="sidebar-nav-item indent">{{each1 | capitalize}}</span>
           {% else %}
-    <a class="sidebar-nav-item indent" href='{{ site.url }}{{ site.baseurl }}{{ each }}/{{ each1 }}/'>{{each1 | capitalize}}</a>
+    <a class="sidebar-nav-item indent" href='{{ site.url }}{{ site.baseurl }}/{{ each1 }}/'>{{each1 | capitalize}}</a>
           {% endif %}
         {% endfor %}
       {% endif %}
