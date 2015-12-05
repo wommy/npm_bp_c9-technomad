@@ -12,12 +12,12 @@ published: true
   <ul>
     {% for each in site.data.nav.internalJSON %}
     <li>{{each[0]}}</li>
-    {% endfor %}
     <ul>
       {% for each1 in each %}
       <li>{{ each1[0] }}</li>
       {% endfor %}
     </ul>
+    {% endfor %}
   </ul>
 </div>
 
