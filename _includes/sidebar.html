@@ -29,9 +29,7 @@
     
     {% comment %}
     <a class="sidebar-nav-item" href='{{ site.github.repo }}' target='_blank'>TechNomad Github Repo</a>
-    {% endcomment %}
-    
-    {% comment %}
+
       {% if page.url == each.url %} active{% endif %}
       
     <span class="sidebar-nav-item">External links</span>
@@ -44,7 +42,7 @@
 
   <div class="sidebar-item">
     <!--<p>{{ site.description }}</p>-->
-    <p>Build with <a href='{{site.product.website}}'>{{site.product.name}}</a>By<a href='{{site.dev.website}}'>{{site.dev.name}}</a><br>
+    <p>Build with <a href='{{site.product.website}}'{{site.link.ext}}>{{site.product.name}}</a>By<a href='{{site.dev.website}}'{{site.link.ext}}>{{site.dev.name}}</a><br>
     &copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
