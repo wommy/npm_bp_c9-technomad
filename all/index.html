@@ -8,6 +8,7 @@ published: true
 
 
 
+
 <div class="posts">
   {% for post in site.posts %}
   <div class="post">
@@ -19,10 +20,12 @@ published: true
     </h1>
     <a href='{{ site.url  }}{{ site.baseurl  }}{{  post.category  }}/' class='indent'>{{post.category}}</a>
 
-    {% comment %}<span class="post-date">{{ post.date | date_to_string }}</span>{% endcomment %}
-  <!--<span class="post-date">{{post.dateL}}</span>
-  <span>{{post.category}}</span>-->
-    <!--{{ post.content }}-->
+    {% comment %}
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+  <span class="post-date">{{post.dateL}}</span>
+  <span>{{post.category}}</span>
+    {{ post.content }}
+    {% endcomment %}
   </div>
   {% endfor %}
 </div>
