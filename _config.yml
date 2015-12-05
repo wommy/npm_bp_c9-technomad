@@ -28,7 +28,7 @@ github:
 
 # prose
 prose:
-  siteurl: 'http://wommy.github.io/jekyll-lanyon/'
+  siteurl:           'http://wommy.github.io/jekyll-lanyon/'
   ignore:
     - .editorconfig
     - .gitignore
