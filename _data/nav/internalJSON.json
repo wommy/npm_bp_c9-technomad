@@ -1,2 +1,3 @@
 content: ['home','all','about','todo','resume','test']
 all: [categories, web, runningdoc, personality]
+obj3: ['home',all,'about','todo','resume','test']
