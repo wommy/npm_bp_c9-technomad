@@ -5,16 +5,17 @@ published: true
 ---
 
 
-5
+6
 <hr>
 <ul>
   {% for major in site.data.resume %}
   <h2>{{ major[0] }}</h2>
-    <ul>
+    <ol>
     {% for minor in major[1] %}
-      <li>{{ minor[0] }} : {{ minor[1] }}</li>
+      <li>{{ minor[0] }}</li>
+      <li>{{ minor[1] }}</li>
   
     {% endfor %}
-  </ul>
+  </ol>
   {% endfor %}
 </ul>
