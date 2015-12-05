@@ -13,7 +13,7 @@ published: true
     {% for each in site.data.nav.internalJSON %}
     <li>{{each[0]}}</li>
     <ul>
-      {% for each1 in each %}
+      {% for each1 in each[0] %}
       <li>{{ each1 }}</li>
       {% endfor %}
     </ul>
