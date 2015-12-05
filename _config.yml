@@ -35,6 +35,8 @@ product:
 dev:
   name:				 Wommy
   website:  		 http://wommy.github.io/jekyll-lanyon/
+link:
+  ext:				 target='_blank'
 
 # prose
 prose:
