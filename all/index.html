@@ -19,7 +19,7 @@ published: true
       </a>
     </h1>
     <span class="post-date indent">{{post.dateL}}</span>
-    <a href='{{ site.url  }}{{ site.baseurl  }}{{  post.category  }}/' class='indent'>{{post.category}}</a>
+    <a class='post-category indent' href='{{ site.url  }}{{ site.baseurl  }}{{  post.category  }}/'>{{post.category}}</a>
 
     {% comment %}
     <span class="post-date">{{ post.date | date_to_string }}</span>
