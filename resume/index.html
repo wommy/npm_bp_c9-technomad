@@ -5,13 +5,14 @@ published: true
 ---
 
 
-1
+2
 <hr>
 <ul>
   {% for major in site.data.resume %}
   <h2>{{ major[0] }}</h2>
     <ul>
     {% for minor in major[1] %}
+      <li>{{ minor.size }}</li>
       <li>{{ minor[0] }}</li>
       {% if minor[1].size > 1 %}
         <ol>
