@@ -11,8 +11,13 @@ published: true
 <div class="todos">
   <ul>
     {% for each in site.data.nav.internalJSON %}
-    <li>{{each[0]:each[1]}}</li>
+    <li>{{each[0]}}</li>
     {% endfor %}
+    <ul>
+      {% for each1 in each %}
+      <li>{{ each1[0] }}</li>
+      {% endfor %}
+    </ul>
   </ul>
 </div>
 
