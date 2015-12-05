@@ -12,6 +12,7 @@ published: true
 
 
 
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -31,5 +32,5 @@ published: true
   {% endfor %}
 </div>
 {% comment %}
-{% include pagination.html %}
+{% include paginate.html %}
 {% endcomment %}
