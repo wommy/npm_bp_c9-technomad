@@ -10,9 +10,8 @@ published: true
 
 <div class="todos">
   <ul>
-    {% for title in site.data.nav.internalJSON %}
-    <li>{{title[0]}}</li>
-    <li>{{title[1]}}</li>
+    {% for each in site.data.nav.internalJSON %}
+    <li>{{each}}</li>
     {% endfor %}
   </ul>
 </div>
