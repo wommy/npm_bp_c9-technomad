@@ -4,13 +4,13 @@ title: Resume
 published: true
 ---
 
-2
+3
 <hr>
 <ul>
   {% for major in site.data.resume %}
   <h2>{{ major[0] }}</h2>
     <ul>
-    {% for minor in site.data.resume.major %}
+    {% for minor in site.data.resume[0] %}
     <li>{{ minor[0] }}</li>
   
     {% endfor %}
