@@ -10,12 +10,17 @@ published: true
 <ul>
   {% for major in site.data.resume %}
   <h2>{{ major[0] }}</h2>
-    <ol>
+    <ul>
     {% for minor in major[1] %}
       <li>{{ minor[0] }}</li>
+      {% if minor[1].size > 1 %}
+        {% for subMinor in minor[1] %}
+        <li>{{subMinor}}</li>
+        {% endfor %}
+      {% else %}
       <li>{{ minor[1] }}</li>
   
     {% endfor %}
-  </ol>
+    </ul>
   {% endfor %}
 </ul>
