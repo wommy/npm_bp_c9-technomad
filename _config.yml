@@ -31,10 +31,10 @@ github:
 #development
 product:
   name:				 techNomad
-  website:			 https://wommy.github.io/jekyll-lanyon/
+  website:			 http://wommy.github.io/jekyll-lanyon/
 dev:
   name:				 Wommy
-  website:  		 https://wommy.github.io/jekyll-lanyon/
+  website:  		 http://wommy.github.io/jekyll-lanyon/
 
 # prose
 prose:
