@@ -12,8 +12,8 @@ published: true
   <h2>{{ major[0] }}</h2>
     <ul>
     {% for minor in major[1] %}
-      <li>{{ minor.size }}</li>
-      <li>{{ minor[0] }}</li>
+      <li>{{ minor.size }}:{{ minor[1].size }}</li>
+      <li>{{ minor[0] }}:{{ minor[1] }}</li>
       {% if minor[1].size > 1 %}
         <ol>
         {% for subMinor in minor[1] %}
