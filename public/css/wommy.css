@@ -3,6 +3,10 @@
 }
 
 .indent{
+  margin-left:.75rem;
+}
+
+.indentBig{
   padding-left:1.5rem;
 }
 
