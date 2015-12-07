@@ -11,7 +11,7 @@ published: true
 
 ##Hi, I'm Tommy
 
-###My two loves in life are <a href='https://en.wikipedia.org/wiki/Media_(communication)'>Media</a>: its consumption, production, and distribution; and the <a href='https://en.wikipedia.org/wiki/Internet'>Internet</a>: for all the affordances it provides Digital Media.
+###I love everything about <a href='https://en.wikipedia.org/wiki/Media_(communication)'>Media</a>: its consumption, production, and distribution; and the <a href='https://en.wikipedia.org/wiki/Internet'>Internet</a>: for all the affordances it provides Digital Media.
 
 ###I work hard to help people be heard on <a href='https://en.wikipedia.org/wiki/World_Wide_Web'>the Web</a>.
 
