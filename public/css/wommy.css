@@ -38,3 +38,11 @@ h1{
 .float-R{
   float:right;
 }
+
+.padding1{
+  padding:.75rem;
+}
+
+.padding2{
+  padding:1.5rem;
+}
