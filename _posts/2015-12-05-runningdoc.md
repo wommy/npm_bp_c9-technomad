@@ -20,14 +20,3 @@ category: runningdoc
 
 
 - _<http://wommytilliams.com/media.html>
-
-
-- <https://www.youtube.com/watch?v=HMUuw_K-ky0>
-- <https://en.wikipedia.org/wiki/Rosa_Luxemburg>
-- <https://en.wikipedia.org/wiki/Inverted_totalitarianism>
-- <https://en.wikipedia.org/wiki/Eduard_Bernstein>
-- <https://en.wikipedia.org/wiki/Reformism>
-- <https://en.wikipedia.org/wiki/Fabian_Society>
-- <https://en.wikipedia.org/wiki/Ba%27athism>
-- <https://www.marxists.org/archive/luxemburg/1900/reform-revolution/index.htm>
-- <https://en.wikipedia.org/wiki/German_Revolution_of_1918%E2%80%9319>
