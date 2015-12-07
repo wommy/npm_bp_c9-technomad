@@ -2,9 +2,9 @@ content:
   - home
   - all
   - about
-  - todo
   - resume
   - test
+  - todo
 all:
   - categories
   - web
