@@ -1,8 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 dateL: null
 ---
+
 
 
 im kinda bummed because i forgot to annotate easlier and let a few good topics get away from me.
@@ -29,5 +30,4 @@ heres a collection of sister links:
 
 <https://www.reddit.com/r/Anarcho_Capitalism/comments/3ve18x/marxist_professor_explains_that_socialism_needs/>
 this link was great
-the video:<https://www.youtube.com/watch?v=ysZC0JOYYWw> contained a great deal of history, as well as the second: <https://www.youtube.com/watch?v=HMUuw_K-ky0>  
-
+the video:<https://www.youtube.com/watch?v=ysZC0JOYYWw> contained a great deal of history, as well as the second: <https://www.youtube.com/watch?v=HMUuw_K-ky0>
