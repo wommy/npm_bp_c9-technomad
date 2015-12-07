@@ -1,0 +1,29 @@
+---
+layout: page
+title: Resume
+published: true
+---
+
+
+6
+<hr>
+<ul>
+  {% for heading in site.data.resume %}
+  <h2>{{ heading[0] }}</h2>
+    <ul>
+    {% for minor in heading[1] %}
+      <li>{{ forloop.length }}| {{ minor[0] }}
+        {% for each in minor[1] %}
+          {% if forloop.last %}:{{ minor[1] }}{%  endif %}</li>
+	    	  <ol>
+            {% for subMinor in minor[1] %}
+              {% if forloop.length > 1 %}
+              <li>{{ forloop.length }}| {{subMinor[0]}}: {{subMinor[1]}}</li>
+              {% endif %}
+            {% endfor %}
+          </ol>
+       {% endfor %}
+    {% endfor %}
+    </ul>
+  {% endfor %}
+</ul>

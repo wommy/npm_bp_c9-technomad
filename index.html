@@ -7,42 +7,10 @@ published: true
 
 
 
-
-
-
-
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <span class="post-date indent">{{post.dateL}}</span>
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <a href='{{ site.baseurl}}/{{post.category}}' class='indent'>{{post.category}}</a>
-
-    {% comment %}<span class="post-date">{{ post.date | date_to_string }}</span>{% endcomment %}
-  <!--<span class="post-date">{{post.dateL}}</span>
-  <span>{{post.category}}</span>-->
-    <!--{{ post.content }}-->
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+  <img class='float-L padding2 womIMG' src='http://i.imgur.com/6GLw25ul.jpg'>
+  <p>Hi, I'm Tommy</p>
+  <p>My two loves in life are <a href='https://en.wikipedia.org/wiki/Media_(communication)'>Media</a>: its consumption, production, and distribution; and the <a href='https://en.wikipedia.org/wiki/Internet'>Internet</a>: for all the affordances it provides Digital Media.</p>
+  <p>I work hard to help people be heard on <a href='https://en.wikipedia.org/wiki/World_Wide_Web'>the Web</a>.</p>
+  <p>This is my voice: Welcome!</p>
 </div>

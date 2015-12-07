@@ -1,32 +1,43 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+# Site Setup
+url:                 http://wommy.github.io/
+baseurl:             jekyll-lanyon/
+permalink:           /all/:categories/:year/:title/
 relative_permalinks: true
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# paginate
+# paginate:          5
+# paginate_path:     /:num/
 
-# Setup
+# Site Specifics
 title:               Wommy
-tagline:             'a place for my digital stuff'
-description:         'a Blog built for/by <a href="http://github.com/wommy" target="_blank">Wommy</a>, with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>, & <a href="http://prose.io" target="_blank">Prose</a>'
-url:                 http://wommy.github.io/jekyll-lanyon
-baseurl:             http://wommy.github.io/jekyll-lanyon
-paginate:            10
+tagline:             Digital
+descriptionOld:      'a Blog built for/by <a href="http://github.com/wommy" target="_blank">Wommy</a>, with <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>, & <a href="http://prose.io" target="_blank">Prose</a>'
+description:         'built by'
 
-# About/contact
+# About/Contact
 author:
   name:              Tommy Williams
+  nick:              Wommy
   url:               https://twitter.com/froggie92
   email:             tom@technomad.media
 
 github:
-  repo:  https://github.com/wommy/jekyll-lanyon
+  repo:              https://github.com/wommy/jekyll-lanyon/
+  version:           1.0.0
 
-# Custom vars
-version:             1.0.0
+#development
+product:
+  name:				 techNomad
+  website:			 http://wommy.github.io/jekyll-lanyon/
+dev:
+  name:				 Wommy
+  website:  		 http://wommy.github.io/jekyll-lanyon/
+link:
+  ext:				 target='_blank'
 
 # prose
 prose:
-  siteurl: 'http://wommy.github.io/jekyll-lanyon/'
+  siteurl:           'http://wommy.github.io/jekyll-lanyon/'
   ignore:
     - .editorconfig
     - .gitignore
@@ -39,3 +50,10 @@ prose:
         field:
           element: "hidden"
           value: "post"
+    pages:
+      - name: "layout"
+        field:
+          value: "page"
+      - name: "permalink"
+        field:
+          value: "/{{page.title}}/"
