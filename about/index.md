@@ -18,6 +18,14 @@ This is my voice: Welcome!
 
 <!-- endExcerpt -->
 
+## About the Website
+
+so i've been working on this design for awhile. there are two layers: technomad and wommy. technomad is the greater application, or template, that allows the artist to digitally compose produce and distribute digital media. 
+
+i created technomad by manifesting wommy. i created  creating principles.
+
+<hr>
+
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
