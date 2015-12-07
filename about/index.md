@@ -28,6 +28,8 @@ everything i have done since i left my home in metro Detroit for college in Chic
 
 my original project in the summer of 2011 was a ToDo app, called River. At the time, i had no/none/zip/zero/zilch coding experience. I just finished up my first year of [DePaul](depaul.edu), which i transferred to after two years at [Columbia College Chicago](colum.edu). My transition was far rougher than i had ever imagined, the majority of it being needlessly so, artifically created by DePaul. 
 
+river was first incepted in the spring of 2011
+
 
 that  created technomad by manifesting wommy. i created  creating principles.
 
