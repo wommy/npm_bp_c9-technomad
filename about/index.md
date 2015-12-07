@@ -6,6 +6,7 @@ published: true
 
 
 
+
 <img class='float-L padding2 womIMG' src='http://i.imgur.com/6GLw25ul.jpg'>
 
 ##Hi, I'm Tommy
@@ -14,7 +15,7 @@ published: true
 
 ###I work hard to help people be heard on <a href='https://en.wikipedia.org/wiki/World_Wide_Web'>the Web</a>.
 
-###*This* is my *voice*: **Welcome!**
+###*This is my voice*: **Welcome!**
 
 <!-- endExcerpt -->
 
