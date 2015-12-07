@@ -24,7 +24,7 @@ so i've been working on this design for awhile. there are two layers: technomad 
 
 i created technomad by manifesting wommy. i created  creating principles.
 
-<hr>
+<hr style='margin-bottom:20rem;'>
 
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
