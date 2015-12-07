@@ -26,7 +26,7 @@ its funny that i say that wommy is a manifestation of technomad, because actuall
 
 everything i have done since i left my home in metro Detroit for college in Chicago, has been towards this.
 
-my original project in the summer of 2011 was a ToDo app, called River. At the time, i had no/none/zip/zero/zilch coding experience. I just finished up my first year of [DePaul](depaul.edu), which i transferred after two years at Columbia College Chicago(colum.edu)
+my original project in the summer of 2011 was a ToDo app, called River. At the time, i had no/none/zip/zero/zilch coding experience. I just finished up my first year of [DePaul](depaul.edu), which i transferred to after two years at [Columbia College Chicago](colum.edu)
 
 
 that  created technomad by manifesting wommy. i created  creating principles.
