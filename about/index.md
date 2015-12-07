@@ -8,7 +8,7 @@ published: true
 
 <img class='float-L padding2 womIMG' src='http://i.imgur.com/6GLw25ul.jpg'>
 
-##Hi, I'm Tommy
+##**Hi, I'm Tommy**
 
 ###My two loves in life are <a href='https://en.wikipedia.org/wiki/Media_(communication)'>Media</a>: its consumption, production, and distribution; and the <a href='https://en.wikipedia.org/wiki/Internet'>Internet</a>: for all the affordances it provides Digital Media.
 
