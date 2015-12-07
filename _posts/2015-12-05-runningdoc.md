@@ -5,10 +5,6 @@ dateL: "Sat Dec 05 2015 13:28:11 GMT-0500 (EST)"
 category: runningdoc
 ---
 
-
-
-
-
 - <http://cheat.markdunkley.com/>
 - <http://json.parser.online.fr/>
 - <http://jek2jade-wommy.c9.io:8080/resume.html>
