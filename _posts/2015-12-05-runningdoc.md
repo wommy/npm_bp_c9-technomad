@@ -17,6 +17,4 @@ category: runningdoc
 - <http://wommy.github.io/jekyll-lanyon/resume/>
 - <https://github.com/wommy/jekyll-lanyon/edit/gh-pages/resume/index.html>
 - <https://github.com/wommy/jekyll-lanyon/blob/gh-pages/_data/resume.json>
-
-
 - _<http://wommytilliams.com/media.html>
