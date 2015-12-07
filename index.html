@@ -6,23 +6,5 @@ published: true
 
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <span class="post-date indent">{{post.dateL}}</span>
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <a href='{{ site.baseurl}}/{{post.category}}' class='indent'>{{post.category}}</a>
-
-    {% comment %}<span class="post-date">{{ post.date | date_to_string }}</span>{% endcomment %}
-  <!--<span class="post-date">{{post.dateL}}</span>
-  <span>{{post.category}}</span>-->
-    <!--{{ post.content }}-->
-  </div>
-  {% endfor %}
+  <img src='http://i.imgur.com/6GLw25ul.jpg'>
 </div>
-{% comment %}
-{% include paginate.html %}
-{% endcomment %}
