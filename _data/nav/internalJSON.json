@@ -1,2 +1,4 @@
-content: ["home", "all", "about", "todo", "resume", "test"]
-butts: ["categories","web","runningdoc","personality"]
+{
+"nav": ["home","all","about","todo","resume","test"],
+"all": ["categories","web","runningdoc","personality"]
+}
