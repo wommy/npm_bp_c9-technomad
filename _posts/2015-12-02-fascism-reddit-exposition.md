@@ -31,3 +31,13 @@ heres a collection of sister links:
 <https://www.reddit.com/r/Anarcho_Capitalism/comments/3ve18x/marxist_professor_explains_that_socialism_needs/>
 this link was great
 the video:<https://www.youtube.com/watch?v=ysZC0JOYYWw> contained a great deal of history, as well as the second: <https://www.youtube.com/watch?v=HMUuw_K-ky0>
+
+some links i got from the videos:
+
+- <https://en.wikipedia.org/wiki/Rosa_Luxemburg>
+    - <https://en.wikipedia.org/wiki/German_Revolution_of_1918%E2%80%9319>
+    - <https://www.marxists.org/archive/luxemburg/1900/reform-revolution/index.htm>
+- <https://en.wikipedia.org/wiki/Eduard_Bernstein>
+    - <https://en.wikipedia.org/wiki/Reformism>
+        - <https://en.wikipedia.org/wiki/Fabian_Society>
+        - <https://en.wikipedia.org/wiki/Ba%27athism>
