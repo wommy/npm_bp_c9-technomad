@@ -1,9 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 dateL: "Sat Dec 05 2015 13:28:11 GMT-0500 (EST)"
 category: runningdoc
 ---
+
 
 
 
