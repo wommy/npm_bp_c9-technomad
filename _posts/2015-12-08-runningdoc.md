@@ -1,6 +1,8 @@
 ---
 layout: post
 published: true
+dateL: "Tue Dec 08 2015 14:48:21 GMT-0500 (EST)"
+tag: runningdoc
 ---
 
 buncha crap from today
