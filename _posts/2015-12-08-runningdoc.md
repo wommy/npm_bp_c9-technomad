@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 ---
 
 buncha crap from today
