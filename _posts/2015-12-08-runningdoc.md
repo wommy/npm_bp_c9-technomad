@@ -17,3 +17,7 @@ buncha crap from today
   - seems more IT than me
 - <https://www.reddit.com/r/psychology/comments/3vscpj/using_psychoactive_drugs_like_methylphenidate/>
   - good drugs v bad drugs | prescribed v abused
+
+- <https://github.com/Shopify/liquid/wiki/Liquid-for-Designers>
+- <http://jekyllrb.com/docs/templates/>
+- <http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/>
