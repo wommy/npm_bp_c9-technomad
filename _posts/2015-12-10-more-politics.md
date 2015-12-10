@@ -3,7 +3,5 @@ layout: post
 published: true
 ---
 
+okay this is going to be kinda weird but just follow along
 
-## A New Post
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
