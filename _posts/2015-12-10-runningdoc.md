@@ -21,3 +21,5 @@ i got like 200 tabs open
 
 - <https://www.reddit.com/r/chromeos/comments/31kxfm/vlc_for_android_now_works_on_chrome_os/>
   - <http://www.videolan.org/vlc/download-android.html>
+- <https://www.reddit.com/r/Futurology/comments/3w0irg/google_says_its_quantum_computer_is_more_than_100/>
+- <https://drive.google.com/drive/folders/0B9Y11rUMiVPJMWZieVllTm84WFE>
