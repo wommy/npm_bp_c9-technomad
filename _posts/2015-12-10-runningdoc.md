@@ -6,6 +6,7 @@ dateL: "Thu Dec 10 2015 11:59:46 GMT-0500 (EST)"
 
 
 
+
 i got like 200 tabs open
 
 - <http://uxdesign.cc/ux-trends-2015-2016>
@@ -17,3 +18,6 @@ i got like 200 tabs open
 - <https://ide.c9.io/wommy/technomad>
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 - <http://lunchux.devpost.com/>
+
+- <https://www.reddit.com/r/chromeos/comments/31kxfm/vlc_for_android_now_works_on_chrome_os/>
+  - <http://www.videolan.org/vlc/download-android.html>
