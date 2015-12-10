@@ -14,6 +14,7 @@ okay this is going to be kinda weird but just follow along
 
 - <https://en.wikipedia.org/wiki/Adolf_Hitler>
 - <https://en.wikipedia.org/wiki/Donald_Trump>
+  - <https://www.youtube.com/watch?v=Tu1gj010oa8>
 - <https://en.wikipedia.org/wiki/Fascism>
 - saw someone compare trump to adolf, they are very different
 
