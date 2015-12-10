@@ -1,9 +1,9 @@
 ---
 layout: post
-published: false
+published: true
+dateL: "Thu Dec 10 2015 11:59:46 GMT-0500 (EST)"
 ---
 
-dateL:"Thu Dec 10 2015 11:59:46 GMT-0500 (EST)"
 
 i got like 200 tabs open
 
@@ -15,4 +15,4 @@ i got like 200 tabs open
 - <https://technomad-wommy.c9users.io/test.html>
 - <https://ide.c9.io/wommy/technomad>
 - <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
-- 
+-
