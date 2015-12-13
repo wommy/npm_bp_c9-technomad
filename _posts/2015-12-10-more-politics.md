@@ -5,6 +5,7 @@ published: true
 
 
 
+
 okay this is going to be kinda weird but just follow along
 
 - <https://www.youtube.com/watch?v=2CTQCglKqCE>
@@ -23,3 +24,4 @@ okay this is going to be kinda weird but just follow along
 - <https://www.reddit.com/r/TrueReddit/comments/3w4tsf/supreme_court_justices_questions_dont_bode_well/>
 - <https://www.reddit.com/r/socialism/comments/3vza6k/the_abcs_of_socialism_jacobin_were_making_a/>
 
+- <https://www.reddit.com/r/Anarcho_Capitalism/comments/3w7unx/cop_and_young_cadets_heads_spin_when_asked_to/>
