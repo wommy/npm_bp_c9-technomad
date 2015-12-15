@@ -41,4 +41,8 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Social_entrepreneurship>
 - <https://en.wikipedia.org/wiki/Sentiocentrism>
 - https://en.wikipedia.org/wiki/Paleolibertarianism>
-- <
+- <https://en.wikipedia.org/wiki/Individualist_anarchism>
+- <https://en.wikipedia.org/wiki/Social_anarchism>
+- <https://en.wikipedia.org/wiki/Max_Stirner>
+- <https://en.wikipedia.org/wiki/Libertarian_humanism>
+- <https://en.wikipedia.org/wiki/Voluntary_Socialism>
