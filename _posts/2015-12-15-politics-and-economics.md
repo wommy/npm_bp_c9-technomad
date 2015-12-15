@@ -61,10 +61,13 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 
 - <https://en.wikipedia.org/wiki/Libertarianism>
 - <https://en.wikipedia.org/wiki/Transhumanism>
+  - <https://en.wikipedia.org/wiki/FM-2030>
+  - <https://en.wikipedia.org/wiki/The_New_School>
 - <https://en.wikipedia.org/wiki/Sustainopreneurship>
 - <https://en.wikipedia.org/wiki/Social_anarchism>
 - <https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel>
 - <https://en.wikipedia.org/wiki/Libertarian_transhumanism>
+  - <https://en.wikipedia.org/wiki/Technolibertarianism>
 - <https://en.wikipedia.org/wiki/Nazism>
 - <https://en.wikipedia.org/wiki/Voluntaryism>
 
