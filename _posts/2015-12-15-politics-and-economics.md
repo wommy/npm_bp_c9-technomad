@@ -54,3 +54,7 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Republicanism>
 - <https://en.wikipedia.org/wiki/People%27s_Republic>
 - <https://en.wikipedia.org/wiki/Populism>
+- <https://en.wikipedia.org/wiki/Nazism>
+- <https://en.wikipedia.org/wiki/Synarchism>
+- <https://en.wikipedia.org/wiki/Shadow_government_(conspiracy)>
+- <
