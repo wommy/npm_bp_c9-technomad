@@ -26,3 +26,7 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Scientific_socialism>
 - <https://en.wikipedia.org/wiki/Crypto-anarchism>
 - <https://en.wikipedia.org/wiki/Technological_utopianism>
+- <https://en.wikipedia.org/wiki/Infoanarchism>
+- <https://en.wikipedia.org/wiki/Neo-Luddism>
+- <https://en.wikipedia.org/wiki/Technorealism>
+- <
