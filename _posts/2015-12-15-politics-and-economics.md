@@ -68,4 +68,33 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Nazism>
 - <https://en.wikipedia.org/wiki/Voluntaryism>
 
-- <
+
+- <https://en.wikipedia.org/wiki/Mutualism_(economic_theory)>
+- <https://en.wikipedia.org/wiki/Night-watchman_state>
+- <https://en.wikipedia.org/wiki/Market_socialism>
+- <https://en.wikipedia.org/wiki/Welfare>
+- <https://en.wikipedia.org/wiki/Welfare_state>
+- <https://en.wikipedia.org/wiki/Social_democracy>
+- <https://en.wikipedia.org/wiki/Third_Way>
+- <https://en.wikipedia.org/wiki/Social_liberalism>
+- <https://en.wikipedia.org/wiki/Centrism>
+- <https://en.wikipedia.org/wiki/Triangulation_(politics)>
+- <https://en.wikipedia.org/wiki/Social_support>
+
+
+- <https://en.wikipedia.org/wiki/Austerity>
+- <https://en.wikipedia.org/wiki/Neoliberalism>
+- <http://www.theatlantic.com/magazine/archive/2009/05/the-quiet-coup/307364/>
+- <https://en.wikipedia.org/wiki/Social_market_economy>
+- <https://en.wikipedia.org/wiki/Ordoliberalism>
+- <https://en.wikipedia.org/wiki/Rationalization_(economics)>
+- <https://en.wikipedia.org/wiki/Radical_centrism>
+
+
+- <https://en.wikipedia.org/wiki/Fascism>
+- <https://en.wikipedia.org/wiki/Communism>
+- <https://en.wikipedia.org/wiki/Socialist_state>
+- <https://en.wikipedia.org/wiki/Council_communism>
+- <https://en.wikipedia.org/wiki/Democratic_centralism>
+- <https://en.wikipedia.org/wiki/Socialism_in_One_Country>
+
