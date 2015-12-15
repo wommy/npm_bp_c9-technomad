@@ -29,4 +29,8 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Infoanarchism>
 - <https://en.wikipedia.org/wiki/Neo-Luddism>
 - <https://en.wikipedia.org/wiki/Technorealism>
+- <https://en.wikipedia.org/wiki/Techno-progressivism>
+- <https://en.wikipedia.org/wiki/Cyber-utopianism>
+- <https://en.wikipedia.org/wiki/Extropianism>
+- <https://en.wikipedia.org/wiki/Technogaianism>
 - <
