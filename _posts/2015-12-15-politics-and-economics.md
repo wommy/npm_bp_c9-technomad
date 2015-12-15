@@ -17,3 +17,6 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Financialization>
 - <http://www.theatlantic.com/magazine/archive/2009/05/the-quiet-coup/307364/>
 
+- <https://en.wikipedia.org/wiki/Austerity>
+- <https://en.wikipedia.org/wiki/Neoliberalism>
+- <https://en.wikipedia.org/wiki/Ordoliberalism>
