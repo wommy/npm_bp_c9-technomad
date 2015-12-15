@@ -5,6 +5,7 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 ---
 
 
+
 - <https://www.reddit.com/r/Anarcho_Capitalism/comments/3wpsbx/the_bastardization_of_anarchocapitalism/>
 
 - <https://en.wikipedia.org/wiki/Murray_Rothbard>
@@ -20,3 +21,6 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Austerity>
 - <https://en.wikipedia.org/wiki/Neoliberalism>
 - <https://en.wikipedia.org/wiki/Ordoliberalism>
+
+- <https://en.wikipedia.org/wiki/Crypto-anarchism>
+- <https://en.wikipedia.org/wiki/Technological_utopianism>
