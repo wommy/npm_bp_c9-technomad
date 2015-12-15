@@ -57,4 +57,15 @@ dateL: "Tue Dec 15 2015 05:53:56 GMT-0500 (EST)"
 - <https://en.wikipedia.org/wiki/Nazism>
 - <https://en.wikipedia.org/wiki/Synarchism>
 - <https://en.wikipedia.org/wiki/Shadow_government_(conspiracy)>
+
+
+- <https://en.wikipedia.org/wiki/Libertarianism>
+- <https://en.wikipedia.org/wiki/Transhumanism>
+- <https://en.wikipedia.org/wiki/Sustainopreneurship>
+- <https://en.wikipedia.org/wiki/Social_anarchism>
+- <https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel>
+- <https://en.wikipedia.org/wiki/Libertarian_transhumanism>
+- <https://en.wikipedia.org/wiki/Nazism>
+- <https://en.wikipedia.org/wiki/Voluntaryism>
+
 - <
