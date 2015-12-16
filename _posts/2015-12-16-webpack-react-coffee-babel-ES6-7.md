@@ -12,6 +12,8 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 
 <http://help.wtf/es6>
 
+<http://www.jonathan-petitcolas.com/>
+
 
 
 
