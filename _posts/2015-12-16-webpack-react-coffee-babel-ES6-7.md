@@ -10,4 +10,8 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 <https://babeljs.io/docs/learn-es2015/>
 <https://github.com/thejameskyle/babel-plugin-handbook>
 
+<http://help.wtf/es6>
+
+
+
 
