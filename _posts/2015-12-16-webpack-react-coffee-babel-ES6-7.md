@@ -40,6 +40,7 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 
 <https://waffle.io/>
 
-
+<http://braddenver.com/blog/2015/react-static-site.html>
+<http://antwarjs.github.io/>
 
 
