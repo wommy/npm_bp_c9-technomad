@@ -34,5 +34,12 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 <https://webpack.github.io/docs/>
 
 
+<https://github.com/oompt/react-static-boilerplate-ES6>
+<http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/>
+<https://github.com/koistya/react-static-boilerplate>
+
+<https://waffle.io/>
+
+
 
 
