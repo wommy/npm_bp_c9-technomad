@@ -17,6 +17,7 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 <https://github.com/babel/babel-loader>
 <https://github.com/webpack/webpack>
 <https://github.com/petehunt/webpack-howto>
+<https://www.youtube.com/watch?v=VkTCL6Nqm6Y>
 
 <https://docs.npmjs.com/files/package.json>
 
