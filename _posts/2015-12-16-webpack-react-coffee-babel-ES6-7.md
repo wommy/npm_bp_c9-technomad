@@ -29,5 +29,10 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 <https://css-modules.github.io/webpack-demo/>
 
 
+<https://github.com/halt-hammerzeit/react-styling>
+
+<https://webpack.github.io/docs/>
+
+
 
 
