@@ -50,5 +50,9 @@ dateL: "Wed Dec 16 2015 17:31:17 GMT-0500 (EST)"
 
 
 <https://suitcss.github.io/>
-
+<https://web-design-weekly.com/2014/08/20/introduction-to-suit-css/>
+<https://github.com/suitcss/suit/>
+<http://dingdigital.co.uk/suit-css-practical-implementation-guide/>
+<http://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/>
+<https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md>
 
