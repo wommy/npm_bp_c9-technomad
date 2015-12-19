@@ -18,3 +18,15 @@ dateL: "Fri Dec 18 2015 19:43:49 GMT-0500 (EST)"
 - [Loco Dice - El Gallo Negro](https://www.youtube.com/watch?v=x1edguEjboU)
 - [Loco Dice - Orchidee](https://www.youtube.com/watch?v=zhOqwE0CN7E)
 - 
+
+- <https://www.reddit.com/r/psychology/comments/3xdg74/25_cognitive_biases_the_psychology_of_human/>
+- <https://en.wikipedia.org/wiki/Meme>
+- <https://www.reddit.com/r/singularity/comments/3xeil2/9_crazy_things_that_could_happen_after_the/>
+- <https://www.reddit.com/r/javascript/comments/3xcuqz/any_good_javascript_cheatsheets/>
+- <https://en.wikipedia.org/wiki/Saturnalia>
+_ style guide
+- <http://google.github.io/web-starter-kit/hello-world/styleguide.html>
+- <https://github.com/google/web-starter-kit>
+- <https://www.reddit.com/r/Frontend/comments/3x89tp/sidebar_height_content_height_best_approach_yet/>
+- <https://github.com/RoselPadilla/React-ES6-Boilerplate>
+- 
