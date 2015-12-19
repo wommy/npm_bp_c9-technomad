@@ -16,3 +16,5 @@ dateL: "Fri Dec 18 2015 19:43:49 GMT-0500 (EST)"
 - [La Bicicletta - LOCO DICE HD](https://www.youtube.com/watch?v=pqreTHazhlo)
 - [loco dice - paradiso](https://www.youtube.com/watch?v=ZcQ60RWSGHo)
 - [Loco Dice - El Gallo Negro](https://www.youtube.com/watch?v=x1edguEjboU)
+- [Loco Dice - Orchidee](https://www.youtube.com/watch?v=zhOqwE0CN7E)
+- 
