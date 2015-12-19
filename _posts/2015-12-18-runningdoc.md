@@ -29,4 +29,6 @@ _ style guide
 - <https://github.com/google/web-starter-kit>
 - <https://www.reddit.com/r/Frontend/comments/3x89tp/sidebar_height_content_height_best_approach_yet/>
 - <https://github.com/RoselPadilla/React-ES6-Boilerplate>
-- 
+- <https://www.reddit.com/r/webdev/comments/3xeaac/lets_build_coolest_web_components_purely_in_css/>
+- <https://www.reddit.com/r/reactjs/comments/3xeqq2/why_is_immutability_a_good_thing_in_javascript/>
+
