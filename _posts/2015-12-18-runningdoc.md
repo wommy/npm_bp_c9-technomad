@@ -1,8 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 dateL: "Fri Dec 18 2015 19:43:49 GMT-0500 (EST)"
 ---
+
 
 - <http://www.wikisocion.org/en/index.php?title=Request>
 - <https://waffle.io/>
@@ -31,4 +32,3 @@ _ style guide
 - <https://github.com/RoselPadilla/React-ES6-Boilerplate>
 - <https://www.reddit.com/r/webdev/comments/3xeaac/lets_build_coolest_web_components_purely_in_css/>
 - <https://www.reddit.com/r/reactjs/comments/3xeqq2/why_is_immutability_a_good_thing_in_javascript/>
-
