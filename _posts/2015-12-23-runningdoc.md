@@ -17,4 +17,6 @@ some coding resources i was using
 some music i was listening to
 
 - [Todd Terry - Jumpin' (1994)](https://www.youtube.com/watch?v=wVf9T0H6mL8)
-- 
+- [Frankie Knuckles - The Whistle Song (Virgin Records 1991)](https://www.youtube.com/watch?v=QIdimVDuSEU)
+- [Kerri Chandler - Moving In (The Thing For Linda EP)](https://www.youtube.com/watch?v=yUSgnQgO4Ds)
+
