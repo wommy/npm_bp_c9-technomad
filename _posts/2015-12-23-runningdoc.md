@@ -5,6 +5,16 @@ tag: runningdoc
 dateL: "Wed Dec 23 2015 12:34:15 GMT-0500 (EST)"
 ---
 
-## A New Post
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+some coding resources i was using
+
+- <http://mithril.js.org/>
+- <http://vuejs.org/>
+- <http://riotjs.com/>
+- <http://sass-lang.com/>
+- <http://guides.rubyonrails.org/getting_started.html>
+
+some music i was listening to
+
+- [Todd Terry - Jumpin' (1994)](https://www.youtube.com/watch?v=wVf9T0H6mL8)
+- 
