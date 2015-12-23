@@ -28,3 +28,11 @@ some music i was listening to
 misc pushBullet resources
 
 - <https://24ways.org/2015/how-tabs-should-work/>
+- <https://en.wikipedia.org/wiki/Cross-site_scripting>
+- <http://aurelia.io/>
+- <http://www.typescriptlang.org/>
+- <https://en.wikipedia.org/wiki/TypeScript>
+- <https://www.npmjs.com/package/jsx-control-statements>
+- <http://www.artparasites.com/the-ugly-side-of-being-a-single-attractive-and-available-heterosexual-woman-2/>
+- <https://medium.com/modus-create-front-end-development/optimizing-webpack-production-build-for-react-es6-apps-a637e5692aea#.lnlkb8ivb>
+- 
