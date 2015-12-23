@@ -1,9 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 tag: runningdoc
 dateL: "Wed Dec 23 2015 12:34:15 GMT-0500 (EST)"
 ---
+
 
 
 some coding resources i was using
@@ -35,4 +36,4 @@ misc pushBullet resources
 - <https://www.npmjs.com/package/jsx-control-statements>
 - <http://www.artparasites.com/the-ugly-side-of-being-a-single-attractive-and-available-heterosexual-woman-2/>
 - <https://medium.com/modus-create-front-end-development/optimizing-webpack-production-build-for-react-es6-apps-a637e5692aea#.lnlkb8ivb>
-- 
+-
