@@ -29,6 +29,10 @@ boobs
 - <http://www.w3schools.com/jsref/met_document_getelementsbytagname.asp>
 - <http://www.w3schools.com/jsref/met_doc_getelementsbyname.asp>
 - <http://www.w3schools.com/jsref/prop_doc_body.asp>
-- <http://www.w3schools.com/jsref/prop_doc_body.asp>
--
+- <http://www.w3schools.com/jsref/dom_obj_document.asp>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export>
+- <https://developer.mozilla.org/en-US/docs/Web/API/Document/body>
+- <http://www.w3schools.com/js/js_objects.asp>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions> 
+
 - 
