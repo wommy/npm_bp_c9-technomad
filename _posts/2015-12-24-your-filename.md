@@ -34,5 +34,9 @@ boobs
 - <https://developer.mozilla.org/en-US/docs/Web/API/Document/body>
 - <http://www.w3schools.com/js/js_objects.asp>
 - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions> 
-
+- <http://www.w3schools.com/js/js_object_methods.asp>
+- <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator>
+- <http://www.w3schools.com/jsref/jsref_slice_string.asp>
+- <http://www.w3schools.com/jsref/jsref_split.asp>
+- <
 - 
