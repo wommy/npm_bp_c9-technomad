@@ -19,4 +19,16 @@ boobs
 - <http://www.w3schools.com/js/js_regexp.asp>
 - <http://www.w3schools.com/jsref/jsref_obj_string.asp>
 - <http://www.w3schools.com/jsref/jsref_lastindexof_array.asp>
-- <
+- <http://www.w3schools.com/jsref/dom_obj_all.asp>
+- <http://www.w3schools.com/jsref/jsref_obj_array.asp>
+- <http://www.w3schools.com/jsref/jsref_obj_string.asp>
+- <http://www.w3schools.com/jsref/dom_obj_all.asp>
+- <https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode>
+- <http://www.w3schools.com/jsref/prop_html_classname.asp>
+- <http://stackoverflow.com/questions/1115310/javascript-how-to-add-div-class-to-createelement>
+- <http://www.w3schools.com/jsref/met_document_getelementsbytagname.asp>
+- <http://www.w3schools.com/jsref/met_doc_getelementsbyname.asp>
+- <http://www.w3schools.com/jsref/prop_doc_body.asp>
+- <http://www.w3schools.com/jsref/prop_doc_body.asp>
+-
+- 
