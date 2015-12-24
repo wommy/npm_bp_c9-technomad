@@ -38,4 +38,3 @@ boobs
 - <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator>
 - <http://www.w3schools.com/jsref/jsref_slice_string.asp>
 - <http://www.w3schools.com/jsref/jsref_split.asp>
-- 
