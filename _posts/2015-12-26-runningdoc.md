@@ -1,8 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 dateL: "Sat Dec 26 2015 17:38:39 GMT-0500 (EST)"
 ---
+
 
 - <https://www.reddit.com/r/coding/comments/3y6153/learn_to_code_its_a_lot_harder_than_you_think/>
 - <https://en.wikipedia.org/wiki/Clojure>
