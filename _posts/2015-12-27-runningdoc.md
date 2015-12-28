@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 ---
+
 
 
 - <https://www.reddit.com/r/polyamory/comments/3ybemh/what_rule_mistakes_and_misunderstandings_have_you/>
@@ -9,4 +10,3 @@ published: false
 - <https://www.reddit.com/r/coding/comments/3yank4/you_cant_do_software_estimations_at_all/>
 - <https://www.reddit.com/r/reactjs/comments/3yb2i0/heres_my_sudoku_game_made_with_react_and_redux/>
 - <http://www.vcichicago.com/>
-
