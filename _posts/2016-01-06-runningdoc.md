@@ -30,4 +30,11 @@ tags: runningdoc
 - <https://github.com/thalesmello/exploring-async/blob/master/exploring_async.md>
 - <https://tonyarcieri.com/on-the-dangers-of-a-blockchain-monoculture>
 - <https://en.wikipedia.org/wiki/Genitive_case>
+- <http://www.residentadvisor.net/podcast-episode.aspx?id=335>
+- <https://soundcloud.com/kolsch/derdiedas-1>
+- <https://www.smashingmagazine.com/2015/12/getting-work-done-without-simply-working-hours/>
+- <https://www.youtube.com/watch?v=_3oykSKOito>
+- <https://soundcloud.com/dgtl-festival/patrice-baumel-dgtl-presents-kompakt-17102015>
+- <http://thenextweb.com/dd/2015/12/15/5-ux-best-practices-for-a-stunning-website/>
+
 
