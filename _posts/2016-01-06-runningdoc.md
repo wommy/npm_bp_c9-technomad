@@ -3,6 +3,7 @@ layout: post
 published: true
 tag: runningdoc
 dateL: "Wed Jan 06 2016 20:17:42 GMT-0500 (EST)"
+tags: runningdoc
 ---
 
 
