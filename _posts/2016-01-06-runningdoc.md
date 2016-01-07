@@ -26,7 +26,7 @@ tags: runningdoc
 - <https://en.wikipedia.org/wiki/The_Rescuers>
 - <https://en.wikipedia.org/wiki/Magical_Shopping_Arcade_Abenobashi>
 - <http://www.radiolab.org/story/257856-mind-altering-bliss/>
-- <https://talk.jekyllrb.com/top/all>\
+- <https://talk.jekyllrb.com/top/all>
 - <https://github.com/thalesmello/exploring-async/blob/master/exploring_async.md>
 - <https://tonyarcieri.com/on-the-dangers-of-a-blockchain-monoculture>
 - <https://en.wikipedia.org/wiki/Genitive_case>
