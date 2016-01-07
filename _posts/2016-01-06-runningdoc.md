@@ -1,9 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 tag: runningdoc
 dateL: "Wed Jan 06 2016 20:17:42 GMT-0500 (EST)"
 ---
+
 
 - <https://en.wikipedia.org/wiki/Austrian_business_cycle_theory>
 - <https://en.wikipedia.org/wiki/Subjective_theory_of_value>
