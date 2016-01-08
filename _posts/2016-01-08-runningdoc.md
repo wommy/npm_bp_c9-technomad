@@ -1,6 +1,8 @@
 ---
 layout: post
 published: true
+tags: runningdoc
+dateL: "Fri Jan 08 2016 13:40:47 GMT-0500 (EST)"
 ---
 
 
