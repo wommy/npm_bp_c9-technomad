@@ -6,6 +6,7 @@ dateL: "Fri Jan 08 2016 13:40:47 GMT-0500 (EST)"
 ---
 
 
+
 <pre>
 <https://github.com/ampedandwired/html-webpack-plugin>
 <https://webpack.github.io/docs/configuration.html>
@@ -18,6 +19,8 @@ dateL: "Fri Jan 08 2016 13:40:47 GMT-0500 (EST)"
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join>
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString>
 <http://www.w3schools.com/jsref/jsref_prototype_array.asp>
+
+<http://www.w3schools.com/tags/tag_pre.asp>
 
 g_ html5 router
 <http://blog.reactandbethankful.com/posts/2015/07/11/router-5-a-new-framework-agnostic-html5-router/>
