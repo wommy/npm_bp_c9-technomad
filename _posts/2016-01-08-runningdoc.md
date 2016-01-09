@@ -7,6 +7,7 @@ dateL: "Fri Jan 08 2016 13:40:47 GMT-0500 (EST)"
 
 
 
+
 <pre>
 <https://github.com/ampedandwired/html-webpack-plugin>
 <https://webpack.github.io/docs/configuration.html>
@@ -35,5 +36,24 @@ g_ html5 router
 
 media
 <https://en.wikipedia.org/wiki/Susumu_Yokota>
+
+dateL: Fri Jan 08 2016 22:46:03 GMT-0500 (EST)
+
+  https://en.wikipedia.org/wiki/Hegemony
+  https://return2source.wordpress.com/2012/12/19/three-positions-on-gun-control/
+  https://en.wikipedia.org/wiki/Deacons_for_Defense_and_Justice
+  https://sinpatrondotorg.wordpress.com/2012/12/24/marxism-the-left-and-gun-control/
+https://www.reddit.com/r/socialism/comments/3zz1ce/an_armed_proletariat_is_an_enfranchised/
+
+https://www.youtube.com/watch?v=hNttRJ40QZE
+  https://www.reddit.com/r/judo/comments/402o7n/judo_vs_kickboxing/
+
+http://blog.reactandbethankful.com/posts/2015/09/15/understanding-the-functional-revolution/
+http://krasimirtsonev.com/blog/article/A-modern-JavaScript-router-in-100-lines-history-api-pushState-hash-url
+  http://absurdjs.com/#author
+  http://krasimirtsonev.com/blog/page/4
+  http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6
+  http://krasimirtsonev.com/blog/article/Sorry-Chrome-killed-the-terminal
+http://router5.github.io/
 
 </pre>
