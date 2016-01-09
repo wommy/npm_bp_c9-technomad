@@ -55,5 +55,13 @@ http://krasimirtsonev.com/blog/article/A-modern-JavaScript-router-in-100-lines-h
   http://krasimirtsonev.com/blog/article/javascript-library-starter-using-webpack-es6
   http://krasimirtsonev.com/blog/article/Sorry-Chrome-killed-the-terminal
 http://router5.github.io/
+  https://www.paypal-engineering.com/2015/08/07/1450/
+  http://jaketrent.com/post/pushstate-webpack-dev-server/
+g-p3_ webpack router
+  http://jxnblk.com/writing/posts/static-site-generation-with-react-and-webpack/
+  https://ampersandjs.com/docs/#ampersand-router
+  https://github.com/HenrikJoreteg/hjs-webpack/blob/master/examples/prerendered-html-files/src/app.js
+g_ creating a static site with webpack 
+
 
 </pre>
