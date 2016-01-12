@@ -20,4 +20,11 @@ tags: runningdoc
 - [Adonis - We're Rocking Down The House](https://www.youtube.com/watch?v=coHXl4dsfMw)
 - [Housemaster Boyz - House Nation](https://www.youtube.com/watch?v=MKxX-yWEpv8)
 
+- <https://www.etsy.com/listing/121975771/acid-deep-minimal-detroit-chicago?ref=market>
+g_ house music chicago flag shirt
+<http://evolchicago.com/collections/we-love-house-music>
+<http://evolchicago.com/collections/we-love-house-music/products/concrete-chicago>
+<http://evolchicago.com/collections/we-love-house-music/products/wlhm-t-shirt>
+<http://www.zazzle.com/chicago+flag+tshirts>
+
 </pre>
