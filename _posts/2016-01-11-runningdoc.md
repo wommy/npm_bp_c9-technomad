@@ -1,7 +1,10 @@
 ---
 layout: post
-published: false
+published: true
+dateL: "Mon Jan 11 2016 22:38:31 GMT-0500 (EST)"
+tags: runningdoc
 ---
+
 
 ## A New Post
 
