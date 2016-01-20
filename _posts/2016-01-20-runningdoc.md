@@ -19,6 +19,9 @@ https://www.youtube.com/watch?v=AREppyQf5uw
   https://youtu.be/9NWuy1C1kaY
 S-Tone Inc. - The Sweetest Thing
   https://www.youtube.com/watch?v=eW-Nhbqv0jU
-
+Ollano - Partir Revenir
+  https://www.youtube.com/watch?v=gHfUccKEMP8
+Theorem - Stasis
+  https://www.youtube.com/watch?v=5J51BCgQ0AE
 
 </pre>
