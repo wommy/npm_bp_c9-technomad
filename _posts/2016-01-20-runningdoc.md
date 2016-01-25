@@ -7,6 +7,7 @@ tags: runningdoc
 
 
 
+
 <pre>
 
   #music
@@ -52,5 +53,6 @@ http://www.pdfreactor.com/
 https://www.sitepoint.com/community/t/how-to-create-an-pdf-for-a-dynamic-html-page/7229
 https://www.smashingmagazine.com/2011/11/how-to-set-up-a-print-style-sheet/
 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 </pre>
