@@ -33,4 +33,16 @@ Theorem - Stasis
   https://www.youtube.com/watch?v=5J51BCgQ0AE
 https://www.reddit.com/r/witchhouse/top/
 
+#melissa #foodissa
+http://foodissa.github.io/
+https://github.com/foodissa/foodissa/blob/master/_site/index.html
+http://jekyllrb.com/docs/github-pages/
+http://jekyllrb.com/docs/structure/
+http://jekyllrb.com/docs/github-pages/
+_g publish jekyll to github
+http://jekyllrb.com/
+https://foodissa-wommy.c9users.io/
+https://git-scm.com/docs/git-push
+https://ide.c9.io/wommy/foodissa#openfile-README.md
+
 </pre>
