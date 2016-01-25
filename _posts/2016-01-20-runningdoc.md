@@ -33,7 +33,7 @@ Theorem - Stasis
   https://www.youtube.com/watch?v=5J51BCgQ0AE
 https://www.reddit.com/r/witchhouse/top/
 
-#melissa #foodissa
+  #melissa #foodissa
 http://foodissa.github.io/
 https://github.com/foodissa/foodissa/blob/master/_site/index.html
 http://jekyllrb.com/docs/github-pages/
@@ -44,5 +44,13 @@ http://jekyllrb.com/
 https://foodissa-wommy.c9users.io/
 https://git-scm.com/docs/git-push
 https://ide.c9.io/wommy/foodissa#openfile-README.md
+
+  # print stylesheet to pdf
+http://alistapart.com/article/goingtoprint
+https://github.com/MrRio/jsPDF
+http://www.pdfreactor.com/
+https://www.sitepoint.com/community/t/how-to-create-an-pdf-for-a-dynamic-html-page/7229
+https://www.smashingmagazine.com/2011/11/how-to-set-up-a-print-style-sheet/
+
 
 </pre>
