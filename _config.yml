@@ -1,8 +1,8 @@
 # Site Setup
 url:                 http://wommy.github.io/
 baseurl:             jekyll-lanyon/
-permalink:           /all/:categories/:year/:title/
-relative_permalinks: true
+permalink:           /:tag/:year:month:day-:title/
+# relative_permalinks: true
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # paginate
 # paginate:          5
