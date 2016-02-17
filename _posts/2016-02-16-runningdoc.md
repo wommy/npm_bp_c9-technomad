@@ -5,16 +5,7 @@ dateL: "Tue Feb 16 2016 20:25:58 GMT-0500 (EST)"
 tags: runningdoc
 ---
 
-key { 3 } links:
-
-<br>
-
-link
-
-
-2. duration
-3. source
-1. tags
+##1
 
 <br>
 
@@ -25,6 +16,9 @@ link
 3. [reddit / anarcho capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
 1. ted talk, Yanis Varoufakis, greek finance minister, grexit eurozone economics
 
+<br>
+
+##2
 
 <br>
 
@@ -34,6 +28,10 @@ link
 2. 8m31s
 3. [reddit / futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
 1. elon musk, ai robots super computers future, conspiracy theory
+
+<br>
+
+##3
 
 <br>
 
