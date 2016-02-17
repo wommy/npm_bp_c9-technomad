@@ -6,6 +6,9 @@ tags: runningdoc
 ---
 
 
+<hr>
+<br/>
+
 [checkout more on google+ at { gplus . to / wommy } ](gplus.to/wommy)
 
 <hr>
