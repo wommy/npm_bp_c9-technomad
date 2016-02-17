@@ -26,7 +26,7 @@ youtube playlist
 <br/>time - 8:31
 <br/>[:: source :: reddit / futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
 <br/>::
-<br/>conspiracy #theory
+<br/>conspiracy theory
 <br/>robots super computers
 <br/>future
 
