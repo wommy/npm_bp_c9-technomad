@@ -37,7 +37,7 @@ quick youtube playlist i put together:
 - 55m12s 
 - [Alan Watts - The Merging of Man and Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
 - [reddit / futurology](https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/)
-- philosophy communication voting psychology evolution
+- philosophy communication politics psychology evolution
 
 
 <hr>
