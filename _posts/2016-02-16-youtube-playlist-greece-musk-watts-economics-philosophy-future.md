@@ -13,7 +13,7 @@ tags: runningdoc
 3. #watts
 
 
-<br/>[#capitalism will eat #democracy unless we speak up]
+<br> [#capitalism will eat #democracy unless we speak up]
 (https://youtu.be/GB4s5b9NL3I)
 <br/> #time - 19::52
 <br/> [:: #source :: #reddit / #Anarcho #Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
