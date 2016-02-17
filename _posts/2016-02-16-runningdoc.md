@@ -5,18 +5,9 @@ dateL: "Tue Feb 16 2016 20:25:58 GMT-0500 (EST)"
 tags: runningdoc
 ---
 
-
-<hr>
-<br/>
-
-[checkout more on google+ at { gplus . to / wommy } ](gplus.to/wommy)
-
-<hr>
-<br/>
-
 quick youtube playlist i put together
-
-
+<br>
+<hr>
 1. ted talk greek finance minister grexit :: 19m52s 
 <br /> [__video title:__ capitalism will eat democracy unless we speak up](https://youtu.be/GB4s5b9NL3I)
 <br/> [__source:__ reddit / Anarcho Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
@@ -35,3 +26,6 @@ quick youtube playlist i put together
 <br/>[Alan Watts - The Merging of Man and Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
 <br/> [__source:__ reddit / futurology](https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/
 <br/> __tags:__ philosophy communication voting psychology evolution
+
+<hr>
+[checkout more on google+ at { gplus . to / wommy } ](gplus.to/wommy)
