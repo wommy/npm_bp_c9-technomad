@@ -1,9 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 dateL: "Tue Feb 16 2016 20:25:58 GMT-0500 (EST)"
 tags: runningdoc
 ---
+
 
 #youtube #playlist
 
@@ -43,6 +44,3 @@ https://www.youtube.com/watch?v=_aeC8zcS1TU
 https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/
 ::
 #philosophy #communication #voting #psychology #evolution
-
-
-
