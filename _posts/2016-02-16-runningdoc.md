@@ -38,5 +38,5 @@ time - 55:12
 
 
 <br/>::
-<br/>=> [checkout more at](gplus.to/wommy)
+<br/>=> [checkout more on google plus at g plus dot to slash wommmy { gplus . to / wommy }](gplus.to/wommy)
 <br/>::
