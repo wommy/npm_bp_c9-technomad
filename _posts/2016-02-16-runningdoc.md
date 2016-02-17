@@ -6,12 +6,14 @@ tags: runningdoc
 ---
 
 
-youtube playlist
+[checkout more on google+ at { gplus . to / wommy } ](gplus.to/wommy)
+
+quick youtube playlist i put together
 
 
-1. greece 
-2. musk 
-3. watts
+1. ted talk greek finance minister grexit :: 19m52s 
+2. elon musk ai future :: 8m31s
+3. alan watts :: 55m12s
 
 <hr>
 
@@ -37,9 +39,3 @@ youtube playlist
 time - 55:12
 <br/> [:: source :: reddit / futurology](https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/
 <br/> :: philosophy communication voting psychology evolution
-
-<hr>
-
-<br/>::
-<br/>=> [checkout more on google plus at g plus dot to slash wommmy { gplus . to / wommy }](gplus.to/wommy)
-<br/>::
