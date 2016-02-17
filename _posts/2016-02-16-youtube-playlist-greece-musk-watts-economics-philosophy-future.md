@@ -13,32 +13,32 @@ tags: runningdoc
 3. #watts
 
 
-[#capitalism will eat #democracy unless we speak up]
+<br/>[#capitalism will eat #democracy unless we speak up]
 (https://youtu.be/GB4s5b9NL3I)
-#time - 19::52
-[:: #source :: #reddit / #Anarcho #Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
-::
-#tedTalk 
-#YanisVaroufakis
-#greek #finance #minister during #exit #eurozone #grexit #economics
+<br/> #time - 19::52
+<br/> [:: #source :: #reddit / #Anarcho #Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
+<br/>::
+<br/>#tedTalk 
+<br/>#YanisVaroufakis
+<br/>#greek #finance #minister during #exit #eurozone #grexit #economics
 
-[ #Elon #Musk. #AI Advancement! (HD) We Aren't Listening. #New 2016 #Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
-#time - 8:31
-[:: #source :: #reddit / #futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
-::
-#conspiracy #theory
-#robots #super #computers
-#future
+<br/>[#Elon #Musk. #AI Advancement! (HD) We Aren't Listening. #New 2016 #Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
+<br/>#time - 8:31
+<br/>[:: #source :: #reddit / #futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
+<br/>::
+<br/>#conspiracy #theory
+<br/>#robots #super #computers
+<br/>#future
 
 
-[#Alan #Watts - The Merging of #Man and #Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
-#time - 55:12
-:: #source :: #reddit / #futurology
+<br/>[#Alan #Watts - The Merging of #Man and #Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
+<br/>#time - 55:12
+<br/>:: #source :: #reddit / #futurology
 (https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/
-::
-#philosophy #communication #voting #psychology #evolution
+<br/>::
+<br/>#philosophy #communication #voting #psychology #evolution
 
 
-::
-=> [checkout more at](gplus.to/wommy)
-::
+<br/>::
+<br/>=> [checkout more at](gplus.to/wommy)
+<br/>::
