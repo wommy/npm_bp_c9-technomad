@@ -5,9 +5,8 @@ dateL: "Tue Feb 16 2016 20:25:58 GMT-0500 (EST)"
 tags: runningdoc
 ---
 
-key of { 3 }
+key of { 3 }:
 
-<br>
 
 link
 
