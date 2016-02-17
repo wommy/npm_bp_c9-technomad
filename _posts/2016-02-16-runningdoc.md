@@ -14,12 +14,14 @@ quick youtube playlist i put together:
 - source
 - tags
 
+<br>
 
 - ted talk greek finance minister grexit - 19m52s
 - [ capitalism will eat democracy unless we speak up](https://youtu.be/GB4s5b9NL3I)
 - [reddit / Anarcho Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
 - ted talk - Yanis Varoufakis, greek finance minister grexit, eurozone economics
 
+<br>
 
 - elon musk ai future 
 - 8m31s
@@ -27,6 +29,7 @@ quick youtube playlist i put together:
 - [reddit / futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
 - conspiracy theory, robots super computers, future
 
+<br>
 
 - alan watts 
 - 55m12s 
