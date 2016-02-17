@@ -6,37 +6,37 @@ tags: runningdoc
 ---
 
 
-#youtube #playlist
+youtube playlist
 
-1. #greece 
-2. #musk 
-3. #watts
+1. greece 
+2. musk 
+3. watts
 
 
-<br> [#capitalism will eat #democracy unless we speak up]
+<br> [capitalism will eat democracy unless we speak up]
 (https://youtu.be/GB4s5b9NL3I)
-<br/> #time - 19::52
-<br/> [:: #source :: #reddit / #Anarcho #Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
+<br/> time - 19::52
+<br/> [:: source :: reddit / Anarcho Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
 <br/>::
-<br/>#tedTalk 
-<br/>#YanisVaroufakis
-<br/>#greek #finance #minister during #exit #eurozone #grexit #economics
+<br/>tedTalk 
+<br/>Yanis Varoufakis
+<br/>greek finance minister during exit eurozone grexit economics
 
-<br/>[#Elon #Musk. #AI Advancement! (HD) We Aren't Listening. #New 2016 #Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
-<br/>#time - 8:31
-<br/>[:: #source :: #reddit / #futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
+<br/>[Elon Musk. AI Advancement! (HD) We Aren't Listening. New 2016 Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
+<br/>time - 8:31
+<br/>[:: source :: reddit / futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
 <br/>::
-<br/>#conspiracy #theory
-<br/>#robots #super #computers
-<br/>#future
+<br/>conspiracy #theory
+<br/>robots super computers
+<br/>future
 
 
-<br/>[#Alan #Watts - The Merging of #Man and #Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
-<br/>#time - 55:12
-<br/>:: #source :: #reddit / #futurology
+<br/>[Alan #Watts - The Merging of Man and Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
+<br/>time - 55:12
+<br/>:: source :: reddit / futurology
 (https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/
 <br/>::
-<br/>#philosophy #communication #voting #psychology #evolution
+<br/>philosophy communication voting psychology evolution
 
 
 <br/>::
