@@ -5,7 +5,9 @@ dateL: "Tue Feb 16 2016 20:25:58 GMT-0500 (EST)"
 tags: runningdoc
 ---
 
+
 ##1
+
 
 <br>
 
@@ -20,6 +22,7 @@ tags: runningdoc
 
 ##2
 
+
 <br>
 
 [Elon Musk. AI Advancement! {HD} We Aren't Listening. New 2016 Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
@@ -33,7 +36,6 @@ tags: runningdoc
 
 ##3
 
-<br>
 
 [Alan Watts - The Merging of Man and Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
 
