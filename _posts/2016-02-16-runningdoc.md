@@ -6,7 +6,8 @@ tags: runningdoc
 ---
 
 quick youtube playlist i put together:
-<br>
+
+
 - ted talk greek finance minister grexit - 19m52s
   - __video title:__ [ capitalism will eat democracy unless we speak up](https://youtu.be/GB4s5b9NL3I)
   - __source:__ [reddit / Anarcho Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
