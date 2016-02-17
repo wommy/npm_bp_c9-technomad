@@ -14,18 +14,21 @@ youtube playlist
 3. watts
 
 
+<br/>
 [capitalism will eat democracy unless we speak up](https://youtu.be/GB4s5b9NL3I)
 <br/> time - 19::52
 <br/> [:: source :: reddit / Anarcho Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
 <br/> :: ted talk - Yanis Varoufakis, greek finance minister grexit, eurozone economics
 
 
+<br/>
 [Elon Musk. AI Advancement! (HD) We Aren't Listening. New 2016 Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
 <br/> time - 8:31
 <br/> [:: source :: reddit / futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
 <br/>:: conspiracy theory, robots super computers, future
 
 
+<br/>
 [Alan Watts - The Merging of Man and Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
 <br/>
 time - 55:12
