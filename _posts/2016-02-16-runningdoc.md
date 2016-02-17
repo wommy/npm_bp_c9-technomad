@@ -9,8 +9,6 @@ tags: runningdoc
 ##1
 
 
-<br>
-
 [ capitalism will eat democracy unless we speak up](https://youtu.be/GB4s5b9NL3I)
 
 
@@ -22,8 +20,6 @@ tags: runningdoc
 
 ##2
 
-
-<br>
 
 [Elon Musk. AI Advancement! {HD} We Aren't Listening. New 2016 Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
 
