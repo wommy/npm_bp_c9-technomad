@@ -21,7 +21,7 @@ quick youtube playlist i put together:
 - 19m52s
 - [ capitalism will eat democracy unless we speak up](https://youtu.be/GB4s5b9NL3I)
 - [reddit / Anarcho Capitalism](https://www.reddit.com/r/Anarcho_Capitalism/comments/45yqnh/wow_ted_talks_really_suck_now_capitalism_will_eat/)
-- ted talk - Yanis Varoufakis, greek finance minister grexit, eurozone economics
+- ted talk, Yanis Varoufakis, greek finance minister, grexit eurozone economics
 
 <br>
 
