@@ -25,7 +25,7 @@ quick youtube playlist i put together
 <hr />
 
 2. elon musk ai future :: 8m31s
-<br/> [__video title:__Elon Musk. AI Advancement! (HD) We Aren't Listening. New 2016 Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
+<br/> [__video title:__Elon Musk. AI Advancement! {HD} We Aren't Listening. New 2016 Technology.](https://www.youtube.com/watch?v=RrXS24CDqc4)
 <br/> [__source:__ reddit / futurology](https://www.reddit.com/r/Futurology/comments/45icn1/elon_musk_ai_advancement_will_be_here_before_we/)
 <br/> __tags:__ conspiracy theory, robots super computers, future
 
