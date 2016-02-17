@@ -40,5 +40,6 @@ quick youtube playlist i put together:
 - philosophy communication politics psychology evolution
 
 
+<br>
 <hr>
 [checkout more on google+ ](gplus.to/wommy)
