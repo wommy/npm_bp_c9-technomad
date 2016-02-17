@@ -6,8 +6,6 @@ tags: runningdoc
 ---
 
 
-<pre>
-
 #youtube #playlist
 
 1. #greece 
@@ -36,7 +34,7 @@ tags: runningdoc
 [#Alan #Watts - The Merging of #Man and #Machine](https://www.youtube.com/watch?v=_aeC8zcS1TU)
 #time - 55:12
 :: #source :: #reddit / #futurology
-(https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/)
+(https://www.reddit.com/r/Futurology/comments/45gdmc/alan_watts_the_merging_of_man_and_machine/
 ::
 #philosophy #communication #voting #psychology #evolution
 
@@ -44,5 +42,3 @@ tags: runningdoc
 ::
 => [checkout more at](gplus.to/wommy)
 ::
-
-</pre>
