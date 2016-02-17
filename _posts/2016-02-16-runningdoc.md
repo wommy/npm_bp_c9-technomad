@@ -47,4 +47,4 @@ link
 
 <br>
 <hr>
-[checkout more on google+ ](gplus.to/wommy)
+[checkout more on Google+ ](gplus.to/wommy)
