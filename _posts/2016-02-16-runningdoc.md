@@ -5,10 +5,6 @@ dateL: "Tue Feb 16 2016 20:25:58 GMT-0500 (EST)"
 tags: runningdoc
 ---
 
-quick youtube playlist i put together:
-
-<br>
-
 - tags
 - duration
 - link
