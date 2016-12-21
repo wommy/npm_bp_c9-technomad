@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: cornsilk;
+  font-family: "Comic Sans MS";
+  line-height: 1.5;
+  font-size: 1.25rem; }
+
+.wrapper {
+  max-width: 60rem;
+  margin: auto; }
+  .wrapper nav {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.1); }
+    .wrapper nav a {
+      display: block;
+      text-decoration: none;
+      font-size: 2rem;
+      padding: 1rem;
+      margin: 1rem; }
+      .wrapper nav a:hover {
+        text-decoration: underline; }
+      .wrapper nav a:active {
+        color: cyan; }
+      .wrapper nav a.active {
+        color: red; }
+      .wrapper nav a.active1 {
+        text-decoration: underline; }
+  .wrapper .feed {
+    max-width: 48rem;
+    margin: 2rem 0;
+    margin-left: auto; }
+    .wrapper .feed article {
+      min-height: 25vh;
+      background-color: rgba(0, 0, 0, 0.1);
+      text-align: justify;
+      padding: 3rem;
+      margin: 2rem;
+      margin-right: 0; }

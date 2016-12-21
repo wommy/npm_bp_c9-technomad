@@ -1,0 +1,151 @@
+extends ./_template.pug
+
+block content
+  #post-49.post_box.top
+    .headline_area
+      h1 Contact
+    .format_text
+      .info-l
+        img(src='http://thinkubators.com/images/email.png', alt='', width='65', height='56', align='left')
+        br
+        a(href='mailto:info@thinkubators.com') info@Thinkubators.com
+      .info-r
+        img(src='http://thinkubators.com/images/phone-icon.png', alt='', width='65', height='56', align='left')
+        br
+        | 1-312-829-2852
+      p
+        | Please take time to share as much detail as possible using the following form. Feel welcome to include your questions, suggestions, needs, wants or wishes. One of our space managers will be in touch with you as soon as possible.
+      div(style='display: block; float: right; width: 50%;')
+        iframe(width='350', height='720', frameborder='0', scrolling='no', marginheight='0', marginwidth='0', src='http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=The+Thinkubator+Innovation+Center,+312+N.+May+Street,+Chicago,+IL+60607&aq=1&sll=41.887512,-87.656062&sspn=0.006406,0.014913&ie=UTF8&hq=The+Thinkubator+Innovation+Center,&hnear=312+N+May+St,+Chicago,+Cook,+Illinois+60607&z=12&cid=17671049812879565268&iwloc=A&output=embed')
+        br
+        small
+          a(href='http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=The+Thinkubator+Innovation+Center,+312+N.+May+Street,+Chicago,+IL+60607&aq=1&sll=41.887512,-87.656062&sspn=0.006406,0.014913&ie=UTF8&hq=The+Thinkubator+Innovation+Center,&hnear=312+N+May+St,+Chicago,+Cook,+Illinois+60607&z=12&cid=17671049812879565268&iwloc=A&source=embed', target='_new', style='color:#0000FF;text-align:left') View larger map
+      form(style='height: 100%; margin: 0; width: 50%;', action='https://fjd89078.infusionsoft.com/app/form/process/139855fd8e1a852703bf99f6a88b645f', method='POST', name='Thinkubator - Contact Form', accept-charset='UTF-8', target='')
+        input(type='hidden', name='inf_form_xid', value='139855fd8e1a852703bf99f6a88b645f')
+        input(type='hidden', name='inf_form_name', value='Thinkubator - Contact Form')
+        input(type='hidden', name='infusionsoft_version', value='1.23.6.28')
+        p
+        #mainContent.custom-1.beta-base.beta-font-a(style='height: 100%;')
+          table.background(width='100%', cellspacing='0', cellpadding='10')
+            tbody
+              tr
+                td(align='center', valign='top')
+                  table.bodyContainer(width='100%', cellspacing='0', cellpadding='20')
+                    tbody
+                      tr
+                        td.body(valign='top')
+                          h3#webformErrors.text Contact Information
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_field_FirstName') First Name *
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_field_FirstName.infusion-field-input(type='text', name='inf_field_FirstName')
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_field_LastName') Last Name *
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_field_LastName.infusion-field-input(type='text', name='inf_field_LastName')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_field_Email') Email *
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_field_Email.infusion-field-input(type='text', name='inf_field_Email')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_field_Phone1') Phone  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_field_Phone1.infusion-field-input(type='text', name='inf_field_Phone1')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_field_Company') Organization  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_field_Company.infusion-field-input(type='text', name='inf_field_Company')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_field_Website') Website  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_field_Website.infusion-field-input(type='text', name='inf_field_Website')
+                          h3 Event Details (optional)
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_misc_EventDateTime') Event Date & Time  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_misc_EventDateTime.infusion-field-input(type='text', name='inf_misc_EventDateTime')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_misc_NumberofAttendees') Number of Attendees  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    input#inf_misc_NumberofAttendees.infusion-field-input(type='text', name='inf_misc_NumberofAttendees')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_custom_Message') Message  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    textarea#inf_custom_Message.infusion-field-input(name='inf_custom_Message', rows='5', cols='24')
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-label-container
+                                    label(for='inf_option_Howdidyoufindus') How did you find us?  
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    table.infusion-checkbox-radio-table
+                                      tbody
+                                        tr
+                                          td.infusion-checkbox-radio-input-container(valign='top')
+                                            input#inf_option_Howdidyoufindus_465(type='radio', name='inf_option_Howdidyoufindus', value='465')
+                                          td.infusion-checkbox-radio-label-container(valign='middle')
+                                            label(for='inf_option_Howdidyoufindus_465') Word-of-Mouth  
+                                        tr
+                                          td.infusion-checkbox-radio-input-container(valign='top')
+                                            input#inf_option_Howdidyoufindus_467(type='radio', name='inf_option_Howdidyoufindus', value='467')
+                                          td.infusion-checkbox-radio-label-container(valign='middle')
+                                            label(for='inf_option_Howdidyoufindus_467') Web Search  
+                                        tr
+                                          td.infusion-checkbox-radio-input-container(valign='top')
+                                            input#inf_option_Howdidyoufindus_469(type='radio', name='inf_option_Howdidyoufindus', value='469')
+                                          td.infusion-checkbox-radio-label-container(valign='middle')
+                                            label(for='inf_option_Howdidyoufindus_469') Advertisement  
+                                        tr
+                                          td.infusion-checkbox-radio-input-container(valign='top')
+                                            input#inf_option_Howdidyoufindus_471(type='radio', name='inf_option_Howdidyoufindus', value='471')
+                                          td.infusion-checkbox-radio-label-container(valign='middle')
+                                            label(for='inf_option_Howdidyoufindus_471') Other  
+                          div
+                            table.infusion-field-container(style='width: 100%;')
+                              tbody
+                                tr
+                                  td.infusion-field-input-container(style='width: 200px;')
+                                    table.infusion-checkbox-radio-table
+                                      tbody
+                                        tr
+                                          td.infusion-checkbox-radio-input-container(valign='top')
+                                            input#inf_option_YesSendmemonthlynewsaboutSolutionPeoplesInnovationservices(type='checkbox', name='inf_option_YesSendmemonthlynewsaboutSolutionPeoplesInnovationservices', value='245')
+                                          td.infusion-checkbox-radio-label-container(valign='middle')
+                                            label(for='inf_option_YesSendmemonthlynewsaboutSolutionPeoplesInnovationservices') Yes! Send me monthly news about SolutionPeople’s Innovation services  
+                          div
+                            .infusion-submit-button(style='text-align: center;')
+                              input(style='-moz-border-radius: 6px; background-color: #6e307a; border-color: #000000; border-radius: 6px; border-style: Solid; border-width: 1px; color: #ffffff; font-family: Helvetica; font-size: 16px; height: 45px; width: 150px;', type='submit', value='Get in touch!')

@@ -1,0 +1,20 @@
+extends ../_template.test.pug
+
+append css
+  // link(rel="stylesheet" href="karen.css")
+
+append nav
+  -var content = ['about','form']
+  +nav-bang(content)
+
+block content
+  each val in content
+    article(href=val)= val
+      // include pages/val.pug
+  //-
+    include pages/clients.pug
+    include pages/us.pug
+    include pages/process.pug
+    //- include resume.pug
+    include pages/form.pug
+
