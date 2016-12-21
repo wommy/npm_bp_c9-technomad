@@ -1,0 +1,408 @@
+extends ./_template.pug
+
+block link
+  -var selected = 'gallery';
+
+block content
+  #post-344.post_box.top
+    .headline_area
+      h1 Gallery
+    .format_text
+      div
+        #tabby(data-role='page')
+          h3(style='text-align: center;font-size:1rem;')
+            | Enjoy the inspiring photos below and take a tour of Chicago’s most thought-provoking meeting space. Click on any of the following images to enlarge the views.
+          ul#galtab.tabs(style='display:none')
+            li#g1
+              a(href='#features')
+                span.icon  
+                strong Features & Highlights 
+                | the latest and greatest
+            li#g2
+              a(href='#panoramas')
+                span.icon  
+                strong Full 360° Panoramas 
+                | see it for yourself
+            li#g3
+              a(href='#inspiration')
+                span.icon  
+                strong Inspirational Layouts 
+                | versatility in action
+          #main_content
+            #features
+              style(type='text/css').
+                #gallery-1 {
+                margin: auto;
+                }
+                #gallery-1 .gallery-item {
+                float: left;
+                margin-top: 10px;
+                text-align: center;
+                width: 33%;
+                }
+                #gallery-1 img {
+                border: 2px solid #cfcfcf;
+                }
+                #gallery-1 .gallery-caption {
+                margin-left: 0;
+                }
+                /* see gallery_shortcode() in wp-includes/media.php */
+              #gallery-1.gallery.galleryid-344.gallery-columns-3.gallery-size-thumbnail
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide01.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide01-300x300.png', alt='Slide01')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide02.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide02-300x300.png', alt='Slide02')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide03.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide03-300x300.png', alt='Slide03')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide04.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide04-300x300.png', alt='Slide04')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide05.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide05-300x300.png', alt='Slide05')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide06.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide06-300x300.png', alt='Slide06')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide07.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide07-300x300.png', alt='Slide07')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide08.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide08-300x300.png', alt='Slide08')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide09.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide09-300x300.png', alt='Slide09')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide10.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide10-300x300.png', alt='Slide10')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide11.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide11-300x300.png', alt='Slide11')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide12.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide12-300x300.png', alt='Slide12')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide13.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide13-300x300.png', alt='Slide13')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide14.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide14-300x300.png', alt='Slide14')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide15.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide15-300x300.png', alt='Slide15')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide16.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide16-300x300.png', alt='Slide16')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide17.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide17-300x300.png', alt='Slide17')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide18.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide18-300x300.png', alt='Slide18')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide19.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide19-300x300.png', alt='Slide19')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide20.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide20-300x300.png', alt='Slide20')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide21.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide21-300x300.png', alt='Slide21')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide22.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide22-300x300.png', alt='Slide22')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide23.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide23-300x300.png', alt='Slide23')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide24.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide24-300x300.png', alt='Slide24')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide25.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide25-300x300.png', alt='Slide25')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide26.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide26-300x300.png', alt='Slide26')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Slide27.png')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Slide27-300x300.png', alt='Slide27')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-1.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-1-300x300.jpg', alt='Chicago Thinkubator Studio-1')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-2.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-2-300x300.jpg', alt='Chicago Thinkubator Studio-2')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-3.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-3-300x300.jpg', alt='Chicago Thinkubator Studio-3')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-4.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-4-300x300.jpg', alt='Chicago Thinkubator Studio-4')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-5.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-5-300x300.jpg', alt='Chicago Thinkubator Studio-5')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-6.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-6-300x300.jpg', alt='Chicago Thinkubator Studio-6')
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-7.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Chicago-Thinkubator-Studio-7-300x300.jpg', alt='Chicago Thinkubator Studio-7')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/20110518_2.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/20110518_2-300x300.jpg', alt='Our Main Space, The Skyline Room', aria-describedby='gallery-1-441')
+                  dd#gallery-1-441.wp-caption-text.gallery-caption
+                    | Our Main Space, The Skyline Room
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/001_05-17-11.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/001_05-17-11-300x300.jpg', alt='Breakout Spaces with Individual Rolling Desks', aria-describedby='gallery-1-440')
+                  dd#gallery-1-440.wp-caption-text.gallery-caption
+                    | Breakout Spaces with Individual Rolling Desks
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/MG_0631.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/MG_0631-300x300.jpg', alt='Expansive Loft Space with a Rooftop Deck', aria-describedby='gallery-1-403')
+                  dd#gallery-1-403.wp-caption-text.gallery-caption
+                    | Expansive Loft Space with a Rooftop Deck
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/MG_0863.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/MG_0863-300x300.jpg', alt='Skyline Views with café-style seating', aria-describedby='gallery-1-414')
+                  dd#gallery-1-414.wp-caption-text.gallery-caption
+                    | Skyline Views with café-style seating
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/UIC_Brain_Game3_10-19-10.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/UIC_Brain_Game3_10-19-10-300x300.jpg', alt='Comfortable Seating for 20', aria-describedby='gallery-1-457')
+                  dd#gallery-1-457.wp-caption-text.gallery-caption
+                    | Comfortable Seating for 20
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/Thinkubator_conference1.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/Thinkubator_conference1-300x300.jpg', alt='Versatile Layouts for any Arrangement', aria-describedby='gallery-1-455')
+                  dd#gallery-1-455.wp-caption-text.gallery-caption
+                    | Versatile Layouts for any Arrangement
+                dl.gallery-item
+                  dt.gallery-icon.portrait
+                    a(href='http://thinkubators.com/wp-content/uploads/think2.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/think2-300x300.jpg', alt='Relaxed Atmosphere with Eclectic Decor', aria-describedby='gallery-1-454')
+                  dd#gallery-1-454.wp-caption-text.gallery-caption
+                    | Relaxed Atmosphere with Eclectic Decor
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/IMG_9417.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/IMG_9417-300x300.jpg', alt='Unique Spaces to Spark Creativity', aria-describedby='gallery-1-451')
+                  dd#gallery-1-451.wp-caption-text.gallery-caption
+                    | Unique Spaces to Spark Creativity
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/IMGP5442.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/IMGP5442-300x300.jpg', alt='Lighting, Views, and Usable Surfaces', aria-describedby='gallery-1-417')
+                  dd#gallery-1-417.wp-caption-text.gallery-caption
+                    | Lighting, Views, and Usable Surfaces
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/MG_0340.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/MG_0340-300x300.jpg', alt='Decentralized Presenting in Focused Group Settings', aria-describedby='gallery-1-393')
+                  dd#gallery-1-393.wp-caption-text.gallery-caption
+                    | Decentralized Presenting in Focused Group Settings
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/MG_0793.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/MG_0793-300x300.jpg', alt='Individual Work Surfaces for 30+ People', aria-describedby='gallery-1-409')
+                  dd#gallery-1-409.wp-caption-text.gallery-caption
+                    | Individual Work Surfaces for 30+ People
+                br(style='clear: both')
+                dl.gallery-item
+                  dt.gallery-icon.landscape
+                    a(href='http://thinkubators.com/wp-content/uploads/IMG_3250.jpg')
+                      img.attachment-thumbnail.size-thumbnail(width='300', height='300', src='http://thinkubators.com/wp-content/uploads/IMG_3250-300x300.jpg', alt='Hold Unforgettable Events in a Stimulating, Elegant Atmosphere', aria-describedby='gallery-1-416')
+                  dd#gallery-1-416.wp-caption-text.gallery-caption
+                    | Hold Unforgettable Events in a Stimulating, Elegant Atmosphere
+                br(style='clear: both')
+              p
+            #panoramas
+              p
+                a#vonleft(href='#') «
+                a#pan-s-1(href='http://thinkubators.com/wp-content/uploads/pan1.jpg') Skyline Room – Casual Layout
+                a#pan-s-2.active(href='http://thinkubators.com/wp-content/uploads/pan2.jpg') Skyline Room – Conference Layout
+                a#pan-s-3(href='#') [coming soon]
+                a#vonright(href='#') »
+              .double-block-view-h(data-scroll='x')
+            #inspiration
+              p
+                a(href='http://thinkubators.com/wp-content/uploads/UPDATE-Thinkubator_Floorplan_WEB_07-31-12_Thinkubator.jpg')
+                  img.alignright.size-medium.wp-image-1107(title='Thinkubator Floorplan', src='http://thinkubators.com/wp-content/uploads/UPDATE-Thinkubator_Floorplan_WEB_07-31-12_Thinkubator-300x203.jpg', alt='', width='300', height='203', srcset='http://thinkubators.com/wp-content/uploads/UPDATE-Thinkubator_Floorplan_WEB_07-31-12_Thinkubator-300x203.jpg 300w, http://thinkubators.com/wp-content/uploads/UPDATE-Thinkubator_Floorplan_WEB_07-31-12_Thinkubator-1024x694.jpg 1024w', sizes='(max-width: 300px) 100vw, 300px')
+              h2 We’ve got just the space for you.
+              p
+                | The Thinkubator is known for being a ‘chameleon’ space — we have a wide array of experience catering to different needs, arrangements, and groups. Whether you’re looking for a cozy meeting, group brainstorming session, or full-fledged event with 40+ people, we’ve got the space for you. More than just a stunning loft area, The Thinkubator contains a myriad of comfortable, stylish, and unique furniture to provide your attendees with the atmosphere most fitting for your event.
+              p
+                a(href='http://thinkubators.com/wp-content/uploads/Thinkubator_Rooftop_Floorplan_WEB_04-22-11_Rooftop.jpg')
+                  img.alignleft.size-thumbnail.wp-image-338(title='Thinkubator Floorplan (rooftop deck)', src='http://thinkubators.com/wp-content/uploads/Thinkubator_Rooftop_Floorplan_WEB_04-22-11_Rooftop-220x185.jpg', alt='', width='220', height='185')
+              h2 Expand your mind with 360° views on our Rooftop Deck.
+              p
+                | What better way to break out of the box than to ascend to our 6th-floor rooftop deck with some of the best skyline views in the City of Chicago? With seating and tables for 40+ people, we’re primed for all sorts of warm weather entertainment.
+              #newll
+                h2 Skyline Room
+                blockquote
+                  h3 Casual Layout
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Thinkubator_SouthView_fireplace__9370', href='http://thinkubators.com/wp-content/uploads/Thinkubator_SouthView_fireplace__9370.jpg')
+                        img.attachment-thumbnail(title='Thinkubator_SouthView_fireplace__9370', src='http://thinkubators.com/wp-content/uploads/Thinkubator_SouthView_fireplace__9370-300x300.jpg', alt='Thinkubator_SouthView_fireplace__9370', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Wide-Angle-Open-Layout', href='http://thinkubators.com/wp-content/uploads/Wide-Angle-Open-Layout.jpg')
+                        img.attachment-thumbnail(title='Wide-Angle-Open-Layout', src='http://thinkubators.com/wp-content/uploads/Wide-Angle-Open-Layout-300x300.jpg', alt='Wide-Angle-Open-Layout', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Thinkubator-Relaxed-Main-Space', href='http://thinkubators.com/wp-content/uploads/Thinkubator-Relaxed-Main-Space.jpg')
+                        img.attachment-thumbnail(title='Thinkubator-Relaxed-Main-Space', src='http://thinkubators.com/wp-content/uploads/Thinkubator-Relaxed-Main-Space-300x300.jpg', alt='Thinkubator-Relaxed-Main-Space', width='300', height='300')
+                  p  
+                blockquote
+                  h3 Large Board Meeting Setup
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Seating Arrangement001', href='http://thinkubators.com/wp-content/uploads/Seating-Arrangement001.jpg')
+                        img.attachment-thumbnail(title='Seating Arrangement001', src='http://thinkubators.com/wp-content/uploads/Seating-Arrangement001-300x300.jpg', alt='Seating Arrangement001', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Seating Arrangement002', href='http://thinkubators.com/wp-content/uploads/Seating-Arrangement002.jpg')
+                        img.attachment-thumbnail(title='Seating Arrangement002', src='http://thinkubators.com/wp-content/uploads/Seating-Arrangement002-300x300.jpg', alt='Seating Arrangement002', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Breakout-Area', href='http://thinkubators.com/wp-content/uploads/Breakout-Area.jpg')
+                        img.attachment-thumbnail(title='Breakout-Area', src='http://thinkubators.com/wp-content/uploads/Breakout-Area-300x300.jpg', alt='Breakout-Area', width='300', height='300')
+                  p  
+                blockquote
+                  h3 Conference Setup
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='30-Person-Individual-Desks-Close', href='http://thinkubators.com/wp-content/uploads/30-Person-Individual-Desks-Close.jpg')
+                        img.attachment-thumbnail(title='30-Person-Individual-Desks-Close', src='http://thinkubators.com/wp-content/uploads/30-Person-Individual-Desks-Close-300x300.jpg', alt='30-Person-Individual-Desks-Close', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='30-Person-Individual-Desks', href='http://thinkubators.com/wp-content/uploads/30-Person-Individual-Desks.jpg')
+                        img.attachment-thumbnail(title='30-Person-Individual-Desks', src='http://thinkubators.com/wp-content/uploads/30-Person-Individual-Desks-300x300.jpg', alt='30-Person-Individual-Desks', width='300', height='300')
+                  p  
+                blockquote
+                  h3 Individual Breakouts
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Thinkubator-Individual-Tables', href='http://thinkubators.com/wp-content/uploads/Thinkubator-Individual-Tables.jpg')
+                        img.attachment-thumbnail(title='Thinkubator-Individual-Tables', src='http://thinkubators.com/wp-content/uploads/Thinkubator-Individual-Tables-300x300.jpg', alt='Thinkubator-Individual-Tables', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='North-End-Small-Conference', href='http://thinkubators.com/wp-content/uploads/North-End-Small-Conference.jpg')
+                        img.attachment-thumbnail(title='North-End-Small-Conference', src='http://thinkubators.com/wp-content/uploads/North-End-Small-Conference-300x300.jpg', alt='North-End-Small-Conference', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Sectioned-Breakouts', href='http://thinkubators.com/wp-content/uploads/Sectioned-Breakouts.jpg')
+                        img.attachment-thumbnail(title='Sectioned-Breakouts', src='http://thinkubators.com/wp-content/uploads/Sectioned-Breakouts-300x300.jpg', alt='Sectioned-Breakouts', width='300', height='300')
+                  p  
+                blockquote
+                  h3 Evening Views
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Nighttime-Lights', href='http://thinkubators.com/wp-content/uploads/Nighttime-Lights.jpg')
+                        img.attachment-thumbnail(title='Nighttime-Lights', src='http://thinkubators.com/wp-content/uploads/Nighttime-Lights-300x300.jpg', alt='Nighttime-Lights', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Nighttime-Lights-(2)', href='http://thinkubators.com/wp-content/uploads/Nighttime-Lights-2.jpg')
+                        img.attachment-thumbnail(title='Nighttime-Lights-(2)', src='http://thinkubators.com/wp-content/uploads/Nighttime-Lights-2-300x300.jpg', alt='Nighttime-Lights-(2)', width='300', height='300')
+                  p  
+                blockquote
+                  h3 Expansive Headroom
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(href='http://thinkubators.com/wp-content/uploads/MG_0571.jpg')
+                        img.alignright.size-thumbnail.wp-image-527(title='_MG_0571', src='http://thinkubators.com/wp-content/uploads/MG_0571-300x300.jpg', alt='', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(href='http://thinkubators.com/wp-content/uploads/MG_0597.jpg')
+                        img.alignright.size-thumbnail.wp-image-528(title='_MG_0597', src='http://thinkubators.com/wp-content/uploads/MG_0597-300x300.jpg', alt='', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(href='http://thinkubators.com/wp-content/uploads/MG_0795.jpg')
+                        img.alignright.size-thumbnail.wp-image-529(title='_MG_0795', src='http://thinkubators.com/wp-content/uploads/MG_0795-300x300.jpg', alt='', width='300', height='300')
+                  p  
+                blockquote
+                  h3 Miscellaneous
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Thinkubator_NorthWestView_staircase__9400', href='http://thinkubators.com/wp-content/uploads/Thinkubator_NorthWestView_staircase__9400.jpg')
+                        img.attachment-thumbnail(title='Thinkubator_NorthWestView_staircase__9400', src='http://thinkubators.com/wp-content/uploads/Thinkubator_NorthWestView_staircase__9400-300x300.jpg', alt='Thinkubator_NorthWestView_staircase__9400', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Default-Dining-Table-Setup', href='http://thinkubators.com/wp-content/uploads/Default-Dining-Table-Setup.jpg')
+                        img.attachment-thumbnail(title='Default-Dining-Table-Setup', src='http://thinkubators.com/wp-content/uploads/Default-Dining-Table-Setup-300x300.jpg', alt='Default-Dining-Table-Setup', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(title='Armchair-Breakout-Area', href='http://thinkubators.com/wp-content/uploads/Armchair-Breakout-Area.jpg')
+                        img.attachment-thumbnail(title='Armchair-Breakout-Area', src='http://thinkubators.com/wp-content/uploads/Armchair-Breakout-Area-300x300.jpg', alt='Armchair-Breakout-Area', width='300', height='300')
+                  p  
+                h2#loft Loft Lounge
+                blockquote
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(href='http://thinkubators.com/wp-content/uploads/IMG_94171.jpg')
+                        img.alignright.size-thumbnail.wp-image-520(title='IMG_9417', src='http://thinkubators.com/wp-content/uploads/IMG_94171-300x300.jpg', alt='', width='300', height='300')
+                  dl.gallery-item
+                    dt.gallery-icon
+                      a(href='http://thinkubators.com/wp-content/uploads/Spa-3.jpg')
+                        img.alignright.size-thumbnail.wp-image-521(title='Spa 3', src='http://thinkubators.com/wp-content/uploads/Spa-3-300x300.jpg', alt='', width='300', height='300')
+                  p  
+      p
+        script(src='http://thinkubators.com/wp-content/themes/thesis_18/custom/scroller.js', type='text/javascript')

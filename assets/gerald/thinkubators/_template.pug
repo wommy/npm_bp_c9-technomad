@@ -1,0 +1,437 @@
+doctype strict
+html(xmlns='http://www.w3.org/1999/xhtml', lang='en-US')
+  head(profile='http://gmpg.org/xfn/11')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Thinkubator by SolutionPeople — Chicago's Most Creative Meeting Space
+    meta(name='robots', content='noodp, noydir')
+    meta(name='description', content='The Thinkubator is an original meeting facility in one of Chicago’s most creative lofts located in the West Loop.')
+    meta(name='keywords', content='business center, meeting facility, chicago meeting facility, accelerated innovation, innovation, innovation management, innovation process, innovation development, business meeting facility, creativity and innovation,vation')
+    //link(rel='stylesheet', href='http://thinkubators.com/wp-content/themes/thesis_18/style.css?041213-195356', type='text/css', media='screen, projection')
+    link(rel='stylesheet', href='/gerald/thinkubators/_style/style.css', type='text/css', media='screen, projection')
+    //link(rel='stylesheet', href='http://thinkubators.com/wp-content/themes/thesis_18/custom/layout.css?041213-195438', type='text/css', media='screen, projection')
+    link(rel='stylesheet', href='/gerald/thinkubators/_style/layout.css', type='text/css', media='screen, projection')
+    //if lte IE 8
+      link(rel='stylesheet', href='http://thinkubators.com/wp-content/themes/thesis_18/lib/css/ie.css?041213-195453', type='text/css', media='screen, projection')
+    //link(rel='stylesheet', href='http://thinkubators.com/wp-content/themes/thesis_18/custom/custom.css?041213-195429', type='text/css', media='screen, projection')
+    link(rel='stylesheet', href='/gerald/thinkubators/_style/custom.css', type='text/css', media='screen, projection')
+    link(rel='shortcut icon', href='http://chicagothinkubator.com/wp-content/uploads/favicon.png')
+    link(rel='canonical', href='http://thinkubators.com/')
+    link(rel='alternate', type='application/rss+xml', title='Thinkubator by SolutionPeople RSS Feed', href='http://thinkubators.com/feed/')
+    link(rel='pingback', href='http://thinkubators.com/xmlrpc.php')
+    link(rel='EditURI', type='application/rsd+xml', title='RSD', href='http://thinkubators.com/xmlrpc.php?rsd')
+    style(type='text/css').
+      #fancybox-close{right:-15px;top:-15px}
+      div#fancybox-content{border-color:#FFFFFF}
+      div#fancybox-title{background-color:#FFFFFF}
+      div#fancybox-outer{background-color:#FFFFFF}
+      div#fancybox-title-inside{color:#333333}
+    link(rel='alternate', type='application/rss+xml', title='Thinkubator by SolutionPeople » The Thinkubator: Inspiring Minds Since 1989 Comments Feed', href='http://thinkubators.com/home/feed/')
+    //link#fancybox-css(rel='stylesheet', href='http://thinkubators.com/wp-content/plugins/fancybox-for-wordpress/fancybox/fancybox.css?ver=4.0.4', type='text/css', media='all')
+    link#fancybox-css(rel='stylesheet', href='/gerald/thinkubators/_style/fancybox.css', type='text/css', media='all')
+    script(type='text/javascript', src='http://thinkubators.com/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4')
+    // Fancybox for WordPress v3.0.1
+    script(type='text/javascript').
+      jQuery(function(){
+      jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+      var arr = jQuery("a.fancybox");
+      jQuery.each(arr, function() {
+      var title = jQuery(this).children("img").attr("title");
+      jQuery(this).attr('title',title);
+      })
+      }
+      // Supported file extensions
+      var thumbnails = jQuery("a:has(img)").not(".nolightbox").filter( function() { return /\\.(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+      thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+      jQuery("a.fancybox").fancybox({
+      'cyclic': false,
+      'autoScale': true,
+      'padding': 10,
+      'opacity': true,
+      'speedIn': 500,
+      'speedOut': 500,
+      'changeSpeed': 300,
+      'overlayShow': true,
+      'overlayOpacity': "0.3",
+      'overlayColor': "#666666",
+      'titleShow': true,
+      'titlePosition': 'inside',
+      'enableEscapeButton': true,
+      'showCloseButton': true,
+      'showNavArrows': true,
+      'hideOnOverlayClick': true,
+      'hideOnContentClick': false,
+      'width': 560,
+      'height': 340,
+      'transitionIn': "fade",
+      'transitionOut': "fade",
+      'centerOnScroll': true
+      });
+      })
+    // END Fancybox for WordPress
+    //if lt IE 7
+      link(rel='stylesheet', type='text/css', href='http://thinkubators.com/wp-content/themes/thesis_18/custom/ie.css')
+      script(src='http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js')
+        IE7_PNG_SUFFIX=".png";
+    script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js')
+    script(type='text/javascript', src='http://thinkubators.com/wp-content/themes/thesis_18/custom/jquery.bxslider2.0.1.min.js')
+    script(type='text/javascript', src='http://thinkubators.com/wp-content/themes/thesis_18/custom/menu.js')
+    script(type='text/javascript', src='http://solutionpeople.com/jquery.quovolver.js')
+  body.custom.home
+    #container
+      #page
+        ul.menu
+        #header
+          .nav
+            block link
+              -var selected = 'home'; //default
+            ul#menu-navigation.menu
+              li#menu-item-228.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-228(class={'current-menu-item page_item page-item-37 current_page_item': selected === 'home'})
+                a(title='Home of Innovation', href='./') Home
+              li#menu-item-438.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-438(class={'current-menu-item page_item page-item-37 current_page_item': selected === 'gallery'})
+                a(title='Gallery – take a closer look', href='./gallery.html') Gallery
+              li#menu-item-233.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-233(class={'current-menu-item page_item page-item-37 current_page_item': selected === 'rentfaq'})
+                a(title='Resources for planners', href='./rentfaq.html') Rent/FAQ
+              li#menu-item-231.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-231(class={'current-menu-item page_item page-item-37 current_page_item': selected === 'calendar'})
+                a(title='Calender of Upcoming Events', href='./calendar.html') Calendar
+              li#menu-item-547.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-547(class={'current-menu-item page_item page-item-37 current_page_item': selected === 'news'})
+                a(title='News and Testimonials', href='./news.html') News
+              li#menu-item-229.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-229(class={'current-menu-item page_item page-item-37 current_page_item': selected === 'contact'})
+                a(title='Click here to contact us', href='./contact.html') Contact
+          #portal
+            a(href='./', title='Thinkubator Chicago Innovation Lab')
+              p#logo Thinkubators.com by SolutionPeople
+          include ./_inc-panorama.pug
+          //- old
+            ul#slider(style='height:344px;overflow:hidden;')
+            // super old
+              <li><img src="http://thinkubators.com/wp-content/themes/thesis_18/custom/images/tpan1.jpg" style="height:344px"></li>
+              <li><img src="http://thinkubators.com/wp-content/themes/thesis_18/custom/images/tpan2.jpg" style="height:344px"></li>
+              <li><img src="http://thinkubators.com/wp-content/themes/thesis_18/custom/images/tpan1.jpg" style="height:344px"></li>
+              <li><img src="http://thinkubators.com/wp-content/themes/thesis_18/custom/images/tpan2.jpg" style="height:344px"></li>
+            li
+              img(src='http://thinkubators.com/wp-content/uploads/Thinkubator-Pano-DSC_0152And8more-Panorama.png', style='height:344px')
+        #content_box
+          .interior
+            #content
+              block content
+            #sidebars
+              #sidebar_1.sidebar
+                ul.sidebar_list
+              #sidebar_2.sidebar
+                ul.sidebar_list
+                  li#text-4.widget.widget_text
+                    .textwidget
+                      ul.accordion.collapsible
+                        li.facebook
+                          a(href='#')
+                            h2 Facebook
+                          ul.acitem(style='display:none')
+                            li
+                              a(target='_blank', href='http://www.facebook.com/thinkubators') Thinkubators
+                            li
+                              a(target='_blank', href='http://www.facebook.com/TheSolutionman') Solutionman
+                            li
+                              a(target='_blank', href='http://www.facebook.com/SolutionPeople') SolutionPeople
+                            li
+                              a(target='_blank', href='http://www.facebook.com/InnovatorsDigest') Innovators Digest
+                            li
+                              a(target='_blank', href='http://www.facebook.com/KnowBrainer') KnowBrainer
+                            li
+                              a(target='_blank', href='http://www.facebook.com/InnovationTrainingWorkshops') Innovation Training Workshops
+                            li
+                              a(target='_blank', href='http://www.facebook.com/InnovationToolofTheMonthClub') Innovation Tool of The Month
+                            li
+                              a(target='_blank', href='http://www.facebook.com/thinkathons') Thinkathons
+                            li
+                              a(target='_blank', href='http://www.facebook.com/InnovationPeople') Innovation People
+                            li
+                              a(target='_blank', href='http://www.facebook.com/VeryInnovativePeople') Very Innovative People
+                            li
+                              a(target='_blank', href='http://www.facebook.com/innovationidol') Innovation Idol
+                            li
+                              a(target='_blank', href='http://www.facebook.com/theillumination') illumiNation
+                        li.youtube
+                          a(href='#')
+                            h2 YouTube
+                          ul.acitem(style='display:none')
+                            li
+                              a(target='_blank', href='http://www.youtube.com/thinkubators') Thinkubators
+                            li
+                              a(target='_blank', href='http://www.youtube.com/Solutionman') Solutionman
+                            li
+                              a(target='_blank', href='http://www.youtube.com/SolutionPeople') SolutionPeople
+                            li
+                              a(target='_blank', href='http://www.youtube.com/InnovatorsDigest') Innovators Digest
+                        li.linkedin
+                          a(href='#')
+                            h2 Linkedin Groups
+                          ul.acitem(style='display:none')
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=54066&sharedKey=0725305D5A49') Marketing & PR Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=32614&sharedKey=0010EF366A5F') Innovation People
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=53296&sharedKey=5ED26C0DEE66') Green & Sustainability Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=134332&sharedKey=326CC501F062') Healthcare Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=134331&sharedKey=4ECF5A1B584B') Brand & Branding Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupRegistration?gid=114285') Learning & Education Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=132981&sharedKey=42438B571B67') Leadership & Change Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=35782&sharedKey=3E58AB2E3F72') Meeting & Event Design Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=52825&sharedKey=6624E43C90F3') Association & Conference Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=136522&sharedKey=1ACF8839F188') Communication Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=139664&sharedKey=1E8BB21ED59B') APP Innovators, Users & Developers
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=46104&sharedKey=4447E613CEAA') New Product & Service Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=36215&sharedKey=7D3409739D97') Sales & Selling Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=139663&sharedKey=74DEA660FDD1') Twitter Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=139832&sharedKey=6E675551A940') Facebook Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=126540&sharedKey=6652A55F9F04') Experience Economy Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=114282&sharedKey=175E647E01F9') Fundraising & Philanthopic Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=53297&sharedKey=2D8498578155') Government & Political Innovators
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=46075&sharedKey=5AC58A4BE7FC') Very Innovative People Network
+                            li
+                              a(target='_blank', href='http://www.linkedin.com/groupInvitation?gid=141733&sharedKey=3A697509F94C') Innovation Idols
+                        li.twitter
+                          a(href='#')
+                            h2 Twitter
+                          ul.acitem(style='display:none')
+                            li
+                              a(target='_blank', href='http://twitter.com/Solutionman') @Solutionman
+                            li
+                              a(target='_blank', href='http://twitter.com/SolutionPeople') @SolutionPeople
+                            li
+                              a(target='_blank', href='http://twitter.com/KnowBrainerTips') @KnowBrainerTips
+                            li
+                              a(target='_blank', href='http://www.twitter.com/Questionate') @Questionate
+                            li
+                              a(target='_blank', href='http://www.twitter.com/Thinkubators') @Thinkubators
+                            li
+                              a(target='_blank', href='http://www.twitter.com/Thinkathons') @Thinkathons
+                            li
+                              a(target='_blank', href='http://www.twitter.com/innovationidol') @InnovationIdol
+                            li
+                              a(target='_blank', href='http://www.twitter.com/VIPinnovators') @VIPinnovators
+                            li
+                              a(target='_blank', href='http://www.twitter.com/LinkedinPeople') @LinkedinPeople
+                            li
+                              a(target='_blank', href='http://twitter.com/geraldhaman') @GeraldHaman
+                  li#widget_killer_recent_entries-2.widget.widget_killer_recent_entries
+                    h3 Recent News & Articles
+                    ul
+                      li
+                        a(href='http://thinkubators.com/news/innovate-or-die-trying-think-outside-the-office/', title='Click to read Innovate or Die Trying: Think Outside the Office', rel='bookmark') Innovate or Die Trying: Think Outside the Office
+                      li
+                        a(href='http://thinkubators.com/news/making-your-environment-inspirational/', title='Click to read Making Your Environment Inspirational', rel='bookmark') Making Your Environment Inspirational
+                      li
+                        a(href='http://thinkubators.com/news/thinkubator-ranked-as-one-of-chicagos-best-meeting-spaces-for-idea-generation-by-crains-chicago-business/', title='Click to read Thinkubator Ranked as one of Chicago’s Best Meeting Spaces for Idea-Generation by Crain’s Chicago Business', rel='bookmark')
+                          | Thinkubator Ranked as one of Chicago’s Best Meeting Spaces for Idea-Generation by Crain’s Chicago Business
+                  li#text-8.widget.widget_text
+                    .textwidget
+                      #quotes
+                        blockquote
+                          p “A brilliant eco-system for fostering innovation and creativity.”
+                          cite
+                            | Dev Worah – 
+                            a(href='http://www.virtusa.com/Default.asp') Virtusa.com
+                        blockquote
+                          p
+                            | “These surroundings allow you to effectively use your creativeness in ways I did not realize were possible.”
+                          cite
+                            | Pete Zeimis – 
+                            a(href='http://www.magna.com/') Manga International
+                        blockquote
+                          p “The Thinkubator meeting space in Chicago is amazing!”
+                          cite
+                            | Chuck Frey, 
+                            a(href='http://innovationtools.com/', target='_blank') InnovationTools.com
+                        blockquote
+                          p
+                            | “This unique and stimulating environment really took us away from our everyday professional environment.”
+                          cite
+                            | Cary Dudczak – 
+                            a(href='http://www.motorola.com/', target='_blank') Motorola
+                        blockquote
+                          p “It is worth the investment. We left inspired and encouraged.”
+                          cite
+                            | Jay Ehret – 
+                            a(href='http://themarketingspot.com/') The Marketing Spot
+                        blockquote
+                          p
+                            | “The environment brought out each person’s potential. We accomplished more than we thought was possible.”
+                          cite
+                            | Ed Levy – 
+                            a(href='http://www.edventurepromotions.com/', target='_blank') EdVentures Promotions
+                        blockquote
+                          p “The time spent at the Thinkubator was highly valuable.”
+                          cite Paolo Messina – Argonne Labs
+                        blockquote
+                          p
+                            | “An experience not to be missed by any executive with responsibility for vision and strategy.”
+                          cite Mary Spada – Digitale
+        #footer
+          script.
+            $(document).ready(function(){
+              $('#quotes blockquote').quovolver();
+              $('.addthis_toolbox.addthis_default_style').css('opacity','0').delay(1000).animate({opacity:1},1000);
+              $('#slider').bxSlider({
+                alignment: 'horizontal',
+                controls: false,
+                speed: 800,
+                pager: false,
+                margin: 0,
+                auto: true,
+                pause: 0,
+                ticker: true,
+                ticker_controls: false,
+                ticker_direction: 'next',
+                ticker_hover: false,
+                wrapper_class: 'bxslider_wrap'
+              });
+            });
+          script(type='text/javascript', src='http://thinkubators.com/wp-content/plugins/fancybox-for-wordpress/fancybox/jquery.fancybox.js?ver=1.3.4')
+          script(type='text/javascript').
+            jQuery(function(){
+            jQuery.fn.getTitle = function() { // Copy the title of every IMG tag and add it to its parent A so that fancybox can show titles
+            var arr = jQuery("a.fancybox");
+            jQuery.each(arr, function() {
+            var title = jQuery(this).children("img").attr("title");
+            jQuery(this).attr('title',title);
+            })
+            }
+            // Supported file extensions
+            var thumbnails = jQuery("a:has(img)").filter( function() { return /(jpe?g|png|gif|bmp)$/i.test(jQuery(this).attr('href')) });
+            thumbnails.addClass("fancybox").attr("rel","fancybox").getTitle();
+            jQuery("a.fancybox").fancybox({
+            'cyclic': false,
+            'autoScale': true,
+            'padding': 10,
+            'opacity': true,
+            'speedIn': 500,
+            'speedOut': 500,
+            'changeSpeed': 300,
+            'overlayShow': true,
+            'overlayOpacity': "0.3",
+            'overlayColor': "#666666",
+            'titleShow': true,
+            'titlePosition': 'inside',
+            'enableEscapeButton': true,
+            'showCloseButton': true,
+            'showNavArrows': true,
+            'hideOnOverlayClick': true,
+            'hideOnContentClick': false,
+            'width': 560,
+            'height': 340,
+            'transitionIn': "fade",
+            'transitionOut': "fade",
+            'centerOnScroll': true
+            });
+            })
+          script(type='text/javascript', src='https://fjd89078.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=156bd02ddeb9299024d075d1e162af55')
+        script(type='text/javascript').
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-17995231-3']);
+          _gaq.push(['_trackPageview']);
+          (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+    //if lte IE 8
+      #ie_clear
+    #footer_setup
+      .center
+        .footer_items
+          h3 SolutionPeople Family
+          .textwidget
+            ul#footer-links
+              li
+                a.solutionpeople(href='http://solutionpeople.com/', target='_blank') SolutionPeople.com
+                | Since 1989, SolutionPeople has “focused” on developing innovation resources to individuals and businesses in need.
+              li
+                a.thinkubators(href='http://thinkubators.com/', target='_blank') Thinkubators.com
+                |  The Chicago Thinkubator is a world-renowned meeting space for event planners who think 'outside the box'.
+              li
+                a.knowbrainertools(href='http://knowbrainertools.com/', target='_blank') KnowBrainerTools.com
+                | The KnowBrainer is SolutionPeople's flagship product -- a brainstorming tool for accelerated creativity.
+              li
+                a.innovationtrainingworkshops(href='http://innovationtrainingworkshops.com/', target='_blank') InnovationTrainingWorkshops
+                |  SolutionPeople's advanced training courses in Accelerated Innovation and Creativity.
+              li
+                a.innovationwebinars(href='#', target='_blank') InnovationWebinars
+                | [coming soon] Online versions of our most popular innovation training sessions.
+              li
+                a.geraldhaman(href='http://geraldhaman.com/', target='_blank') GeraldHaman.com
+                |  Since launching SolutionPeople over 20 years ago, Gerald has helped clients generate more than three million ideas valued at over two billion dollars.
+              li
+                a.innovatorsdigest(href='http://innovatorsdigest.com/', target='_blank') InnovatorsDigest.com
+                |  More than 50% of BusinessWeek magazine’s “Most Innovative Companies in the World” have been helped by SolutionPeople’s innovation training, tools, and techniques.
+        .footer_items.big
+          h3
+            a.rsswidget(href='http://feeds.feedburner.com/typepad/innovationpeople/innovatorsdigest')
+              img(style='border:0', width='14', height='14', src='http://thinkubators.com/wp-includes/images/rss.png', alt='RSS')
+            a.rsswidget(href='http://www.innovatorsdigest.com/') Recently on Innovator’s Digest
+          ul
+            li
+              a.rsswidget(href='http://feedproxy.google.com/~r/typepad/innovationpeople/innovatorsdigest/~3/kBs2Z0j0wjU/over-350000-members-joined-this-linkedin-group-for-innovators-since-2008.html') Over 350,000 Innovators Joined this Linkedin Group Since 2008
+              span.rss-date May 19, 2015
+              .rssSummary
+                | Discover Why this Linkedin Group is the Most Popular Group for Innovators on Linkedin.
+            li
+              a.rsswidget(href='http://feedproxy.google.com/~r/typepad/innovationpeople/innovatorsdigest/~3/pptBWIy3P7A/youtube-video-highlights-of-2-day-innovation-workshop-at-the-thinkubator-time-lapse-.html')
+                | YouTube Video Highlights of 2-Day Innovation Workshop at the Thinkubator Studio (Time-lapse)
+              span.rss-date January 18, 2015
+              .rssSummary
+                | The video lasts only 60 seconds, but you get a great feel for the fast-paced interactive training at the Thinkubator in Chicago.
+            li
+              a.rsswidget(href='http://feedproxy.google.com/~r/typepad/innovationpeople/innovatorsdigest/~3/r9NTVwnEM6A/your-invite-to-join-solutionmans-top-32-linkedin-groups-for-innovators-by-gerald-haman-click-to-join.html')
+                | Your Invite to Join Solutionman's Top 32 Linkedin Groups for Innovators by Gerald Haman. Click to Join Over 500,000 Members.
+              span.rss-date October 21, 2014
+              .rssSummary
+                | There are over one million groups on Linkedin. Discover the top groups for innovators on Linkedin, created by one of the most connected people in the world.
+            li
+              a.rsswidget(href='http://feedproxy.google.com/~r/typepad/innovationpeople/innovatorsdigest/~3/6GND97jUYZk/300-million-members-on-linkedin-check-out-this-new-infographic.html') 300 Million Members on Linkedin - Check Out This New INFOGRAPHIC
+              span.rss-date April 19, 2014
+              .rssSummary
+                | There are now more than 300 million LinkedIn members in the world! More than half of these members come from outside of the U.S., while there are 100 million members in the U.S.
+            li
+              a.rsswidget(href='http://feedproxy.google.com/~r/typepad/innovationpeople/innovatorsdigest/~3/Hq9BztQ_3VE/my-linkedin-story-how-i-created-the-worlds-largest-network-of-innovators-and-became-one-of-the-most-connected-people-o.html')
+                | MY LINKEDIN STORY: How I Created the World’s Largest Network of Innovators and Became “One of The Most Connected People on Linkedin”
+              span.rss-date April 7, 2014
+              .rssSummary
+                | Many people have asked why I created my network on Linkedin. I enjoy introducing people with great minds to other people with great minds. The reason some people call me Solutionman is that I have been very effective in introducing people to other people who can help them solve problems. I've been blessed with meeting […]
+            li
+              a.rsswidget(href='http://feedproxy.google.com/~r/typepad/innovationpeople/innovatorsdigest/~3/ORmFwkLjhEw/youtube-video-shares-experiences-of-people-who-attended-an-innovation-training-workshop-faciliated-b.html')
+                | YouTube Video Shares Experiences of People Who Attended Innovation Training Workshops Faciliated by Gerald "Solutionman" Haman
+              span.rss-date March 30, 2014
+              .rssSummary
+                | New video shares feedback from people who attended the award-winning Accelerating Innovation Training Workshops at the Thinkubator Innovation Studios. Testimonials from people from around the world are included.
+        .footer_items
+          h3 SolutionPeople Chicago
+          .textwidget
+            a(href='http://maps.google.com/maps?q=312+N+May+St,+Chicago,+IL+60607&ie=UTF8&hl=en&view=map&f=d&daddr=312+N.+May+Street,+Chicago,+IL+60607&geocode=CUMND7Mv5Z7FFRgnfwIdgnnG-iHUYev4LS489Q&ved=0CGgQ_wY&sa=X&ei=N0h1Ta74K5XSMveuvKkB', target='_blank')
+              img(src='http://solutionpeople.com/_footer/map.jpg', alt='SolutionPeople Headquarters : The Chicago Thinkubator')
+            span.d
+              a(href='http://maps.google.com/maps?q=312+N+May+St,+Chicago,+IL+60607&ie=UTF8&hl=en&view=map&f=d&daddr=312+N.+May+Street,+Chicago,+IL+60607&geocode=CUMND7Mv5Z7FFRgnfwIdgnnG-iHUYev4LS489Q&ved=0CGgQ_wY&sa=X&ei=N0h1Ta74K5XSMveuvKkB', target='_blank') Directions
+              | 			312 N. May, Suite 6D
+              br
+              | 			Chicago, IL 60607, USA
+              br
+              | 			phone: 312.829.BULB (2852)
+              br
+              a(href='http://thinkubators.com/Thinkubator-Parking.pdf') Parking Map (PDF)
+    p#c © Copyright 2010-11 • Gerald “Solutionman” Haman, Chicago USA

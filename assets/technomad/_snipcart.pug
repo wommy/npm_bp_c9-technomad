@@ -1,0 +1,39 @@
+extends ../_template.pug
+
+append css
+  
+
+append script
+  
+
+append nav
+  // +nav-bang(['about','clients','resume','form'])
+
+block content
+  mixin snipcart-item(id,name,price,description)
+    button.snipcart-add-item(
+      data-item-id=id
+      data-item-name=name
+      data-item-price=price
+      data-item-description=description
+      data-item-url="https://npm-boilerplate-technomad-wommy.c9users.io/technomad/snipcart.html"
+    ) add- #{name}
+  div
+    <a href="#" class="snipcart-checkout">Checkout</a>
+    div.snipcart-summary.
+      Number of items: <span class="snipcart-total-items"></span>
+      Total price: <span class="snipcart-total-price"></span>
+    p Services
+    div
+      p item1
+      +snipcart-item('1','technomad basic','300.00')
+      +snipcart-item('2','technomad plus','450.00')
+      +snipcart-item('3','feature sm','100.00')
+      +snipcart-item('4','feature md','200.00')
+      +snipcart-item('5','feature lg','500.00')
+      //- button.snipcart-add-item(
+          data-item-id="1"
+          data-item-name="consultation"
+          data-item-price="20.00"
+          data-item-url="https://npm-boilerplate-technomad-wommy.c9users.io/snipcart/"
+        ) Buy bacon
