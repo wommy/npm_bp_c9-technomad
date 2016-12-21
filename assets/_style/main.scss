@@ -1,0 +1,55 @@
+body{
+  margin:0;
+  box-sizing:border-box;
+  background:cornsilk;
+  
+  font-family:"Comic Sans MS";
+  line-height:1.5;
+  font-size:1.25rem;
+}
+
+.wrapper{
+  max-width:60rem;//960
+  margin:auto;
+  
+  nav{
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+    & a{
+      display:block;
+      
+      text-decoration:none;
+      
+      font-size:2rem;
+      padding:1rem;
+      margin:1rem;
+      // font-variant:small-caps;
+      // text-align:center;
+      
+      &:hover{text-decoration:underline;}
+      // &:visited{color:black;}
+      &:active{color:cyan;}
+      
+      &.active{color:red;}
+      &.active1{text-decoration:underline;}
+    }
+  }
+  
+  .feed{
+    max-width:48rem; // 768 || ^.8
+    margin:2rem 0;
+    margin-left:auto;
+    
+    & article{
+      min-height:25vh;
+      background-color: rgba(0, 0, 0, 0.1);
+      
+      text-align:justify;
+      
+      padding:3rem;
+      margin:2rem;
+      margin-right:0;
+    }
+  }
+}
