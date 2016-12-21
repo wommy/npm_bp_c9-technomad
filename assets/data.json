@@ -1,0 +1,58 @@
+{
+  "resume":{
+    "contact":{
+      "img":"//i.imgur.com/6GLw25um.jpg",
+      "name":"tommy williams",
+      "email":"tom@wommy.io",
+      "phone":"312 818 9011",
+      "portfolio":"wommy.io",
+      "google+":"wommy.io/gplus",
+      "github":"wommy.io/github",
+      "blog":"wommy.io/blog",
+      "focus":["digital publishing", "media distribution"],
+      "location":"royal oak mi",
+      "goal":"ecommerce in berlin",
+      "hobbies":["cycling","martial arts","dance","techno"],
+      "built in/with":"c720p / cloud9.io / jade scss json"
+    },
+    "skills":{
+      "development - language library framework":[
+        "html5 css3 javascript rails python php",
+        "node es6 json - webpack gulp - react vue riot",
+        "bemit oocss - scss less postcss cssnext",
+        "templating - jade haml liquid yaml markdown"
+      ],
+      "design - ui/ux":[
+        "mockups wireframes sitemaps gui",
+        "balsamiq axure sketch atomic adobe",
+        "rapid prototyping: agile, scrum",
+        "test creation, data collection, statistical analysis"
+      ],
+      "database":["nosql mysql mariadb postgresql"]
+    },
+    "experience":{
+      "2015 jun=>oct":[
+        "og-printing.com - graphic printing: tshirt, decal, signage",
+        "full-stack - 5+ subcontracted websites"
+      ],
+      "2015 jan=>jun":[
+        "solutionpeople.com - self-improvement workshop, creative space",
+        "intern - 30+ sites; led: design development database content"
+      ],
+      "2010 =>now":[
+        "13+ clients; design, development, consulting"
+      ]
+    },
+    "education":{
+      "depaul university":[
+        "graduated spring 2015",
+        "bachelor of arts: psychology",
+        "minor: interactive & social media"
+      ],
+      "columbia college chicago":[
+        "art school",
+        "2 year attendance",
+        "major: film, music composition"
+      ]
+    }
+}

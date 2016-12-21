@@ -1,0 +1,27 @@
+{
+  "name": "npm_boilerplate-technomad",
+  "version": "1.0.0",
+  "description": "technomad's npm boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "html": "pug assets/ --out build/ -P -w -s",
+    "css": "node-sass assets/ -o build/",
+    "css:w": "node-sass -w assets/ -o build/",
+    "serve": "browser-sync start -s 'build' -f 'build' --port $PORT --host $IP",
+    "dev": "parallelshell 'npm run html' 'npm run css' 'npm run css:w' 'npm run serve'"
+  },
+  "keywords": [
+    "technomad", "wommy", "npm", "boilerplate",
+    "jade", "pug", "scss", "sass", 
+    "browser-sync", "parallelshell"
+  ],
+  "author": "wommy",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "node-sass": "^3.8.0",
+    "parallelshell": "^2.0.0",
+    "pug": "^2.0.0-beta3",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

@@ -1,0 +1,84 @@
+// 
+// reset
+// 
+
+body{
+  font-size:14pt;
+  font-family:sans-serif;
+  letter-spacing: -1px;
+}
+p{
+  margin:0;
+}
+
+// 
+// page
+// 
+
+.block_inline > span{
+  display:inline-block;
+}
+.bold{
+  font-weight: bold;
+}
+.silver{
+  color:silver;
+}
+.caps{
+  font-variant:small-caps;
+}
+
+// 
+// class
+// 
+
+.right{
+  position:absolute;
+  left:37.5rem;
+  top:2rem;
+}
+.medalion{
+  display:block;
+  background-color:silver;
+  background-image: url('https://i.imgur.com/6GLw25ul.jpg');
+  background-repeat: no-repeat;
+  height:19rem;
+  width:15rem;
+  background-position:-1.625rem -3rem;
+  border-radius:100%/50%;
+  background-clip:content-box;
+  background-size:125%;
+  align-self:center;
+}
+.title{
+  &-name{
+    font-size:2.5rem;
+  }
+  &-header{
+    text-align:right;
+    margin-right:1rem;
+    width:5rem;
+  }
+  &-super{
+    transform: rotate(-90deg);
+    position:relative;
+    left:-2rem;
+    top:4rem;
+    width:6rem;
+    text-align:right;
+    
+    color:silver;
+  }
+  &-major{
+    font-weight: bold;
+    padding-left:0;
+    border-left:none;
+  }
+}
+.group1{
+  margin-left:2rem;
+  & :not(.title-major){
+    padding-left:.75rem;
+    border-left:4px double silver;
+  }
+}

@@ -1,0 +1,35 @@
+extends ../_template.pug
+
+append css
+
+append script
+  
+
+append nav
+  +nav-bang(['about','clients','resume','contact'])
+
+block content
+  div.home
+  div.about
+  div.products
+  div.clients
+  div.media
+    include ./pages/video.pug
+    div.blog
+  div.cart
+    div
+      mixin snipcart-item(id,name,price,description)
+        div
+          h3 #{name} #[button.snipcart-add-item(data-item-id=id data-item-name=name data-item-price=price data-item-description=description data-item-url="https://npm-boilerplate-technomad-wommy.c9users.io/technomad/") add to cart - $#{price}]
+          p= description
+      //-
+        <a href="#" class="snipcart-checkout">Checkout</a>
+        div.snipcart-summary.
+          Number of items: <span class="snipcart-total-items"></span>
+          Total price: <span class="snipcart-total-price"></span>
+      p Services
+      +snipcart-item('1','Consultation','50.00','we meet and go over your ')
+      +snipcart-item('2','Domain','100')
+      +snipcart-item('3','Hosting','100')
+      +snipcart-item('4','Feature Development','100')
+      +snipcart-item('5','Technomad Suite','200')
