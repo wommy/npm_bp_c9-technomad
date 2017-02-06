@@ -16,8 +16,8 @@ body {
       display: block;
       text-decoration: none;
       font-size: 2rem;
-      padding: 1rem;
-      margin: 1rem; }
+      padding: .5rem;
+      margin: .5rem; }
       .wrapper nav a:hover {
         text-decoration: underline; }
       .wrapper nav a:active {

@@ -1,0 +1,75 @@
+extends ./template.pug
+
+block content
+  script.
+    
+  div#container
+    div#page
+      div.floating-menu
+        h3
+          strong
+            center Group Families
+        a(href="#1") 16 Most Popular Groups for Innovators
+        a(href="#2") 8 Groups for Marketing, PR & Sales Innovators
+        a(href="#3") 8 Groups for New Product & Service Innovators
+        a(href="#4") 12 Groups for Leadership & Management Innovators
+        a(href="#5") 4 Groups for Social Media Innovators
+        a(href="#6") 4 Groups for Learning & Mastering Innovation
+        a(href="#7") 7 Groups for International Networking
+        a(href="#8") 7 Groups for Networking in the USA
+        a(href="#9") 42 Innovation Groups (Full List Alphabetical Order)
+      div#header
+        h1#logo
+          a(href="http://linkedingroups.com") LinkedIn Groups
+      div#content_box
+        div#content
+          div.post_box.top#post-2
+            div.headline_area
+              h2 relate-to-innovate
+            div.format_text
+              style(type="text/css" media="screen") #dd_ajax_float{ background:transparent; border:0px; float:left; margin-left:880px; margin-right:10px; margin-top:70px; position:absolute; z-index:1; }.addthis_toolbox.addthis_default_style {margin-top:-226px} .dd_button_v {margin-bottom:6px}
+              script(type="text/javascript").
+                $j=jQuery.noConflict();
+                $j(document).ready(function($) {
+                  //put content div class, when scroll beyond this y, float it
+                  var $postShare = $('#dd_ajax_float');
+                  if($('.dd_content_wrap').length > 0){
+                    var descripY = parseInt($('.dd_content_wrap').offset().top) - 20;
+                    var pullX = $postShare.css('margin-left');
+                    $(window).scroll(function () { 
+                      var scrollY = $(window).scrollTop();
+                      var fixedShare = $postShare.css('position') == 'fixed';
+                      //make sure .post_share exists
+                      if($('#dd_ajax_float').length > 0){if ( scrollY > descripY && !fixedShare ) {$postShare.stop().css({position: 'fixed',top: 16});} else if ( scrollY < descripY && fixedShare ) {$postShare.css({position: 'absolute',top: descripY,marginLeft: pullX});}}
+                    });
+                  }
+                });
+              div#dd_ajax_float
+                div.dd_button_v
+                  iframe(src="http://api.tweetmeme.com/button.js?url=http://linkedingroups.com/&source=&service=&service_api=&style=normal" height="61" width="50" frameborder="0" scrolling="no")
+                  div(style="clear:left")
+                  div.dd_button_v
+                    iframe(src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Flinkedingroups.com%2F&amp;layout=box_count&amp;action=like&amp;width=50&amp;height=60&amp;colorscheme=light" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:60px;" allowTransparency='true')
+                  div(style="clear:left")
+                  div(style="clear:left")
+                  div.dd_button_v
+                    div.addthis_toolbox.addthis_default_style
+                      a.addthis_counter
+                    script(type="text/javascript") var addthis_config = {services_compact:"email,facebook,twitter,linkedin,delicious,digg,reddit,google,buzz,more",data_track_clickback:"true"};
+                    script(type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=swanzai")
+                  div(style="clear:left")
+              include content.pug
+              div#sidebars
+                div#sidebar_1.sidebar
+                  ul.sidebar_list
+                div#sidebar_2.sidebar
+                  ul.sidebar_list
+      div#footer
+        script(type="text/javascript").
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript' %3E%3C/script%3E"));
+        script(type="text/javascript") var pageTracker = _gat._getTracker("UA-17995231-8");pageTracker._initData();pageTracker._trackPageview();
+  <!--[if lte IE 8]>
+  <div id="ie_clear"></div>
+  <![endif]-->
+  script(type="text/javascript" src="https://fjd89078.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=156bd02ddeb9299024d075d1e162af55")

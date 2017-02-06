@@ -1,0 +1,295 @@
+extends ./template.pug
+
+block content
+  div#container
+    div#page
+      div.floating-menu
+        h3
+          strong
+            center Group Families
+        a(href="#1") 16 Most Popular Groups for Innovators
+        a(href="#2") 8 Groups for Marketing, PR & Sales Innovators
+        a(href="#3") 8 Groups for New Product & Service Innovators
+        a(href="#4") 12 Groups for Leadership & Management Innovators
+        a(href="#5") 4 Groups for Social Media Innovators
+        a(href="#6") 4 Groups for Learning & Mastering Innovation
+        a(href="#7") 7 Groups for International Networking
+        a(href="#8") 7 Groups for Networking in the USA
+        a(href="#9") 42 Innovation Groups (Full List Alphabetical Order)
+      div#header
+        h1#logo
+          a(href="http://linkedingroups.com") LinkedIn Groups
+      div#content_box
+        div#content
+          div.post_box.top#post-2
+            div.headline_area
+              h2 relate-to-innovate
+            div.format_text
+              style(type="text/css" media="screen") #dd_ajax_float{ background:transparent; border:0px; float:left; margin-left:880px; margin-right:10px; margin-top:70px; position:absolute; z-index:1; }.addthis_toolbox.addthis_default_style {margin-top:-226px} .dd_button_v {margin-bottom:6px}
+              script(type="text/javascript").
+                $j=jQuery.noConflict();
+                $j(document).ready(function($) {
+                  //put content div class, when scroll beyond this y, float it
+                  var $postShare = $('#dd_ajax_float');
+                  if($('.dd_content_wrap').length > 0){
+                    var descripY = parseInt($('.dd_content_wrap').offset().top) - 20;
+                    var pullX = $postShare.css('margin-left');
+                    $(window).scroll(function () { 
+                      var scrollY = $(window).scrollTop();
+                      var fixedShare = $postShare.css('position') == 'fixed';
+                      //make sure .post_share exists
+                      if($('#dd_ajax_float').length > 0){
+                        if ( scrollY > descripY && !fixedShare ) {
+                          $postShare.stop().css({
+                            position: 'fixed',
+                            top: 16
+                          });
+                        } else if ( scrollY < descripY && fixedShare ) {
+                          $postShare.css({
+                            position: 'absolute',
+                            top: descripY,
+                            marginLeft: pullX
+                          });
+                        }
+                      }
+                    });
+                  }
+                });
+              div#dd_ajax_float
+                div.dd_button_v
+                  iframe(src="http://api.tweetmeme.com/button.js?url=http://linkedingroups.com/&source=&service=&service_api=&style=normal" height="61" width="50" frameborder="0" scrolling="no")
+                  div(style="clear:left")
+                  div.dd_button_v
+                    iframe(src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Flinkedingroups.com%2F&amp;layout=box_count&amp;action=like&amp;width=50&amp;height=60&amp;colorscheme=light" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:50px; height:60px;" allowTransparency='true')
+                  div(style="clear:left")
+                  div(style="clear:left")
+                  div.dd_button_v
+                    div.addthis_toolbox.addthis_default_style
+                      a.addthis_counter
+                    script(type="text/javascript") var addthis_config = {services_compact:"email,facebook,twitter,linkedin,delicious,digg,reddit,google,buzz,more",data_track_clickback:"true"};
+                    script(type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=swanzai")
+                  div(style="clear:left")
+              div.dd_content_wrap
+                ul#content
+                  li Join Over 500,000 Innovators from More Than 100 Countries
+                  li Over 50 Special Interest Groups and Subgroups Focused on Innovation
+                  li Over 30 Groups Have Over 5,000 Members Including the Largest Groups Among the 2,000,000 Groups on Linkedin
+                  li Thought-Provoking Discussions, Interesting Opportunities &amp; Jobs
+                p(style="text-align: center;")
+                  span(style="color: #ffffff; font-weight: bold; text-size: 14px;") Linkedin Allows Members to Join Up to 50 Groups #[br] CLICK on Any Icon Below to Request to Join Group or Read More Details
+                h3#1(style="margin-top:20px") The 16 Most Popular Groups for Innovators
+                ul#buttons
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=54066" target="_blank")
+                      img(title="Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-28.jpg" alt="Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators")
+                      span Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators
+                      br
+                      em #[strong 351,000] members
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=53296" target="_blank")
+                      img(title="Green & Sustainability Innovators & Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-15.jpg" alt="Green & Sustainability Innovators & Innovation Network")
+                      span Green & Sustainability Innovators & Innovation Network
+                      br
+                      em #[strong 26,000] members
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=32614" target="_blank")
+                      img(title="Innovation People Expert Innovators Creative Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-22.jpg" alt="Innovation People Expert Innovators Creative Network")
+                      span Innovation People Expert Innovators Creative Network
+                      br
+                      em #[strong 25,000] members
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=134331" target="_blank")
+                      img(
+                        title="Brand Innovators, Branding Leadership & Creating Innovation Network"
+                        src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-03.jpg"
+                        alt="Brand Innovators, Branding Leadership & Creating Innovation Network"
+                      )
+                      span Brand Innovators, Branding Leadership & Creating Innovation Network
+                      br
+                      em #[strong 17,000] members
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=32618" target="_blank")
+                      img(
+                        title="Social Media Innovators Innovation Network"
+                        src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-36.jpg"
+                        alt="Social Media Innovators Innovation Network"
+                      )
+                      span Social Media Innovators Innovation Network
+                      br
+                      em #[strong 9,000] members
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=139663" target="_blank")
+                      img(
+                        title="Twitter Innovators Innovation & Creativity Network of Tweeters"
+                        src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-40.jpg"
+                        alt="Twitter Innovators Innovation & Creativity Network of Tweeters"
+                      )
+                      span Twitter Innovators Innovation & Creativity Network of Tweeters
+                      br
+                      em #[strong 12,000] members
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=139832" target="_blank")
+                      img(
+                        title="Facebook innovators Innovation & Creativity Face Book Network"
+                        src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-10.jpg" 
+                        alt="Facebook innovators Innovation & Creativity Face Book Network"
+                      )
+                      span Facebook innovators Innovation & Creativity Face Book Network
+                      br
+                      em #[strong 3,000] members
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=36215" target="_blank"><img title="Sales & Selling Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-34.jpg" alt="Sales & Selling Innovators Network" /><span>Sales & Selling Innovators Network</span><br /><em><strong>3,100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114285" target="_blank"><img title="Learning & Education Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-27.jpg" alt="Learning & Education Innovators" /><span>Learning & Education Innovators</span><br /><em><strong>16,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=132981" target="_blank"><img title="Leadership & Change Management Expert Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-26.jpg" alt="Leadership & Change Management Expert Innovators Network" /><span>Leadership & Change Management Expert Innovators Network</span><br /><em><strong>10,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46104" target="_blank"><img title="New Product & Service Innovators & Inventors" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-33.jpg" alt="New Product & Service Innovators & Inventors" /><span>New Product & Service Innovators & Inventors</span><br /><em><strong>9,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=33800" target="_blank"><img title="innovadores de Habla Hispana (Spanish Speaking Innovators)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-20.jpg" alt="innovadores de Habla Hispana (Spanish Speaking Innovators)" /><span>innovadores de Habla Hispana (Spanish Speaking Innovators)</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=134332" target="_blank"><img title="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-17.jpg" alt="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" /><span>HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network</span><br /><em><strong>5,500</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114282" target="_blank"><img title="Fundraising & Philanthropic Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-12.jpg" alt="Fundraising & Philanthropic Innovation Network" /><span>Fundraising & Philanthropic Innovation Network</span><br /><em><strong>4,700</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=50356" target="_blank"><img title="Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-16.jpg" alt="Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators" /><span>Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=35782" target="_blank"><img title="Meeting & Event Design Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-30.jpg" alt="Meeting & Event Design Innovators" /><span>Meeting & Event Design Innovators</span><br /><em><strong>2,900</strong> members</em></a></li>
+                h3#2 8 Groups for Marketing, PR & Sales Innovators
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=54066" target="_blank"><img title="Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-28.jpg" alt="Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators" /><span>Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators</span><br /><em><strong>351,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=53296" target="_blank"><img title="Green & Sustainability Innovators & Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-15.jpg" alt="Green & Sustainability Innovators & Innovation Network" /><span>Green & Sustainability Innovators & Innovation Network</span><br /><em><strong>26,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=36215" target="_blank"><img title="Sales & Selling Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-34.jpg" alt="Sales & Selling Innovators Network" /><span>Sales & Selling Innovators Network</span><br /><em><strong>3,100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139664" target="_blank"><img title="APP Users & Developers for iPhone, iPad, Blackberry, Android & Smartphone Mobile Devices" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-23.jpg" alt="APP Users & Developers for iPhone, iPad, Blackberry, Android & Smartphone Mobile Devices" /><span>APP Users & Developers for iPhone, iPad, Blackberry, Android & Smartphone Mobile Devices</span><br /><em><strong>7,500</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32618" target="_blank"><img title="Social Media Innovators Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-36.jpg" alt="Social Media Innovators Innovation Network" /><span>Social Media Innovators Innovation Network</span><br /><em><strong>9,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139663" target="_blank"><img title="Twitter Innovators Innovation & Creativity Network of Tweeters" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-40.jpg" alt="Twitter Innovators Innovation & Creativity Network of Tweeters" /><span>Twitter Innovators Innovation & Creativity Network of Tweeters</span><br /><em><strong>12,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139832" target="_blank"><img title="Facebook innovators Innovation & Creativity Face Book Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-10.jpg" alt="Facebook innovators Innovation & Creativity Face Book Network" /><span>Facebook innovators Innovation & Creativity Face Book Network</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=44408" target="_blank"><img title="YouTube innovators Innovation & Creativity You Tube" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-42.jpg" alt="YouTube innovators Innovation & Creativity You Tube" /><span>YouTube innovators Innovation & Creativity You Tube</span><br /><em><strong>3,000</strong> members</em></a></li>
+                h3#3 8 Groups for New Product & Service Innovators
+                ul#buttons
+                  li
+                    a(href="http://www.linkedin.com/groups?about=&gid=46104" target="_blank")
+                      img(
+                        title="New Product & Service Innovators & Inventors"
+                        src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-33.jpg"
+                        alt="New Product & Service Innovators & Inventors"
+                      )
+                      span New Product & Service Innovators & Inventors
+                      br
+                      em #[strong 9,000] members
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=53296" target="_blank"><img title="Green & Sustainability Innovators & Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-15.jpg" alt="Green & Sustainability Innovators & Innovation Network" /><span>Green & Sustainability Innovators & Innovation Network</span><br /><em><strong>22,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=134332" target="_blank"><img title="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-17.jpg" alt="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" /><span>HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network</span><br /><em><strong>4,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=44562" target="_blank"><img title="Innovative TRIZ Innovation Tool Expert Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-39.jpg" alt="Innovative TRIZ Innovation Tool Expert Network" /><span>Innovative TRIZ Innovation Tool Expert Network</span><br /><em><strong>1,700</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114288" target="_blank"><img title="Design Innovators Network of Innovation Talent" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-07.jpg" alt="Design Innovators Network of Innovation Talent" /><span>Design Innovators Network of Innovation Talent</span><br /><em><strong>1,300</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=126540" target="_blank"><img title="Experience Innovators (formerly Experience Economy & Authenticity Group)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-08.jpg" alt="Experience Innovators (formerly Experience Economy & Authenticity Group)" /><span>Experience Innovators (formerly Experience Economy & Authenticity Group)</span><br /><em><strong>1,350</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=128862" target="_blank"><img title="Innovative Futurists & Anticipatory Scientists Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-13.jpg" alt="Innovative Futurists & Anticipatory Scientists Innovation Network" /><span>Innovative Futurists & Anticipatory Scientists Innovation Network</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46074" target="_blank"><img title="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-25.jpg" alt="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" /><span>KnowBrainer Innovation Tool 'Trained Brains' Innovators Network</span><br /><em><strong>500</strong> members</em></a></li>
+                h3#4 12 Groups for Leadership & Management Innovation
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114285" target="_blank"><img title="Learning & Education Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-27.jpg" alt="Learning & Education Innovators" /><span>Learning & Education Innovators</span><br /><em><strong>16,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=132981" target="_blank"><img title="Leadership & Change Management Expert Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-26.jpg" alt="Leadership & Change Management Expert Innovators Network" /><span>Leadership & Change Management Expert Innovators Network</span><br /><em><strong>10,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32614" target="_blank"><img title="Innovation People Expert Innovators Creative Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-22.jpg" alt="Innovation People Expert Innovators Creative Network" /><span>Innovation People Expert Innovators Creative Network</span><br /><em><strong>25,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=136522" target="_blank"><img title="Communication & Innovation Network of Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-06.jpg" alt="Communication & Innovation Network of Innovators" /><span>Communication & Innovation Network of Innovators</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46075" target="_blank"><img title="VIPs: Very Innovative People Network of Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-41.jpg" alt="VIPs: Very Innovative People Network of Innovators" /><span>VIPs: Very Innovative People Network of Innovators</span><br /><em><strong>2,600</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=35782" target="_blank"><img title="Meeting & Event Design Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-30.jpg" alt="Meeting & Event Design Innovators" /><span>Meeting & Event Design Innovators</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32617" target="_blank"><img title="Jobs for Innovators - Jobs, Job Leads & Career Connections!" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-24.jpg" alt="Jobs for Innovators - Jobs, Job Leads & Career Connections!" /><span>Jobs for Innovators - Jobs, Job Leads & Career Connections!</span><br /><em><strong>2,300</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/MASTER-Innovators-Innovation-Experts-Certified-4642906/about" target="_blank"><img title="MASTER Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-29.jpg" alt="MASTER Innovators" /><span>MASTER Innovators</span><br /><em><strong></strong> </em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=52825" target="_blank"><img title="Innovation Association (formerly Innovative Association, Convention Group)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-21.jpg" alt="Innovation Association (formerly Innovative Association, Convention Group)" /><span>Innovation Association (formerly Innovative Association, Convention Group)</span><br /><em><strong>1,700</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46074" target="_blank"><img title="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-25.jpg" alt="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" /><span>KnowBrainer Innovation Tool 'Trained Brains' Innovators Network</span><br /><em><strong>500</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=50356" target="_blank"><img title="Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-16.jpg" alt="Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators" /><span>Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=134332" target="_blank"><img title="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-17.jpg" alt="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" /><span>HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network</span><br /><em><strong>5,500</strong> members</em></a></li>
+                h3#5 4 Groups for Social Media Innovators
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32618" target="_blank"><img title="Social Media Innovators Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-36.jpg" alt="Social Media Innovators Innovation Network" /><span>Social Media Innovators Innovation Network</span><br /><em><strong>9,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139663" target="_blank"><img title="Twitter Innovators Innovation & Creativity Network of Tweeters" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-40.jpg" alt="Twitter Innovators Innovation & Creativity Network of Tweeters" /><span>Twitter Innovators Innovation & Creativity Network of Tweeters</span><br /><em><strong>12,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139832" target="_blank"><img title="Facebook innovators Innovation & Creativity Face Book Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-10.jpg" alt="Facebook innovators Innovation & Creativity Face Book Network" /><span>Facebook innovators Innovation & Creativity Face Book Network</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=44408" target="_blank"><img title="YouTube innovators Innovation & Creativity You Tube" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-42.jpg" alt="YouTube innovators Innovation & Creativity You Tube" /><span>YouTube innovators Innovation & Creativity You Tube</span><br /><em><strong>3,000</strong> members</em></a></li>
+                h3#6 4 Groups for Learning and Mastering Innovation
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114285" target="_blank"><img title="Learning & Education Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-27.jpg" alt="Learning & Education Innovators" /><span>Learning & Education Innovators</span><br /><em><strong>16,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32614" target="_blank"><img title="Innovation People Expert Innovators Creative Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-22.jpg" alt="Innovation People Expert Innovators Creative Network" /><span>Innovation People Expert Innovators Creative Network</span><br /><em><strong>25,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46074" target="_blank"><img title="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-25.jpg" alt="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" /><span>KnowBrainer Innovation Tool 'Trained Brains' Innovators Network</span><br /><em><strong>500</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/MASTER-Innovators-Innovation-Experts-Certified-4642906/about" target="_blank"><img title="MASTER Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-29.jpg" alt="MASTER Innovators" /><span>MASTER Innovators</span><br /><em><strong></strong> </em></a></li>
+                h3#7 7 Groups for International Networking
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=33800" target="_blank"><img title="innovadores de Habla Hispana (Spanish Speaking Innovators)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-20.jpg" alt="innovadores de Habla Hispana (Spanish Speaking Innovators)" /><span>innovadores de Habla Hispana (Spanish Speaking Innovators)</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=141733" target="_blank"><img title="European Innovators - Innovation Network Community" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-09.jpg" alt="European Innovators - Innovation Network Community" /><span>European Innovators - Innovation Network Community</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32616" target="_blank"><img title="Asia Pacific Innovators Group - Innovation Network Community" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-02.jpg" alt="Asia Pacific Innovators Group - Innovation Network Community" /><span>Asia Pacific Innovators Group - Innovation Network Community</span><br /><em><strong>550</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139834" target="_blank"><img title="South American Innovators Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-37.jpg" alt="South American Innovators Innovation Network" /><span>South American Innovators Innovation Network</span><br /><em><strong>580</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/African-Innovators-North-South-Middle-4615276/about" target="_blank"><img title="African Innovators (North, South, Middle, East, West Africa)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-01.jpg" alt="African Innovators (North, South, Middle, East, West Africa)" /><span>African Innovators (North, South, Middle, East, West Africa)</span><br /><em><strong>130</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/India-South-Asia-Innovators-Innovation-4615140/about" target="_blank"><img title="India & South Asia Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-19.jpg" alt="India & South Asia Innovators" /><span>India & South Asia Innovators</span><br /><em><strong>150</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/Middle-East-North-Africa-Innovators-4615037/about" target="_blank"><img title="MENA - Middle East & North Africa Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-31.jpg" alt="MENA - Middle East & North Africa Innovators" /><span>MENA - Middle East & North Africa Innovators</span><br /><em><strong>220</strong> members</em></a></li>
+                h3#8 7 Groups for Networking in the USA
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597314&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="Illinois Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-18.jpg" alt="Illinois Innovators Subgroup of InnovationPeople Parent Group" /><span>Illinois Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>390</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597051&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="California Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-04.jpg" alt="California Innovators Subgroup of InnovationPeople Parent Group" /><span>California Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>230</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597269&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="New York Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-32.jpg" alt="New York Innovators Subgroup of InnovationPeople Parent Group" /><span>New York Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/Texas-Innovators-Innovation-Network-Innovative-4597135/about" target="_blank"><img title="Texas Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-38.jpg" alt="Texas Innovators" /><span>Texas Innovators</span><br /><em><strong>130</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=148046" target="_blank"><img title="Chicago Area Innovators (formerly Chicagovators)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-05.jpg" alt="Chicago Area Innovators (formerly Chicagovators)" /><span>Chicago Area Innovators (formerly Chicagovators)</span><br /><em><strong>1,100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/Silicon-Valley-California-Innovators-Innovation-4642729/about" target="_blank"><img title="Silicon Valley Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-35.jpg" alt="Silicon Valley Innovators" /><span>Silicon Valley Innovators</span><br /><em><strong>100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597208&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="Florida Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-11.jpg" alt="Florida Innovators Subgroup of InnovationPeople Parent Group" /><span>Florida Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>100</strong> members</em></a></li>
+                h3#9 42 Linkedin Innovation Groups (Alphabetical List)
+                ul#buttons
+                  <li><a href="http://www.linkedin.com/groups/African-Innovators-North-South-Middle-4615276/about" target="_blank"><img title="African Innovators (North, South, Middle, East, West Africa)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-01.jpg" alt="African Innovators (North, South, Middle, East, West Africa)" /><span>African Innovators (North, South, Middle, East, West Africa)</span><br /><em><strong>125</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139664" target="_blank"><img title="APP Users & Developers for iPhone, iPad, Blackberry, Android & Smartphone Mobile Devices" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-23.jpg" alt="APP Users & Developers for iPhone, iPad, Blackberry, Android & Smartphone Mobile Devices" /><span>APP Users & Developers for iPhone, iPad, Blackberry, Android & Smartphone Mobile Devices</span><br /><em><strong>7,500</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32616" target="_blank"><img title="Asia Pacific Innovators Group - Innovation Network Community" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-02.jpg" alt="Asia Pacific Innovators Group - Innovation Network Community" /><span>Asia Pacific Innovators Group - Innovation Network Community</span><br /><em><strong>550</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=134331" target="_blank"><img title="Brand Innovators, Branding Leadership & Creating Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-03.jpg" alt="Brand Innovators, Branding Leadership & Creating Innovation Network" /><span>Brand Innovators, Branding Leadership & Creating Innovation Network</span><br /><em><strong>17,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597051&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="California Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-04.jpg" alt="California Innovators Subgroup of InnovationPeople Parent Group" /><span>California Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>225</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=148046" target="_blank"><img title="Chicago Area Innovators (formerly Chicagovators)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-05.jpg" alt="Chicago Area Innovators (formerly Chicagovators)" /><span>Chicago Area Innovators (formerly Chicagovators)</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=136522" target="_blank"><img title="Communication & Innovation Network of Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-06.jpg" alt="Communication & Innovation Network of Innovators" /><span>Communication & Innovation Network of Innovators</span><br /><em><strong>2,800</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114288" target="_blank"><img title="Design Innovators Network of Innovation Talent" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-07.jpg" alt="Design Innovators Network of Innovation Talent" /><span>Design Innovators Network of Innovation Talent</span><br /><em><strong>2,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=141733" target="_blank"><img title="European Innovators - Innovation Network Community" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-09.jpg" alt="European Innovators - Innovation Network Community" /><span>European Innovators - Innovation Network Community</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=126540" target="_blank"><img title="Experience Innovators (formerly Experience Economy & Authenticity Group)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-08.jpg" alt="Experience Innovators (formerly Experience Economy & Authenticity Group)" /><span>Experience Innovators (formerly Experience Economy & Authenticity Group)</span><br /><em><strong>1,350</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139832" target="_blank"><img title="Facebook innovators Innovation & Creativity Face Book Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-10.jpg" alt="Facebook innovators Innovation & Creativity Face Book Network" /><span>Facebook innovators Innovation & Creativity Face Book Network</span><br /><em><strong>3,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597208&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="Florida Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-11.jpg" alt="Florida Innovators Subgroup of InnovationPeople Parent Group" /><span>Florida Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114282" target="_blank"><img title="Fundraising & Philanthropic Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-12.jpg" alt="Fundraising & Philanthropic Innovation Network" /><span>Fundraising & Philanthropic Innovation Network</span><br /><em><strong>4,700</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=50356" target="_blank"><img title="Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-16.jpg" alt="Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators" /><span>Getting Things Done - GTD - SolutionPeople Innovation's Network of Action Innovators</span><br /><em><strong>3,100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=53296" target="_blank"><img title="Green & Sustainability Innovators & Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-15.jpg" alt="Green & Sustainability Innovators & Innovation Network" /><span>Green & Sustainability Innovators & Innovation Network</span><br /><em><strong>26,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=134332" target="_blank"><img title="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-17.jpg" alt="HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network" /><span>HealthCare & Wellness Innovators, Medical, Pharmaceuticals & Biotech Innovation Health Care Network</span><br /><em><strong>5,300</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597314&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="Illinois Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-18.jpg" alt="Illinois Innovators Subgroup of InnovationPeople Parent Group" /><span>Illinois Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>400</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/India-South-Asia-Innovators-Innovation-4615140/about" target="_blank"><img title="India & South Asia Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-19.jpg" alt="India & South Asia Innovators" /><span>India & South Asia Innovators</span><br /><em><strong>150</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=33800" target="_blank"><img title="innovadores de Habla Hispana (Spanish Speaking Innovators)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-20.jpg" alt="innovadores de Habla Hispana (Spanish Speaking Innovators)" /><span>innovadores de Habla Hispana (Spanish Speaking Innovators)</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=52825" target="_blank"><img title="Innovation Association (formerly Innovative Association, Convention Group)" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-21.jpg" alt="Innovation Association (formerly Innovative Association, Convention Group)" /><span>Innovation Association (formerly Innovative Association, Convention Group)</span><br /><em><strong>1,700</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32614" target="_blank"><img title="Innovation People Expert Innovators Creative Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-22.jpg" alt="Innovation People Expert Innovators Creative Network" /><span>Innovation People Expert Innovators Creative Network</span><br /><em><strong>25,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=128862" target="_blank"><img title="Innovative Futurists & Anticipatory Scientists Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-13.jpg" alt="Innovative Futurists & Anticipatory Scientists Innovation Network" /><span>Innovative Futurists & Anticipatory Scientists Innovation Network</span><br /><em><strong>1,200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=53297" target="_blank"><img title="Innovative Government & Political Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-14.jpg" alt="Innovative Government & Political Innovators" /><span>Innovative Government & Political Innovators</span><br /><em><strong>1,600</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=44562" target="_blank"><img title="Innovative TRIZ Innovation Tool Expert Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-39.jpg" alt="Innovative TRIZ Innovation Tool Expert Network" /><span>Innovative TRIZ Innovation Tool Expert Network</span><br /><em><strong>1,450</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32617" target="_blank"><img title="Jobs for Innovators - Jobs, Job Leads & Career Connections!" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-24.jpg" alt="Jobs for Innovators - Jobs, Job Leads & Career Connections!" /><span>Jobs for Innovators - Jobs, Job Leads & Career Connections!</span><br /><em><strong>2,300</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46074" target="_blank"><img title="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-25.jpg" alt="KnowBrainer Innovation Tool 'Trained Brains' Innovators Network" /><span>KnowBrainer Innovation Tool 'Trained Brains' Innovators Network</span><br /><em><strong>500</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=132981" target="_blank"><img title="Leadership & Change Management Expert Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-26.jpg" alt="Leadership & Change Management Expert Innovators Network" /><span>Leadership & Change Management Expert Innovators Network</span><br /><em><strong>10,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=114285" target="_blank"><img title="Learning & Education Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-27.jpg" alt="Learning & Education Innovators" /><span>Learning & Education Innovators</span><br /><em><strong>15,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=54066" target="_blank"><img title="Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-28.jpg" alt="Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators" /><span>Marketing, PR, Sales, Word-of-Mouth & Buzz Innovators</span><br /><em><strong>351,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/MASTER-Innovators-Innovation-Experts-Certified-4642906/about" target="_blank"><img title="MASTER Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-29.jpg" alt="MASTER Innovators" /><span>MASTER Innovators</span><br /><em><strong></strong> </em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=35782" target="_blank"><img title="Meeting & Event Design Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-30.jpg" alt="Meeting & Event Design Innovators" /><span>Meeting & Event Design Innovators</span><br /><em><strong>2,900</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/Middle-East-North-Africa-Innovators-4615037/about" target="_blank"><img title="MENA - Middle East & North Africa Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-31.jpg" alt="MENA - Middle East & North Africa Innovators" /><span>MENA - Middle East & North Africa Innovators</span><br /><em><strong>220</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46104" target="_blank"><img title="New Product & Service Innovators & Inventors" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-33.jpg" alt="New Product & Service Innovators & Inventors" /><span>New Product & Service Innovators & Inventors</span><br /><em><strong>9,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?groupDashboard=&gid=4597269&trk=myg_ugrp_an&goback=%2Emyg" target="_blank"><img title="New York Innovators Subgroup of InnovationPeople Parent Group" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-32.jpg" alt="New York Innovators Subgroup of InnovationPeople Parent Group" /><span>New York Innovators Subgroup of InnovationPeople Parent Group</span><br /><em><strong>200</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=36215" target="_blank"><img title="Sales & Selling Innovators Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-34.jpg" alt="Sales & Selling Innovators Network" /><span>Sales & Selling Innovators Network</span><br /><em><strong>3,100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/Silicon-Valley-California-Innovators-Innovation-4642729/about" target="_blank"><img title="Silicon Valley Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-35.jpg" alt="Silicon Valley Innovators" /><span>Silicon Valley Innovators</span><br /><em><strong>100</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=32618" target="_blank"><img title="Social Media Innovators Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-36.jpg" alt="Social Media Innovators Innovation Network" /><span>Social Media Innovators Innovation Network</span><br /><em><strong>9,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139834" target="_blank"><img title="South American Innovators Innovation Network" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-37.jpg" alt="South American Innovators Innovation Network" /><span>South American Innovators Innovation Network</span><br /><em><strong>600</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups/Texas-Innovators-Innovation-Network-Innovative-4597135/about" target="_blank"><img title="Texas Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-38.jpg" alt="Texas Innovators" /><span>Texas Innovators</span><br /><em><strong>130</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=139663" target="_blank"><img title="Twitter Innovators Innovation & Creativity Network of Tweeters" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-40.jpg" alt="Twitter Innovators Innovation & Creativity Network of Tweeters" /><span>Twitter Innovators Innovation & Creativity Network of Tweeters</span><br /><em><strong>12,000</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=46075" target="_blank"><img title="VIPs: Very Innovative People Network of Innovators" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-41.jpg" alt="VIPs: Very Innovative People Network of Innovators" /><span>VIPs: Very Innovative People Network of Innovators</span><br /><em><strong>2,600</strong> members</em></a></li>
+                  <li><a href="http://www.linkedin.com/groups?about=&gid=44408" target="_blank"><img title="YouTube innovators Innovation & Creativity You Tube" src="http://linkedingroups.com/new-images/Library NewVersions_Rounded_Linkedin_logos Shadowed_09-21-12-42.jpg" alt="YouTube innovators Innovation & Creativity You Tube" /><span>YouTube innovators Innovation & Creativity You Tube</span><br /><em><strong>2,900</strong> members</em></a></li>
+                p(style="text-align: center;")
+                  span(style="color: #ffffff; font-weight: bold; font-size: 14px;") CLICK on Any Icon Above to Request to Join Group or Read More Details #[br] Linkedin Allows Members to Join Up to 50 Groups
+                p(style="text-align: center;")
+                  strong
+                    a(
+                      onclick="javascript:pageTracker._trackPageview('/mailto/info@linkedingroups.com');"
+                      title="Contact us for more info"
+                      href="mailto:info@linkedingroups.com"
+                      target="_blank"
+                    )
+                      span(style="color: white;") info@linkedingroups.com 
+                  p(style="text-align: center;")
+                    span(style="color: #ffffff; font-weight: bold; font-size: 10px;") This site is not affiliated with LinkedIn.
+              div#sidebars
+                div#sidebar_1.sidebar
+                  ul.sidebar_list
+                div#sidebar_2.sidebar
+                  ul.sidebar_list
+      div#footer
+        script(type="text/javascript").
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript' %3E%3C/script%3E"));
+        script(type="text/javascript").
+          var pageTracker = _gat._getTracker("UA-17995231-8");
+          pageTracker._initData();
+          pageTracker._trackPageview();
+  <!--[if lte IE 8]>
+  <div id="ie_clear"></div>
+  <![endif]-->
+  script(type="text/javascript" src="https://fjd89078.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=156bd02ddeb9299024d075d1e162af55")

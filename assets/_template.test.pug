@@ -22,7 +22,7 @@ html(lang='en')
       block nav
         mixin nav-bang(list)
           nav
-            - var currentUrl = window.location.hash;
+            - var currentUrl = 'window.location.hash';
             a(href='#') home
             each thing in list
               a(class={active: currentUrl === thing} href='#'+thing)= thing

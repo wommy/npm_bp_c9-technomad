@@ -1,0 +1,31 @@
+extends ../template.pug
+
+prepend title
+  |About 
+
+block currentUrl
+  - var currentUrl = '/samsara/about/'
+
+block content
+  div.header__custom.display-table.parallax-bg
+    div.display-table-cell.prlx-txt
+      div.wrapper.wrapper--margins
+        h1(itemprop="name") About
+        hr
+    span.prlx-bg(style="background-color: #f4f4f4")/
+  div.wrapper.wrapper--margins.wrapper__article
+    div.rte
+      meta(charset="utf-8")
+      p
+        span(style="color: #000000;") #[strong ∞ SAMSARA ∞]
+      meta(charset="utf-8")
+      p
+        span Samsara is an independent fashion label based out of Los Angeles, CA specializing in conceptual sportswear and high end streetwear. Unique in process, designer Tarpley Brooks Jones works exclusively through digital means to create all the contemporary garments. The mission being to create the future of fashion through forward thinking products, innovative presentation through a multitude of channels, and participatory experiences for customers while promoting ethical practice, sustainable production, and positive social impact.
+      p
+        span(style="color: #000000;")
+          <strong>&nbsp;</strong>
+      meta(charset="utf-8")
+      p
+        span(style="color: #000000;") #[strong ∞ SAMSARA ∞]
+      p
+        span(style="color: #000000;") #[strong Contact: info@samsaracollections.com]

@@ -1,0 +1,60 @@
+extends template.pug
+
+prepend title
+  |Samsara Collections 
+
+block currentUrl
+  - var currentUrl = '/samsara/'
+
+block content
+  div#home-video.home-section
+    div.home-video
+      div.wrapper.wrapper--margins
+        div.content
+          div.display-table
+            h2.display-table-cell.huge-title NO BODY NO MIND
+      <style>@media screen and (max-width: 600px) {.prlx-bg {background-image: url("//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home-video-bg_grande.jpg?12531384847253427585");}}@media screen and (min-width: 601px) and (max-width: 1024px) {.prlx-bg {background-image: url("//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home-video-bg_1024x1024.jpg?12531384847253427585");}}@media screen and (min-width: 1025px) {.prlx-bg {background-image: url("//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home-video-bg_2048x2048.jpg?12531384847253427585");}}</style>
+      span.prlx-bg
+  div#home-features.home-section
+    div.wrapper.wrapper--margins
+      div.home-features
+        h2.home-section-title Features
+        ul.features-list.grid.grid-margins
+          li.grid__item.large--one-quarter.medium--one-half.small--text-center
+            i.fa.fa-.fa-3x
+            h3.h4
+              i.fa.fa-eye(aria-hidden="true")
+              |  The Vision
+            p Samsara Collections is committed to creating fashion products that promote ethical practice, sustainability in production, and positive social change and action.
+          li.grid__item.large--one-quarter.medium--one-half.small--text-center
+            i.fa.fa-.fa-3x
+            h3.h4
+              i.fa.fa-recycle(aria-hidden="true")
+              |  Eco-Friendly Fashion
+            p The No Body No Mind SS 17 Collection features all eco-friendly fabrics including hemp fabrics and certified organic cottons.
+          li.grid__item.large--one-quarter.medium--one-half.small--text-center
+            i.fa.fa-.fa-3x
+            h3.h4
+              i.fa.fa-leaf(aria-hidden="true")
+              |  Why Hemp?
+            p Hemp fabric can be the cure to destruction in the fashion industry. Hemp takes less energy to harvest, requires no pesticides, is stronger and more durable than any natural textile fabric, and actual softens with use.
+          li.grid__item.large--one-quarter.medium--one-half.small--text-center
+            i.fa.fa-.fa-3x
+            h3.h4 
+              i.fa.fa-thumbs-o-down(aria-hidden="true")
+              |  Say No To Cotton
+            p The use of regular cotton in the fashion industry has to stop. Cotton accounts for around 10% of the entire world's pesticide use that causes massive harm to the environment as a pollutant, and creates serious health risks on top of the fact that it requires lots of energy to harvest.
+  div#home-slideshow.home-section
+    div.home-slideshow
+      div.regular-slider.flexslider
+        ul.slides
+          li.slide
+            img(src="//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home_slide_1_1024x1024.jpg?12531384847253427585")
+          li.slide
+            img(src="//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home_slide_2_1024x1024.jpg?12531384847253427585")
+          li.slide
+            img(src="//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home_slide_3_1024x1024.jpg?12531384847253427585")
+          li.slide
+            img(src="//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home_slide_4_1024x1024.jpg?12531384847253427585")
+          li.slide
+            img(src="//cdn.shopify.com/s/files/1/1371/2833/t/8/assets/home_slide_5_1024x1024.jpg?12531384847253427585")
